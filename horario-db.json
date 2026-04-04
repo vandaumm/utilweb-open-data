@@ -1,0 +1,98 @@
+[
+    {
+        "slug": "sao-paulo", "name": "São Paulo", "country": "Brasil", "timezone": "America/Sao_Paulo", "gmt_offset": "GMT-3",
+        "seo_text": "São Paulo é um município brasileiro, capital do estado homônimo e principal centro financeiro, corporativo e mercantil da América do Sul. É a cidade mais populosa do Brasil, da América e de todo o hemisfério sul.",
+        "meta_desc": "Veja a hora certa em São Paulo, Brasil agora. Fuso horário (America/Sao_Paulo, GMT-3), horário de verão e informações locais.",
+        "related_slugs": ["brasilia", "rio-de-janeiro", "curitiba", "nova-iorque"]
+    },
+    {
+        "slug": "rio-de-janeiro", "name": "Rio de Janeiro", "country": "Brasil", "timezone": "America/Sao_Paulo", "gmt_offset": "GMT-3",
+        "seo_text": "Rio de Janeiro (popularmente referido como Rio) é um município brasileiro, capital do estado homônimo, situado no Sudeste do país. É a segunda maior metrópole do Brasil, e um dos principais centros econômicos, culturais e financeiros do país.",
+        "meta_desc": "Veja a hora certa no Rio de Janeiro, Brasil agora. Fuso horário (America/Sao_Paulo, GMT-3) e informações da cidade.",
+        "related_slugs": ["brasilia", "sao-paulo", "manaus", "lisboa"]
+    },
+    {
+        "slug": "curitiba", "name": "Curitiba", "country": "Brasil", "timezone": "America/Sao_Paulo", "gmt_offset": "GMT-3",
+        "seo_text": "Curitiba é um município brasileiro, capital do estado do Paraná, localizado no primeiro planalto paranaense. É a cidade mais populosa do Paraná e um importante centro cultural, político e econômico da região.",
+        "meta_desc": "Veja a hora certa em Curitiba, Brasil agora. Fuso horário (America/Sao_Paulo, GMT-3) e informações da capital do Paraná.",
+        "related_slugs": ["brasilia", "sao-paulo", "rio-de-janeiro", "dubai"]
+    },
+    {
+        "slug": "manaus", "name": "Manaus", "country": "Brasil", "timezone": "America/Manaus", "gmt_offset": "GMT-4",
+        "seo_text": "Manaus é um município brasileiro, capital do estado do Amazonas e o principal centro financeiro, corporativo e econômico da Região Norte do Brasil. Localizada no centro da maior floresta tropical do mundo, é um polo de turismo e ecoturismo.",
+        "meta_desc": "Veja a hora certa em Manaus, Brasil agora. Fuso horário (America/Manaus, GMT-4) e informações da capital do Amazonas.",
+        "related_slugs": ["brasilia", "rio-branco", "nova-iorque", "toronto"]
+    },
+    {
+        "slug": "rio-branco", "name": "Rio Branco", "country": "Brasil", "timezone": "America/Rio_Branco", "gmt_offset": "GMT-5",
+        "seo_text": "Rio Branco é um município brasileiro, capital do estado do Acre. É o principal centro financeiro e econômico da região, sendo a cidade mais populosa do estado, localizada no Vale do Acre.",
+        "meta_desc": "Veja a hora certa em Rio Branco, Brasil agora. Fuso horário (America/Rio_Branco, GMT-5) e informações da capital do Acre.",
+        "related_slugs": ["manaus", "brasilia", "toquio", "pequim"]
+    },
+    {
+        "slug": "lisboa", "name": "Lisboa", "country": "Portugal", "timezone": "Europe/Lisbon", "gmt_offset": "GMT+1 (WET)",
+        "seo_text": "Lisboa é a capital e a maior cidade de Portugal. É um centro político, econômico e cultural de importância global, conhecida por sua história rica, arquitetura deslumbrante e vibrante vida noturna.",
+        "meta_desc": "Veja a hora certa em Lisboa, Portugal agora. Fuso horário (Europe/Lisbon, GMT+1) e informações da capital portuguesa.",
+        "related_slugs": ["acores", "londres", "berlim", "rio-de-janeiro"]
+    },
+    {
+        "slug": "acores", "name": "Os Açores", "country": "Portugal", "timezone": "Atlantic/Azores", "gmt_offset": "GMT-1",
+        "seo_text": "Os Açores são um arquipélago de nove ilhas vulcânicas no Oceano Atlântico, uma região autônoma de Portugal. São conhecidos por suas paisagens dramáticas, vilas de pescadores e campos verdes.",
+        "meta_desc": "Veja a hora certa nos Açores, Portugal agora. Fuso horário (Atlantic/Azores, GMT-1) e informações do arquipélago.",
+        "related_slugs": ["lisboa", "londres", "nova-iorque", "sao-paulo"]
+    },
+    {
+        "slug": "nova-iorque", "name": "Nova Iorque", "country": "EUA", "timezone": "America/New_York", "gmt_offset": "GMT-4 (EDT)",
+        "seo_text": "Nova Iorque, frequentemente chamada de New York City (NYC), é a cidade mais populosa dos Estados Unidos. Um centro global de finanças, mídia, arte e cultura, é famosa pela Estátua da Liberdade, Times Square e seus arranha-céus.",
+        "meta_desc": "Veja a hora certa em Nova Iorque (NYC), EUA agora. Fuso horário (America/New_York, GMT-4) e informações da cidade.",
+        "related_slugs": ["toronto", "londres", "berlim", "sao-paulo"]
+    },
+    {
+        "slug": "londres", "name": "Londres", "country": "Reino Unido", "timezone": "Europe/London", "gmt_offset": "GMT+1 (BST)",
+        "seo_text": "Londres é a capital e maior cidade da Inglaterra e do Reino Unido. A cidade é um dos principais centros financeiros, culturais e turísticos do mundo, abrigando locais icônicos como o Big Ben, o Palácio de Buckingham e o British Museum.",
+        "meta_desc": "Veja a hora certa em Londres, Reino Unido agora. Fuso horário (Europe/London, GMT+1) e informações da capital inglesa.",
+        "related_slugs": ["lisboa", "nova-iorque", "berlim", "dubai"]
+    },
+    {
+        "slug": "sydney", "name": "Sydney", "country": "Austrália", "timezone": "Australia/Sydney", "gmt_offset": "GMT+10 (AEST)",
+        "seo_text": "Sydney é a cidade mais populuosa da Austrália e capital do estado de Nova Gales do Sul. É mundialmente famosa por sua Sydney Opera House, a Harbour Bridge e suas belas praias, sendo um importante centro financeiro da Ásia-Pacífico.",
+        "meta_desc": "Veja a hora certa em Sydney, Austrália agora. Fuso horário (Australia/Sydney, GMT+10) e informações da cidade.",
+        "related_slugs": ["toquio", "pequim", "dubai", "rio-branco"]
+    },
+    {
+        "slug": "toronto", "name": "Toronto", "country": "Canadá", "timezone": "America/Toronto", "gmt_offset": "GMT-4 (EDT)",
+        "seo_text": "Toronto é a cidade mais populuosa do Canadá e a capital da província de Ontário. É um centro internacional de negócios, finanças, artes e cultura, conhecida por sua icônica CN Tower e por ser uma das cidades mais multiculturais do mundo.",
+        "meta_desc": "Veja a hora certa em Toronto, Canadá agora. Fuso horário (America/Toronto, GMT-4) e informações da cidade.",
+        "related_slugs": ["nova-iorque", "londres", "manaus", "sao-paulo"]
+    },
+    {
+        "slug": "toquio", "name": "Tóquio", "country": "Japão", "timezone": "Asia/Tokyo", "gmt_offset": "GMT+9",
+        "seo_text": "Tóquio é a capital e a metrópole mais populuosa do Japão. É um centro de tecnologia, finanças e cultura, conhecido por sua mistura de arquitetura ultramoderna e templos históricos, além de sua culinária de classe mundial.",
+        "meta_desc": "Veja a hora certa em Tóquio, Japão agora. Fuso horário (Asia/Tokyo, GMT+9) e informações da capital japonesa.",
+        "related_slugs": ["sydney", "pequim", "dubai", "rio-branco"]
+    },
+    {
+        "slug": "berlim", "name": "Berlim", "country": "Alemanha", "timezone": "Europe/Berlin", "gmt_offset": "GMT+2 (CEST)",
+        "seo_text": "Berlim é a capital e a maior cidade da Alemanha. Conhecida por sua rica história, especialmente ligada à Guerra Fria e ao Muro de Berlim, hoje é um vibrante centro de arte, cultura, design e política europeia.",
+        "meta_desc": "Veja a hora certa em Berlim, Alemanha agora. Fuso horário (Europe/Berlin, GMT+2) e informações da capital alemã.",
+        "related_slugs": ["londres", "lisboa", "nova-iorque", "dubai"]
+    },
+    {
+        "slug": "pequim", "name": "Pequim", "country": "China", "timezone": "Asia/Shanghai", "gmt_offset": "GMT+8",
+        "seo_text": "Pequim é a capital da República Popular da China. É um centro político, cultural e educacional do país, famoso por seus locais históricos, como a Cidade Proibida, a Praça Tiananmen e a Grande Muralha da China.",
+        "meta_desc": "Veja a hora certa em Pequim, China agora. Fuso horário (Asia/Shanghai, GMT+8) e informações da capital chinesa.",
+        "related_slugs": ["toquio", "sydney", "dubai", "curitiba"]
+    },
+    {
+        "slug": "dubai", "name": "Dubai", "country": "EAU", "timezone": "Asia/Dubai", "gmt_offset": "GMT+4",
+        "seo_text": "Dubai é a maior cidade e principal centro de negócios dos Emirados Árabes Unidos. É conhecida por sua arquitetura futurista, como o Burj Khalifa, o edifício mais alto do mundo, ilhas artificiais e seu comércio de luxo.",
+        "meta_desc": "Veja a hora certa em Dubai, EAU agora. Fuso horário (Asia/Dubai, GMT+4) e informações da cidade.",
+        "related_slugs": ["toquio", "londres", "berlim", "sydney"]
+    },
+    {
+        "slug": "brasilia", "name": "Brasília", "country": "Brasil", "timezone": "America/Sao_Paulo", "gmt_offset": "GMT-3",
+        "seo_text": "Brasília é a capital federal do Brasil e a sede de governo do Distrito Federal. Famosa por seu planejamento urbano em formato de avião e sua arquitetura modernista de Oscar Niemeyer, é o centro político do país.",
+        "meta_desc": "Veja a hora certa em Brasília, Brasil agora. Fuso horário (America/Sao_Paulo, GMT-3), horário de verão e informações da capital federal.",
+        "related_slugs": ["sao-paulo", "rio-de-janeiro", "manaus", "lisboa"]
+    }
+]

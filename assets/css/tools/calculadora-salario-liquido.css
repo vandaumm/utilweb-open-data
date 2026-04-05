@@ -1,0 +1,217 @@
+/* ==========================================================
+   CSS Específico - Calculadora de Salário Líquido (Padrão V5)
+   ========================================================== */
+
+/* --- [BASE V5] Estrutura --- */
+/* Container largo para acomodar Gráfico + Tabela */
+.tool-container-large { max-width: 1000px; }
+
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { 
+    text-align: center; 
+    margin-bottom: var(--spacing-xl); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* Subnav V5 */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários --- */
+.form-group { margin-bottom: var(--spacing-lg); width: 100%; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; text-align: left; }
+
+.form-input {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    background-clip: padding-box;
+    border: 1px solid var(--c-border);
+    appearance: none;
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-input:focus {
+    border-color: var(--c-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--c-primary-alpha);
+}
+
+/* --- [ESPECÍFICO] Grid do Formulário --- */
+.calculadora-header { text-align: center; margin-bottom: 25px; }
+.calculadora-header h2 { font-size: 1.8rem; line-height: 1.2; }
+.calculadora-header p { font-size: 1.1rem; max-width: 700px; margin: 10px auto 0; color: var(--c-text-secondary); }
+
+.form-grid-salario {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border: none; padding: 0;
+}
+
+/* --- [ESPECÍFICO] Abas V5 --- */
+.tabs { 
+    display: flex; 
+    justify-content: flex-start; /* Mobile: Esquerda */
+    border-bottom: 2px solid var(--c-border); 
+    margin-bottom: 25px; 
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar { display: none; }
+
+.tab-link { 
+    padding: 12px 20px; 
+    cursor: pointer; 
+    border: none; 
+    background: none; 
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: var(--c-text-secondary); 
+    border-bottom: 2px solid transparent; 
+    margin-bottom: -2px; 
+    white-space: nowrap; 
+    transition: all 0.2s ease-in-out; 
+}
+.tab-link:hover { color: var(--c-primary); }
+.tab-link.active { color: var(--c-primary); border-bottom-color: var(--c-primary); }
+
+.tab-content { display: none; padding-top: 10px; animation: fadeIn 0.3s; }
+.tab-content.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* --- [ESPECÍFICO] Seção de Resultados --- */
+#results-section { 
+    padding: 25px; 
+    margin-top: 25px; 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius-lg); 
+}
+
+/* Layout: Gráfico (Esq) e Tabela (Dir) */
+.results-layout { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 35px; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+@media (min-width: 768px) { 
+    .results-layout { grid-template-columns: 280px 1fr; } 
+}
+
+.chart-container { 
+    position: relative; 
+    max-width: 280px; 
+    height: 280px; 
+    margin: 0 auto; 
+}
+
+/* Legenda */
+.chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    border-bottom: 1px solid var(--c-border);
+    padding-bottom: 15px;
+}
+.legend-item { display: flex; align-items: center; gap: 8px; }
+.legend-color-box { width: 14px; height: 14px; border-radius: 4px; flex-shrink: 0; }
+
+/* Tabela de Detalhes */
+.breakdown-table { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.breakdown-table td { padding: 14px 0; border-bottom: 1px solid var(--c-border); }
+.breakdown-table tr:last-child td { border-bottom: none; }
+.breakdown-table td:first-child { color: var(--c-text-secondary); }
+.breakdown-table td:last-child { text-align: right; font-weight: 600; font-family: monospace; font-size: 1.1rem; color: var(--c-text-primary); }
+.breakdown-table .neutral { color: var(--c-text-primary); }
+.breakdown-table .negative { color: var(--c-error); }
+.breakdown-table .final-result td { font-size: 1.5rem; font-weight: 700; border-top: 2px solid var(--c-border); padding-top: 15px; border-bottom: none;}
+.breakdown-table .final-result td:first-child { color: var(--c-text-primary); }
+.breakdown-table .final-result td:last-child { color: var(--c-primary); }
+
+/* Resultado Reverso */
+.reverse-result-container { text-align: center; padding: 20px 0; }
+.reverse-result-container .label { font-size: 1.1rem; color: var(--c-text-secondary); margin-bottom: 5px; }
+.reverse-result-container .value { font-size: 3rem; font-weight: 700; color: var(--c-primary); line-height: 1.1; margin-top: 15px; }
+
+@media (min-width: 600px) {
+    .tabs { justify-content: center; overflow-x: hidden; } /* Centraliza Abas no PC */
+}
+
+/* [BASE V5] Conteúdo SEO */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 700; margin-top: var(--spacing-md); margin-bottom: 5px; color: var(--c-text-primary); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+
+/* Tabela SEO */
+.tool-content-wrapper table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem; border: 1px solid var(--c-border); border-radius: var(--border-radius); overflow: hidden; }
+.tool-content-wrapper th, .tool-content-wrapper td { border: 1px solid var(--c-border); padding: 12px; text-align: left; }
+.tool-content-wrapper th { background-color: var(--c-surface); font-weight: 700; color: var(--c-text-primary); }
+.tool-content-wrapper .info-box { background-color: var(--c-surface); border-left: 4px solid var(--c-primary); padding: 15px; margin: 1.5em 0; border-radius: 4px; font-style: italic; }
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+/* Badge de Isento */
+.badge-isento {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* Campos Avançados */
+.advanced-options {
+    grid-column: 1 / -1;
+    margin-top: 10px;
+    border-top: 1px dashed var(--c-border);
+    padding-top: 15px;
+}
+.toggle-advanced {
+    background: none;
+    border: none;
+    color: var(--c-primary);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0;
+}
+.advanced-content.hidden { display: none; }
+.advanced-content { margin-top: 15px; animation: fadeIn 0.3s; }
+
+/* Ajuste Input Grande */
+.input-large {
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+.positive { color: #128C7E; font-weight: bold; }

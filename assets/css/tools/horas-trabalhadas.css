@@ -1,0 +1,153 @@
+/* =============================================
+   CSS - Horas Trabalhadas (Versão Mobile Fix)
+   ============================================= */
+
+/* --- 1. Breadcrumbs (Padrão) --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+
+/* --- 2. Cabeçalho --- */
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); line-height: 1.2; }
+.category-header p { font-size: 1.1rem; color: var(--c-text-secondary); max-width: 65ch; margin: 0 auto; line-height: 1.5; }
+
+/* --- 3. GRID DOS INPUTS (A CORREÇÃO ESTÁ AQUI) --- */
+.hours-input-grid {
+    display: grid;
+    /* Mobile: 2 colunas fixas (Entrada / Saída) para organizar melhor */
+    grid-template-columns: 1fr 1fr; 
+    gap: var(--spacing-sm); /* Gap menor no mobile para evitar estouro */
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Container de cada input (Filho direto do Grid) */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    /* O SEGREDO: min-width: 0 permite que o flex/grid encolha o item se necessário */
+    min-width: 0; 
+}
+
+.input-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--c-text-secondary);
+    white-space: nowrap; /* Evita quebra de linha feia no label */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Desktop: Expande para 4 colunas */
+@media (min-width: 768px) {
+    .hours-input-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: var(--spacing-md);
+    }
+}
+
+/* --- 4. ESTILO DOS CAMPOS --- */
+.tool-field {
+    width: 100%;
+    /* Garante obediência ao tamanho do pai */
+    box-sizing: border-box; 
+    max-width: 100%;
+    
+    padding: 10px; /* Padding levemente menor para mobile */
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    background-color: var(--c-background);
+    color: var(--c-text-primary);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    transition: all var(--transition-fast);
+    
+    /* Remove estilos nativos do iOS que podem inflar o input */
+    -webkit-appearance: none; 
+    appearance: none;
+}
+
+.tool-field:focus { 
+    border-color: var(--c-primary); 
+    box-shadow: 0 0 0 3px var(--c-primary-alpha); 
+    outline: none; 
+}
+
+/* Input de Preço (isolado) */
+.tool-control-group-standalone {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    text-align: left;
+}
+.tool-control-group-standalone label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--c-text-secondary);
+}
+
+/* --- 5. BOTÃO --- */
+.btn-primary-tool {
+    width: 100%; 
+    padding: 16px; 
+    background-color: var(--c-primary); 
+    color: #fff;
+    border: none; 
+    border-radius: var(--border-radius); 
+    font-size: 1.1rem;
+    font-weight: 700; 
+    cursor: pointer; 
+    margin-top: var(--spacing-md);
+    transition: background-color var(--transition-fast);
+}
+.btn-primary-tool:hover { background-color: var(--c-secondary); }
+
+/* --- 6. RESULTADOS --- */
+.result-area { 
+    margin-top: var(--spacing-lg); 
+    padding: var(--spacing-md); 
+    background-color: var(--c-background); 
+    border-radius: var(--border-radius); 
+}
+.res-row { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 0; 
+    border-bottom: 1px solid var(--c-border); 
+}
+.res-row:last-child { border-bottom: none; }
+.res-row strong { color: var(--c-primary); font-size: 1.25rem; }
+
+/* --- 7. EXTRAS DE ESTRUTURA --- */
+.main-content-section { padding-top: var(--spacing-xxl); padding-bottom: var(--spacing-xxl); }
+.faq-box-pattern { 
+    margin-top: var(--spacing-xl); 
+    padding: var(--spacing-lg); 
+    background-color: var(--c-surface); 
+    border-radius: var(--border-radius-lg); 
+    border-left: 4px solid var(--c-primary); 
+}
+
+.tool-subnav {
+    display: flex; flex-wrap: wrap; gap: var(--spacing-sm);
+    justify-content: center; padding: var(--spacing-md);
+    background-color: var(--c-surface); border: 1px solid var(--c-border);
+    border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl);
+}
+.tool-subnav a { 
+    font-weight: 600; 
+    color: var(--c-text-secondary); 
+    text-decoration: none; 
+    padding: 8px 16px; 
+    border-radius: var(--border-radius); 
+    font-size: 0.95rem;
+}
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* Ajuste Fino Mobile */
+@media (max-width: 480px) {
+    .category-header h1 { font-size: 1.8rem; }
+    .tool-card-relogio { padding: var(--spacing-md); } /* Reduz padding do card no mobile se necessário */
+}

@@ -1,0 +1,143 @@
+/* ==========================================================
+   CSS Específico - Calculadora de Férias (Padrão V5)
+   ========================================================== */
+
+/* --- [BASE V5] Estrutura e Breadcrumbs --- */
+.tool-container { max-width: 800px; }
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+/* Header Centralizado (Padrão) */
+.category-header { 
+    text-align: center; 
+    margin-bottom: var(--spacing-xl); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* Subnav V5 */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários --- */
+.form-group { margin-bottom: var(--spacing-lg); }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; text-align: left; }
+
+.form-input, .form-select {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    background-clip: padding-box;
+    border: 1px solid var(--c-border);
+    appearance: none;
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-select {
+    background-image: var(--select-arrow);
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 16px 12px;
+}
+.form-input:focus, .form-select:focus {
+    border-color: var(--c-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--c-primary-alpha);
+}
+
+/* --- [ESPECÍFICO] Grid do Formulário --- */
+.form-grid-ferias {
+    display: grid;
+    /* Grid responsivo automático: 200px min para não quebrar no mobile */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border: none;
+    padding: 0;
+}
+
+.btn-full-width { width: 100%; margin-top: 10px; padding: 15px; font-size: 1.1rem; }
+.btn--primary { color: #fff; background-color: var(--c-primary); border-color: var(--c-primary); }
+.btn--primary:hover { background-color: var(--c-primary-dark); border-color: var(--c-primary-dark); }
+
+/* --- [ESPECÍFICO] Seção de Resultados --- */
+#results-section { 
+    padding: 25px; 
+    margin-top: 25px; 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius-lg); 
+}
+#results-section .section-title { 
+    font-size: 1.5rem; 
+    text-align: center; 
+    margin-bottom: 15px;
+    color: var(--c-text-primary);
+}
+
+.final-value-container {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--c-background);
+    border: 1px solid var(--c-border);
+}
+.final-value-container span {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--c-success);
+}
+
+.breakdown-title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--c-text-secondary);
+}
+
+.results-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1rem;
+}
+
+.breakdown-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--c-border);
+}
+.breakdown-row span:last-child { font-weight: 600; color: var(--c-text-primary); }
+.breakdown-row.positive span:last-child { color: var(--c-success); }
+.breakdown-row.negative span:last-child { color: var(--c-error); }
+.results-divider { border: none; height: 1px; background-color: var(--c-border); margin: 5px 0; }
+
+/* [BASE V5] Conteúdo SEO */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 700; margin-top: var(--spacing-md); margin-bottom: 5px; color: var(--c-text-primary); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }

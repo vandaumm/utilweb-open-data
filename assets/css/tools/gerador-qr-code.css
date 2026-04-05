@@ -1,0 +1,220 @@
+/* =============================================
+   CSS Específico - Gerador QR Code (Padrão V5 COMPLETO)
+   ============================================= */
+
+:root {
+    --timer-color: var(--c-text-primary);
+}
+body.fullscreen-active {
+    overflow: hidden;
+}
+/* O container desta ferramenta é mais largo */
+.tool-container { 
+    max-width: 900px; 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [BASE V5] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- [BASE V5] Sub-Navegação --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Card Principal --- */
+.card.tool-card {
+    padding: var(--spacing-lg);
+}
+
+/* --- [BASE V5] Estilos de Botão Padrão --- */
+.btn { 
+    display: inline-block; 
+    padding: 0.75rem 1.25rem; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    -webkit-user-select: none; 
+    user-select: none; 
+    border: 1px solid transparent; 
+    border-radius: var(--border-radius); 
+    transition: all var(--transition-fast); 
+}
+.btn--primary { 
+    color: #fff; 
+    background-color: var(--c-primary); 
+    border-color: var(--c-primary); 
+}
+.btn--primary:hover { 
+    background-color: var(--c-primary-dark); 
+    border-color: var(--c-primary-dark); 
+}
+.btn--xlarge { 
+    padding: 1rem 2rem; 
+    font-size: 1.1rem; 
+}
+.btn--full-width { 
+    display: block; 
+    width: 100%; 
+    margin-top: var(--spacing-xl); 
+}
+
+/* --- [BASE V5] Estilos de Formulário Padrão --- */
+.form-input { 
+    box-sizing: border-box; 
+    display: block; 
+    width: 100%; 
+    padding: 0.8rem 1rem; 
+    font-size: 1rem; 
+    font-family: inherit; 
+    line-height: 1.5; 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius); 
+    color: var(--c-text-primary); 
+    transition: all var(--transition-fast); 
+}
+.form-input:focus { 
+    border-color: var(--c-primary); 
+    box-shadow: 0 0 0 3px var(--c-primary-alpha); 
+    outline: none; 
+}
+/* Herdado do Gerador de Senha para consistência futura */
+.form-range { -webkit-appearance: none; appearance: none; width: 100%; height: 8px; background: var(--c-surface-dark); border: 1px solid var(--c-border); border-radius: 5px; outline: none; cursor: pointer; }
+.form-range::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; background: var(--c-primary); border-radius: 50%; cursor: pointer; border: 3px solid var(--c-background); box-shadow: 0 0 2px rgba(0,0,0,0.2); margin-top: -7px; }
+.form-range::-moz-range-thumb { width: 20px; height: 20px; background: var(--c-primary); border-radius: 50%; cursor: pointer; border: 3px solid var(--c-background); box-shadow: 0 0 2px rgba(0,0,0,0.2); }
+.form-check { position: relative; padding-left: 30px; line-height: 1.5; }
+.form-check input[type="checkbox"] { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.form-check label::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; border: 2px solid var(--c-border); border-radius: var(--border-radius-sm); background-color: var(--c-surface); transition: all var(--transition-fast); }
+.form-check label::after { content: '✔'; position: absolute; left: 4px; top: 50%; transform: translateY(-50%) scale(0); font-size: 14px; color: #fff; transition: transform var(--transition-fast); }
+.form-check input[type="checkbox"]:checked + label::before { background-color: var(--c-primary); border-color: var(--c-primary); }
+.form-check input[type="checkbox"]:checked + label::after { transform: translateY(-50%) scale(1); }
+.form-check input[type="checkbox"]:focus + label::before { box-shadow: 0 0 0 3px var(--c-primary-alpha); }
+
+/* --- [BASE V5] Estilos de Conteúdo (SEO/FAQ) --- */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper p, .tool-content-wrapper ol, .tool-content-wrapper ul { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ol, .tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+
+/* [BASE V5] "Outras Ferramentas" / Relacionados */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+.tools-grid .card--tool h3 { display: flex; align-items: center; gap: var(--spacing-sm); font-size: 1.15rem; }
+
+
+/* =============================================
+   [ESPECÍFICO] Estilos do Gerador de QR Code
+   ============================================= */
+
+.tool-grid { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: var(--spacing-xl); 
+}
+
+/* --- Abas (Tabs) --- */
+.tabs { 
+    display: flex; 
+    gap: 5px; 
+    margin-bottom: var(--spacing-lg); 
+    background-color: var(--c-background); 
+    border-radius: 8px; 
+    padding: 5px; 
+    flex-wrap: wrap; 
+    border: 1px solid var(--c-border);
+}
+.tab-btn { 
+    flex: 1 1 0; /* Permite quebra de linha em mobile */
+    min-width: 80px;
+    background-color: transparent; 
+    color: var(--c-text-secondary); 
+    border: none; 
+    padding: 10px; 
+    font-weight: 500; 
+    transition: all var(--transition-fast);
+}
+.tab-btn.active { 
+    background-color: var(--c-surface); 
+    color: var(--c-text-primary); 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    border-radius: 6px;
+}
+.tab-panel { 
+    display: none; 
+}
+.tab-panel.active { 
+    display: block; 
+}
+.tab-panel label {
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: 500; 
+    font-size: 0.9rem;
+}
+.tab-panel .grid {
+    display: grid;
+    gap: 20px;
+}
+.tab-panel .grid[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr; /* Força coluna única em mobile */
+}
+@media (min-width: 576px) {
+    .tab-panel .grid[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr 1fr; /* Volta a duas colunas */
+    }
+}
+
+
+/* --- Resultado (QR Code) --- */
+#qrcode-result-card { 
+    text-align: center; 
+}
+#qrcode { 
+    min-height: 200px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #fff; 
+    padding: 10px; 
+    border-radius: var(--border-radius); 
+    margin: var(--spacing-md) 0;
+    border: 1px solid var(--c-border);
+}
+#qrcode img { 
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+#qrcode p {
+    color: var(--c-text-secondary);
+    font-size: 0.9rem;
+}
+#download-btn {
+    width: 100%;
+    margin-top: 20px;
+    display: none; /* JS controla a exibição */
+}
+
+
+/* --- Media Queries --- */
+@media (min-width: 768px) { 
+    .tool-grid { 
+        grid-template-columns: 2fr 1fr; /* Layout 2/1 */
+    } 
+}

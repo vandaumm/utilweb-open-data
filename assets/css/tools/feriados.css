@@ -1,0 +1,286 @@
+/* =============================================
+   CSS Feriados 2026 - Utilweb (Versão 9.0 Dark/Light)
+   ============================================= */
+
+/* Variáveis com suporte implícito a Dark Mode se o site usar variáveis root globais.
+   Caso contrário, definimos valores padrão seguros aqui. */
+:root {
+    /* Cores Semânticas Locais */
+    --feriado-date-color: var(--c-primary, #007bff);
+    --feriado-card-bg: var(--c-surface, #ffffff);
+    --feriado-border: var(--c-border, #dee2e6);
+    
+    /* Botão - Contraste Otimizado para Light/Dark */
+    /* Usamos um cinza médio/transparente que funciona em ambos os modos */
+    --btn-cal-bg: rgba(127, 140, 157, 0.15); 
+    --btn-cal-text: var(--c-text-primary, #333);
+    --btn-cal-hover: rgba(127, 140, 157, 0.3);
+}
+
+/* Utilitários de Texto */
+.text-center-force { text-align: center; }
+.section-title-center { margin-bottom: var(--spacing-lg); text-align: center; width: 100%; color: var(--c-text-primary); font-size: 1.8rem; }
+.section-divider { margin: 60px 0; border: 0; border-top: 1px solid var(--c-border); }
+
+/* GRID PRINCIPAL DE CARDS */
+.feriados-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Card Individual */
+.feriado-card-item {
+    background: var(--feriado-card-bg);
+    border: 1px solid var(--feriado-border);
+    border-radius: 12px;
+    padding: 20px; /* Padding padrão Desktop */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.feriado-card-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border-color: var(--c-primary);
+}
+
+/* Layout Interno do Card (Desktop) */
+.card-content-row {
+    display: flex;
+    flex-direction: column; /* Stack no desktop padrão */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-date-box {
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.card-day-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--feriado-date-color);
+}
+
+.card-month-name {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--c-text-secondary);
+}
+
+.card-info-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-weekday {
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    margin-bottom: 4px;
+}
+
+.card-holiday-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--c-text-primary);
+    margin: 5px 0 10px 0;
+    line-height: 1.3;
+    min-height: 3rem; /* Alinha altura dos títulos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Badges */
+.card-badges { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.badge--nacional { background: var(--c-primary-alpha, #e3f2fd); color: var(--c-primary, #007bff); }
+.badge--facultativo { background: #fff3cd; color: #664d03; }
+.badge--prolongado { background: #d4edda; color: #155724; }
+
+/* Botão Ver no Calendário (Acessibilidade Corrigida) */
+.btn-ver-calendario {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background-color: var(--btn-cal-bg);
+    color: var(--c-text-primary); /* Usa a cor do texto principal (branco no dark, preto no light) */
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s;
+    font-size: 0.9rem;
+}
+
+.btn-ver-calendario:hover {
+    background-color: var(--btn-cal-hover);
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+/* CALENDÁRIO GRID (Meses) */
+.calendar-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+.month-card { 
+    background: var(--feriado-card-bg); 
+    border: 1px solid var(--feriado-border); 
+    border-radius: 12px;
+    overflow: hidden;
+    scroll-margin-top: 100px;
+}
+.month-name {
+    background: var(--c-background);
+    color: var(--c-primary);
+    padding: 12px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 1px solid var(--feriado-border);
+}
+.btn-share-month {
+    position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+    background: none; border: none; color: var(--c-text-secondary); cursor: pointer;
+}
+
+/* Grid Dias */
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 15px;
+    gap: 2px;
+    text-align: center;
+}
+.day-name { font-size: 0.75rem; font-weight: bold; color: var(--c-text-secondary); margin-bottom: 5px; }
+.day-num { 
+    height: 30px; display: flex; align-items: center; justify-content: center; 
+    border-radius: 50%; font-size: 0.9rem; color: var(--c-text-primary);
+}
+.day-holiday { background: var(--c-primary); color: #fff !important; font-weight: bold; }
+.day-facultative { background: #ffc107; color: #000 !important; font-weight: bold; }
+
+/* Lista de Feriados no Mês */
+.month-holidays { padding: 10px 15px; background: rgba(0,0,0,0.02); border-top: 1px solid var(--feriado-border); }
+.month-holidays-list { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
+.month-holidays-list li { margin-bottom: 6px; display: flex; gap: 8px; color: var(--c-text-secondary); }
+.color-nacional { color: var(--c-primary); }
+.color-facultativo { color: #d39e00; } /* Amarelo escuro para leitura */
+
+/* CONTEÚDO SEO */
+.tool-content-wrapper { max-width: 800px; margin: 0 auto; padding: 40px 0; }
+.tool-content-wrapper h2 { font-size: 1.6rem; margin-top: 40px; margin-bottom: 20px; color: var(--c-text-primary); border-bottom: 2px solid var(--feriado-border); padding-bottom: 10px; }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 10px; color: var(--c-primary); }
+.tool-content-wrapper p, .tool-content-wrapper li { font-size: 1.05rem; line-height: 1.6; color: var(--c-text-secondary); margin-bottom: 15px; }
+
+/* FAQ Styles */
+.faq-list { display: flex; flex-direction: column; gap: 20px; }
+.faq-item { background: var(--c-background); padding: 20px; border-radius: 8px; border-left: 4px solid var(--c-primary); }
+.faq-item h3 { margin: 0 0 10px 0; font-size: 1.1rem; color: var(--c-text-primary); } /* FAQ usa H3 agora */
+
+/* =============================================
+   RESPONSIVIDADE (MOBILE AJUSTADO)
+   ============================================= */
+@media (max-width: 767px) {
+    /* Grid vira coluna única */
+    .feriados-grid-container { grid-template-columns: 1fr; gap: 12px; }
+    
+    /* Card Compacto no Mobile */
+    .feriado-card-item {
+        padding: 12px 15px; /* Padding reduzido */
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* Layout Horizontal (Row) no Mobile */
+    .card-content-row {
+        flex-direction: row; /* Data ao lado do Texto */
+        align-items: center; /* Centraliza verticalmente */
+        text-align: left;
+        margin-bottom: 0;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .card-date-box {
+        margin-bottom: 0;
+        padding-right: 15px;
+        border-right: 1px solid var(--feriado-border); /* Separação visual */
+        min-width: 70px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-day-number { font-size: 1.8rem; } /* Menor que desktop */
+    .card-month-name { font-size: 0.8rem; }
+
+    .card-info-col {
+        align-items: flex-start; /* Alinha texto à esquerda */
+        flex: 1;
+    }
+
+    .card-holiday-name {
+        min-height: auto; /* Remove altura fixa */
+        margin: 2px 0 8px 0;
+        font-size: 1rem;
+        justify-content: flex-start;
+    }
+
+    .card-badges { justify-content: flex-start; }
+
+    /* Botão Mobile */
+    .btn-ver-calendario {
+        padding: 8px;
+        font-size: 0.85rem;
+        background-color: transparent; /* Remove fundo pesado no mobile */
+        border: 1px solid var(--feriado-border);
+        color: var(--c-text-secondary);
+    }
+    .btn-ver-calendario:active {
+        background-color: var(--c-background);
+    }
+}
+.category-header {
+    text-align: center;       /* Centraliza o texto */
+    margin-bottom: var(--spacing-xl);
+    width: 100%;              /* Garante que o container pegue a largura total */
+    display: flex;            /* Flexbox ajuda a alinhar itens filhos */
+    flex-direction: column;   /* Coloca um embaixo do outro */
+    align-items: center;      /* Centraliza os blocos filhos no eixo X */
+}
+
+/* Opcional: Limitar a largura do texto para não ficar muito "esticado" em telas grandes */
+.category-header p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* --- Breadcrumbs e Cabeçalho --- */
+.breadcrumbs {
+    margin-bottom: var(--spacing-md);
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+}
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }

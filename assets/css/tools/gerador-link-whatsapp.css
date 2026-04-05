@@ -1,0 +1,185 @@
+/* =============================================
+   CSS Específico - Gerador Link WhatsApp (Padrão V5 COMPLETO)
+   ============================================= */
+
+/* --- [BASE V5] Estrutura, Breadcrumbs, Headers, etc. --- */
+.tool-container-large { 
+    max-width: 1024px; 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários e Botões --- */
+.form-input { box-sizing: border-box; display: block; width: 100%; padding: 0.8rem 1rem; font-size: 1rem; font-family: inherit; line-height: 1.5; background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); color: var(--c-text-primary); transition: all var(--transition-fast); }
+.form-input:focus { border-color: var(--c-primary); box-shadow: 0 0 0 3px var(--c-primary-alpha); outline: none; }
+.form-group { margin-bottom: var(--spacing-lg); }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.75rem 1.25rem; font-size: 1rem; font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none; vertical-align: middle; cursor: pointer; user-select: none; border: 1px solid transparent; border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.btn--primary { color: #fff; background-color: var(--c-primary); border-color: var(--c-primary); }
+.btn--primary:hover { background-color: var(--c-primary-dark); border-color: var(--c-primary-dark); }
+
+/* --- [BASE V5] Conteúdo SEO --- */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper p, .tool-content-wrapper ul { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper blockquote { border-left: 4px solid var(--c-primary); padding-left: var(--spacing-lg); margin-left: 0; font-style: italic; color: var(--c-text-secondary); }
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+
+
+/* =============================================
+   [ESPECÍFICO] Estilos do Gerador WhatsApp
+   ============================================= */
+
+.gerador-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.char-counter {
+    display: block;
+    text-align: right;
+    font-size: 0.8rem;
+    color: var(--c-text-secondary); /* V5 Var */
+    margin-top: 5px;
+}
+
+/* --- Seção da Pré-visualização --- */
+.gerador-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.preview-celular {
+    background-color: var(--c-surface); /* V5 Var */
+    border: 8px solid var(--c-text-primary); /* V5 Var */
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+body.dark-mode .preview-celular {
+    border-color: #4A5568; /* Mantido original */
+}
+
+.preview-tela {
+    background-color: #E5DDD5;
+    background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23919191' fill-opacity='0.08'%3E%3Cpath d='M360 0V600L720 0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 15px;
+    padding: 10px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+body.dark-mode .preview-tela {
+    background-color: #0d1418;
+    background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23E5DDD5' fill-opacity='0.08'%3E%3Cpath d='M360 0V600L720 0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.preview-header-whatsapp {
+    background-color: #075E54;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+body.dark-mode .preview-header-whatsapp {
+    background-color: #202C33;
+}
+
+.preview-chat {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.preview-bolha {
+    background-color: #DCF8C6;
+    padding: 8px 12px;
+    border-radius: 8px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+.preview-bolha p {
+    margin: 0;
+    color: #111B21;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+body.dark-mode .preview-bolha {
+    background-color: #005C4B;
+}
+body.dark-mode .preview-bolha p {
+    color: var(--c-text-primary); /* V5 Var */
+}
+
+/* --- Seção de Resultados --- */
+.resultado-box {
+    margin-top: 10px;
+}
+.resultado-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--c-text-primary); /* V5 */
+}
+.resultado-link-wrapper {
+    display: flex;
+    gap: 10px;
+}
+#link-gerado {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    background-color: var(--c-background); /* V5 */
+}
+
+.resultado-qrcode {
+    text-align: center;
+    margin-top: 10px;
+}
+#qrcode-container {
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid var(--c-border); /* V5 */
+}
+#qrcode-container img {
+    display: block;
+}
+#qrcode-container p { /* Estilo para o placeholder */
+    font-size:0.8rem; 
+    color:var(--c-text-secondary); 
+    padding:20px;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    .gerador-container {
+        grid-template-columns: 1fr;
+    }
+    .gerador-preview {
+        margin-top: 30px;
+    }
+}

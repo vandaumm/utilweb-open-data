@@ -1,0 +1,445 @@
+/* =============================================
+   CSS Específico - Despertador (Padrão V5 - Correção Final)
+   ============================================= */
+
+:root {
+    --timer-color: var(--c-text-primary);
+}
+body.fullscreen-active {
+    overflow: hidden;
+}
+.tool-container { 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [PADRÃO] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- [PADRÃO] Sub-Navegação --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [PADRÃO] Card Principal --- */
+.tool-card {
+    padding: var(--spacing-lg);
+}
+
+/* --- [PADRÃO V5] Display do Relógio (Nível Médio) --- */
+.timer-display-v5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: var(--spacing-sm);
+    margin: 0;
+}
+.current-time { 
+    font-size: 4.5rem;
+    font-weight: 600; 
+    font-family: 'monospace', monospace; 
+    color: var(--timer-color);
+    text-align: center; 
+    transition: color 0.3s ease, font-size 0.2s ease; 
+    line-height: 1.1;
+    padding-bottom: calc(1.2rem + 5px); 
+}
+html.clock-zoom-max .current-time {
+    font-size: 6rem;
+    padding-bottom: calc(1.5rem + 5px);
+}
+.current-date {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--c-text-secondary);
+    text-align: center;
+    margin-top: calc(-1 * var(--spacing-md)); 
+    margin-bottom: var(--spacing-lg);
+    transition: font-size 0.2s ease;
+}
+html.clock-zoom-max .current-date {
+    font-size: 1.5rem;
+}
+
+
+/* --- [PADRÃO V5] Controles de Ferramenta (Unificado) --- */
+.tool-controls { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--spacing-lg); margin-bottom: var(--spacing-xl); font-size: 0.9rem; color: var(--c-text-secondary); }
+.tool-control-group { display: flex; align-items: center; gap: var(--spacing-sm); }
+.tool-color-picker { border: none; background: none; width: 32px; height: 32px; padding: 0; border-radius: 50%; cursor: pointer; overflow: hidden; border: 2px solid var(--c-border); }
+.tool-color-picker::-webkit-color-swatch { border: none; border-radius: 50%; padding: 0; }
+.tool-color-picker::-moz-color-swatch { border: none; border-radius: 50%; padding: 0; }
+.tool-btn-icon { background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); width: 40px; height: 40px; cursor: pointer; color: var(--c-text-secondary); display: inline-flex; align-items: center; justify-content: center; padding: 0; transition: all var(--transition-fast); }
+.tool-btn-icon svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2px; fill: none; }
+#test-alarm-btn svg { fill: none; }
+
+.tool-btn-icon:active {
+    transform: scale(0.95);
+    background-color: var(--c-background);
+}
+@media (hover: hover) {
+    .tool-btn-icon:hover { 
+        color: var(--c-primary); 
+        border-color: var(--c-primary); 
+        background-color: var(--c-background); 
+    }
+    .quick-alarms-grid .btn:hover {
+        background-color: var(--c-background);
+        color: var(--c-text-primary);
+        border-color: var(--c-border);
+    }
+}
+
+
+/* --- [ESPECÍFICO] Botões Rápidos (Padrão V5 "Tag") --- */
+.quick-alarms-title {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+.quick-alarms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+}
+.quick-alarms-grid .btn {
+    font-weight: 600;
+    color: var(--c-text-secondary);
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    transition: all var(--transition-fast);
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+
+/* --- [REFAÇÃO MODAL] Estilos de Botão e Input (Genéricos) --- */
+.btn--secondary { background-color: var(--c-surface); color: var(--c-text-secondary); border: 1px solid var(--c-border); transition: all var(--transition-fast); }
+.btn--secondary:hover { background-color: var(--c-background); color: var(--c-text-primary); border-color: var(--c-border); }
+.btn--small { font-size: 0.85rem !important; padding: 0.25rem 0.75rem !important; font-weight: 600; }
+.btn--large { font-size: 1.1rem !important; padding: 12px 20px !important; }
+.form-input { box-sizing: border-box; display: block; width: 100%; padding: 0.8rem 1rem; font-size: 1rem; font-family: inherit; line-height: 1.5; background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); color: var(--c-text-primary); transition: all var(--transition-fast); }
+.form-input:focus { border-color: var(--c-primary); box-shadow: 0 0 0 3px var(--c-primary-alpha); outline: none; }
+.form-input.input--large { font-size: 2.5rem; font-weight: 600; text-align: center; padding: var(--spacing-md) var(--spacing-sm); }
+.time-input-grid { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--spacing-md); align-items: center; }
+.time-input-grid label { display: block; margin-bottom: var(--spacing-sm); font-weight: 600; font-size: 0.9rem; color: var(--c-text-secondary); text-align: left; }
+.time-input-grid span { font-size: 2.5rem; font-weight: 600; color: var(--c-text-primary); line-height: 1.5; padding-top: 1.5rem; }
+.btn.btn--primary { background-color: var(--c-primary); color: #FFFFFF; border: 1px solid var(--c-primary); padding: 0.8rem 1.5rem; border-radius: var(--border-radius); font-weight: 600; cursor: pointer; text-align: center; text-decoration: none; transition: all var(--transition-fast); }
+.btn.btn--primary:hover { background-color: #0E6D5F; border-color: #0E6D5F; }
+.btn.btn--xlarge { padding: 1rem 2rem; font-size: 1.1rem; }
+.btn--full-width { width: 100%; margin-top: var(--spacing-xl); }
+.tool-ad-container { margin-top: var(--spacing-xl); text-align: center; }
+
+
+/* --- [REFAÇÃO MODAL] Painel de Alarme Ativo (Novo) --- */
+.alarm-set-view {
+    margin-top: var(--spacing-xl);
+}
+.alarm-set-info { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem; 
+    padding: var(--spacing-md) var(--spacing-lg); 
+    background-color: var(--c-primary-alpha); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius-lg); 
+    color: var(--c-text-primary);
+}
+.alarm-set-info strong {
+    color: var(--c-primary);
+    font-weight: 700;
+    margin: 0 0.25rem;
+}
+
+
+/* --- [REFAÇÃO MODAL] Estilos de Overlay e Modal --- */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+    display: none;
+}
+.modal-overlay.is-active {
+    display: block;
+    opacity: 1;
+}
+.modal-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--c-surface);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-xl);
+    z-index: 1001;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translate(-50%, -45%);
+    transition: all var(--transition-fast);
+    display: none;
+}
+.modal-card.is-active {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--c-text-secondary);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.5rem;
+}
+.modal-close-btn:hover { color: var(--c-text-primary); }
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg);
+}
+.modal-card .time-input-grid { margin-bottom: var(--spacing-lg); }
+
+/* Modal de Alarme Tocando */
+.modal--ringing {
+    text-align: center;
+}
+.ringing-icon {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: var(--spacing-md);
+    animation: ring 1s ease-in-out infinite;
+}
+.modal--ringing p {
+    font-size: 1.1rem;
+    color: var(--c-text-secondary);
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg);
+}
+@keyframes ring {
+    0%, 100% { transform: rotate(0); }
+    25% { transform: rotate(15deg); }
+    75% { transform: rotate(-15deg); }
+}
+
+
+/* --- [PADRÃO V5] Container de Tela Cheia --- */
+body.fullscreen-active { overflow: hidden; }
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c-background);
+    z-index: 2147483647;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.fullscreen-container.is-active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.fullscreen-display-time {
+    font-family: 'monospace', monospace;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--timer-color); 
+    font-size: 12vw;
+    transition: color 0.3s ease, font-size 0.2s ease;
+    text-align: center;
+}
+.fullscreen-display-date {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 500;
+    color: var(--c-text-secondary);
+    transition: font-size 0.2s ease;
+    text-align: center;
+}
+html.clock-zoom-max .fullscreen-display-time {
+    font-size: 16vw;
+}
+html.clock-zoom-max .fullscreen-display-date {
+    font-size: 3.5vw;
+}
+
+#fullscreen-close-btn {
+    position: absolute;
+    top: var(--spacing-lg);
+    right: var(--spacing-lg);
+    background: none;
+    border: none;
+    color: var(--c-text-secondary);
+    font-size: 2.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.5rem;
+    transition: color var(--transition-fast);
+}
+#fullscreen-close-btn:hover {
+    color: var(--c-text-primary);
+}
+.fullscreen-alarm-info {
+    position: absolute;
+    top: var(--spacing-xl);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--c-text-secondary);
+    background-color: rgba(0,0,0,0.05);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--border-radius);
+    display: none;
+}
+[data-theme="dark"] .fullscreen-alarm-info {
+     background-color: rgba(255,255,255,0.05);
+}
+.fullscreen-controls { position: absolute; bottom: var(--spacing-xl); left: 50%; transform: translateX(-50%); margin-top: 0; background-color: rgba(0, 0, 0, 0.05); padding: var(--spacing-sm) var(--spacing-lg); border-radius: var(--border-radius-lg); }
+[data-theme="dark"] .fullscreen-controls { background-color: rgba(255, 255, 255, 0.05); }
+#zoom-control-group-fs { display: flex; align-items: center; gap: var(--spacing-sm); }
+
+
+/* --- [PADRÃO] Estilos de Conteúdo (FAQ) --- */
+/* (Restaurado do Padrão V5) */
+.tool-content-wrapper {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--spacing-xxl);
+    padding: 0 var(--spacing-sm);
+}
+.tool-content-wrapper h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-md);
+}
+.tool-content-wrapper p,
+.tool-content-wrapper ol {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+}
+.tool-content-wrapper h3 {
+    font-size: 1.4rem;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+}
+.tool-content-wrapper h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+}
+.tool-content-wrapper ol { 
+    padding-left: 30px; 
+}
+.tool-content-wrapper hr { 
+    margin: var(--spacing-xl) 0; 
+    border: 0; 
+    border-top: 1px solid var(--c-border); 
+}
+.faq-section h2 {
+    text-align: left; 
+    margin-bottom: var(--spacing-lg);
+}
+
+/* "Outras Ferramentas" (Restaurado) */
+.other-tools-section {
+    padding-top: var(--spacing-xl);
+}
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-lg);
+}
+.grid.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+
+/* --- [PADRÃO V5] Media Queries (Mobile) --- */
+@media (max-width: 767px) {
+    .tool-card {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+    
+    #zoom-control-group { display: none; }
+    #zoom-control-group-fs { display: none; }
+
+    .current-time { 
+        font-size: 3rem; 
+        padding-bottom: calc(0.8rem + 2px);
+    }
+    .current-date {
+        font-size: 1rem;
+    }
+    
+    /* [CORREÇÃO] Tamanhos de fonte em Tela Cheia Mobile (Padrão Relógio Online) */
+    .fullscreen-display-time { font-size: 16vw; }
+    .fullscreen-display-date { font-size: 4.5vw; }
+    
+    .fullscreen-alarm-info { font-size: 1rem; }
+    .fullscreen-controls { bottom: var(--spacing-lg); }
+    
+    .form-input.input--large { font-size: 2rem; }
+    .time-input-grid span { font-size: 2rem; padding-top: 1.2rem; }
+    
+    #test-alarm-group {
+        flex-basis: 100%;
+        justify-content: center;
+        margin-top: var(--spacing-sm);
+    }
+    
+    .alarm-set-info {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-md);
+    }
+}
+/* Centralização do Título do Despertador */
+.main-clock-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--c-text-primary);
+}

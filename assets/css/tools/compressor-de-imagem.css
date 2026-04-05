@@ -1,0 +1,151 @@
+/* =============================================
+   CSS Específico - Compressor de Imagem (Padrão V5 COMPLETO)
+   ============================================= */
+
+/* --- [BASE V5] Estrutura, Breadcrumbs, Headers, etc. --- */
+.tool-container { 
+    max-width: 800px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários e Botões --- */
+.form-group { margin-bottom: var(--spacing-lg); }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; text-align: left; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.75rem 1.25rem; font-size: 1rem; font-weight: 600; text-align: center; text-decoration: none; cursor: pointer; border: 1px solid transparent; border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.btn--primary { color: #fff; background-color: var(--c-primary); border-color: var(--c-primary); }
+.btn--primary:hover { background-color: var(--c-primary-dark); border-color: var(--c-primary-dark); }
+/* [PADRÃO V5] Mantendo seu estilo de disabled original */
+.btn:disabled { background-color: var(--c-surface-dark) !important; color: var(--c-text-disabled) !important; border-color: var(--c-border) !important; cursor: not-allowed; transform: none !important; }
+
+/* [BASE V5] Slider (Range input) */
+.form-range { 
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 100%; 
+    height: 10px; 
+    /* === CORREÇÃO AQUI === */
+    /* A cor da "barra" (track) agora usa --c-border para ser visível no modo escuro */
+    background-color: var(--c-border); 
+    /* === FIM DA CORREÇÃO === */
+    border-radius: 5px; 
+    outline: none; 
+    opacity: 0.9; 
+    transition: opacity 0.2s; 
+}
+.form-range:hover { opacity: 1; }
+.form-range::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 22px; height: 22px; background: var(--c-primary); border-radius: 50%; cursor: pointer; border: 2px solid var(--c-background); }
+.form-range::-moz-range-thumb { width: 22px; height: 22px; background: var(--c-primary); border-radius: 50%; cursor: pointer; border: 2px solid var(--c-background); }
+
+/* --- [BASE V5] Conteúdo SEO --- */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper p, .tool-content-wrapper ul { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+
+
+/* =============================================
+   [ESPECÍFICO] Estilos do Compressor
+   ============================================= */
+
+.drop-area { 
+    border: 2px dashed var(--c-border); 
+    border-radius: var(--border-radius-lg); 
+    padding: 40px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s, border-color 0.3s; 
+    background-color: var(--c-surface);
+}
+.drop-area p {
+    font-size: 1.1rem;
+    color: var(--c-text-secondary);
+    margin: 0;
+}
+.drop-area p strong {
+    color: var(--c-primary);
+}
+.drop-area.drag-over { 
+    border-color: var(--c-primary); 
+    background-color: var(--c-primary-alpha); 
+}
+
+.preview-img { 
+    display: block; 
+    max-width: 100%; 
+    max-height: 250px; 
+    margin: 15px auto 0; 
+    border-radius: var(--border-radius); 
+    border: 1px solid var(--c-border); 
+}
+#options-section {
+    text-align: center;
+}
+#image-info {
+    margin-top: 10px; 
+    font-size: 0.9em;
+    color: var(--c-text-secondary);
+}
+#quality-container {
+    margin-top: 20px;
+}
+
+/* --- Resultados --- */
+.comparison-grid { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    text-align: center; 
+}
+.comparison-grid h4 {
+    font-size: 1rem;
+    color: var(--c-text-secondary);
+    font-weight: 500;
+}
+
+.stats-grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 15px; 
+    background-color: var(--c-surface); /* V5 Var */
+    border-radius: var(--border-radius-lg);
+}
+.stat-value { 
+    font-size: 1.4rem; 
+    font-weight: 600; 
+    color: var(--c-text-primary); /* V5 Var */
+}
+.stat-label { 
+    font-size: 0.8rem; 
+    color: var(--c-text-secondary); /* V5 Var */
+    text-transform: uppercase;
+}
+.stat-reduction { 
+    color: var(--c-success); /* V5 Var (era accent-color) */
+}
+
+@media (min-width: 768px) { 
+    .comparison-grid { grid-template-columns: 1fr 1fr; } 
+}

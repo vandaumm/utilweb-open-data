@@ -1,0 +1,255 @@
+/* =============================================
+   CSS Específico - Sorteador Online HUB (Padrão V5)
+   ============================================= */
+
+.tool-container {
+    max-width: 800px; /* Largura otimizada para leitura */
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* --- Breadcrumbs e Header --- */
+.breadcrumbs {
+    margin-bottom: var(--spacing-md);
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+}
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+.category-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--c-text-primary);
+}
+
+/* --- Card Principal --- */
+.tool-card-sorteador {
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    padding: var(--spacing-lg);
+    overflow: hidden;
+}
+
+/* --- Navegação de Modos (Abas) --- */
+.tool-modes-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--c-border);
+    padding-bottom: var(--spacing-md);
+}
+
+.tool-mode-btn {
+    flex: 1;
+    min-width: 100px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: var(--c-text-secondary);
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.tool-mode-btn:hover {
+    background-color: var(--c-background);
+    color: var(--c-text-primary);
+}
+
+.tool-mode-btn.is-active {
+    background-color: var(--c-primary-alpha); /* Se não tiver essa var, use rgba */
+    color: var(--c-primary);
+    border-color: var(--c-primary-alpha);
+}
+/* Fallback caso primary-alpha nao exista no global */
+.tool-mode-btn.is-active {
+    background-color: rgba(var(--c-primary-rgb, 0, 123, 255), 0.1);
+}
+
+/* --- Corpo da Ferramenta --- */
+.tool-mode-section {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+.tool-mode-section.is-active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Inputs e Formulários --- */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.input-group {
+    margin-bottom: var(--spacing-md);
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: var(--c-text-secondary);
+    font-size: 0.9rem;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    background-color: var(--c-background);
+    color: var(--c-text-primary);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    box-sizing: border-box; /* Garante que padding não quebre layout */
+}
+
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+    border-color: var(--c-primary);
+    box-shadow: 0 0 0 3px rgba(var(--c-primary-rgb, 0,123,255), 0.1);
+}
+
+.text-center { text-align: center; }
+
+/* Checkbox estilizado */
+.input-options {
+    margin-bottom: var(--spacing-lg);
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+.checkbox-container input {
+    width: 18px; height: 18px;
+    accent-color: var(--c-primary);
+}
+
+/* --- Botões --- */
+.btn {
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.2s;
+}
+.btn--full-width { width: 100%; }
+.btn--large { padding: 14px; font-size: 1.1rem; }
+.btn--primary {
+    background-color: var(--c-primary);
+    color: #fff; /* Assumindo texto branco no primário */
+}
+.btn--primary:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+.btn:active { transform: translateY(1px); }
+
+/* --- ÁREA DE RESULTADO (Feature V5) --- */
+.result-display {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background-color: var(--c-background);
+    border-radius: var(--border-radius);
+    border: 2px dashed var(--c-border);
+}
+.result-display.hidden { display: none; }
+
+.result-label {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.result-value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--c-primary);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-md);
+    font-family: 'monospace', monospace; /* Para números ficarem alinhados */
+    word-break: break-word;
+}
+
+.btn-text {
+    background: none; border: none;
+    color: var(--c-text-secondary);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.btn-text:hover { color: var(--c-primary); }
+
+/* --- Lista de Amigo Secreto --- */
+.secret-list {
+    margin-top: var(--spacing-lg);
+    background-color: var(--c-background);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    text-align: left;
+}
+.secret-pair {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--c-border);
+    display: flex;
+    justify-content: space-between;
+}
+.secret-pair:last-child { border-bottom: none; }
+
+/* --- Subnav e Extras --- */
+.tool-subnav {
+    display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
+    background-color: var(--c-surface); padding: var(--spacing-md);
+    border-radius: var(--border-radius-lg); border: 1px solid var(--c-border);
+}
+.tool-subnav a {
+    padding: 6px 12px; border-radius: var(--border-radius);
+    text-decoration: none; color: var(--c-text-secondary); font-weight: 500;
+}
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+.tool-content-wrapper { max-width: 65ch; margin: auto; line-height: 1.6; }
+.tool-content-wrapper h3 { margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--c-text-primary); }
+.alert-box {
+    background-color: rgba(255, 193, 7, 0.15); /* Amarelo suave */
+    color: #856404;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+/* Responsivo Mobile */
+@media (max-width: 600px) {
+    .result-value { font-size: 2rem; }
+    .tool-mode-btn { padding: 8px; font-size: 0.85rem; }
+}

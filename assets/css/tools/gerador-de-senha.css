@@ -1,0 +1,318 @@
+/* =============================================
+   CSS Específico - Gerador de Senha (Padrão V5 - CORRIGIDO)
+   ============================================= */
+
+:root {
+    --timer-color: var(--c-text-primary); /* Variável de cor padrão */
+}
+body.fullscreen-active {
+    overflow: hidden;
+}
+.tool-container { 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [BASE V5] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- [BASE V5] Sub-Navegação --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Card Principal --- */
+.card.tool-card {
+    padding: var(--spacing-lg);
+}
+
+/* --- [BASE V5] Estilos de Botão Padrão --- */
+.btn { 
+    display: inline-block; 
+    padding: 0.75rem 1.25rem; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    -webkit-user-select: none; 
+    user-select: none; 
+    border: 1px solid transparent; 
+    border-radius: var(--border-radius); 
+    transition: all var(--transition-fast); 
+}
+.btn--primary { 
+    color: #fff; 
+    background-color: var(--c-primary); 
+    border-color: var(--c-primary); 
+}
+.btn--primary:hover { 
+    background-color: var(--c-primary-dark); 
+    border-color: var(--c-primary-dark); 
+}
+.btn--xlarge { 
+    padding: 1rem 2rem; 
+    font-size: 1.1rem; 
+}
+.btn--full-width { 
+    display: block; 
+    width: 100%; 
+    margin-top: var(--spacing-xl); 
+}
+/* Inputs padrão (para o display da senha) */
+.form-input { box-sizing: border-box; display: block; width: 100%; padding: 0.8rem 1rem; font-size: 1rem; font-family: inherit; line-height: 1.5; background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); color: var(--c-text-primary); transition: all var(--transition-fast); }
+.form-input:focus { border-color: var(--c-primary); box-shadow: 0 0 0 3px var(--c-primary-alpha); outline: none; }
+
+
+/* --- [ESPECÍFICO] Display da Senha --- */
+.password-display { 
+    display: flex; 
+    gap: 0; 
+    margin-bottom: var(--spacing-md); 
+}
+#password-output.form-input { 
+    font-family: 'monospace', monospace; 
+    font-size: 1.5rem; 
+    text-align: center; 
+    border-right: none; 
+    border-radius: var(--border-radius) 0 0 var(--border-radius); 
+    width: 100%; 
+    padding: 12px 15px;
+    height: auto;
+}
+#copy-btn.btn { 
+    border-radius: 0 var(--border-radius) var(--border-radius) 0; 
+    background-color: var(--c-primary); 
+    color: #fff; 
+    padding: 0 20px; 
+    font-weight: 600; 
+    border: 1px solid var(--c-primary);
+    white-space: nowrap;
+}
+#copy-btn.btn:hover { 
+    background-color: var(--c-primary-dark);
+    border-color: var(--c-primary-dark);
+}
+
+/* --- [ESPECÍFICO] Barra de Força --- */
+.strength-indicator { 
+    margin-bottom: var(--spacing-xl); 
+}
+#strength-bar-container { 
+    width: 100%; 
+    height: 8px; 
+    background-color: var(--c-surface-dark);
+    border: 1px solid var(--c-border);
+    border-radius: 4px; 
+    overflow: hidden; 
+}
+#strength-bar { 
+    height: 100%; 
+    width: 0%; 
+    border-radius: 4px; 
+    transition: width 0.3s, background-color 0.3s; 
+}
+#strength-text { 
+    font-size: 0.9rem; 
+    font-weight: 500; 
+    margin-top: 8px; 
+    text-align: right; 
+    color: var(--c-text-secondary);
+}
+
+/* --- [ESPECÍFICO] Opções de Geração --- */
+.options-grid { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: var(--spacing-lg); 
+    margin-bottom: var(--spacing-xl);
+}
+.options-grid .checkbox-grid { 
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md); 
+}
+.options-grid label { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    font-weight: 500; 
+    font-size: 1rem; 
+    cursor: pointer;
+    user-select: none; /* Impede seleção de texto ao clicar */
+}
+.length-slider-group label {
+    margin-bottom: var(--spacing-sm);
+}
+#length-value {
+    font-weight: 600;
+    color: var(--c-primary);
+    font-size: 1.1rem;
+}
+
+
+/* --- [NOVO V5] Estilos para a Barra de Comprimento (range) --- */
+.form-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background: var(--c-surface-dark);
+    border: 1px solid var(--c-border);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--c-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid var(--c-background); /* Borda para 'flutuar' */
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    margin-top: -7px; /* Centraliza o 'thumb' na 'track' */
+}
+.form-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--c-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid var(--c-background);
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.form-range::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    background: var(--c-surface-dark);
+    border: 1px solid var(--c-border);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* --- [NOVO V5] Estilos para as Caixinhas (checkbox) --- */
+.form-check {
+    position: relative;
+    padding-left: 30px; /* Espaço para a caixa customizada */
+    line-height: 1.5;
+}
+.form-check input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+/* A caixa customizada (::before) */
+.form-check label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--c-border);
+    border-radius: var(--border-radius-sm);
+    background-color: var(--c-surface);
+    transition: all var(--transition-fast);
+}
+/* O "check" (::after) */
+.form-check label::after {
+    content: '✔';
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%) scale(0); /* Começa invisível */
+    font-size: 14px;
+    color: #fff;
+    transition: transform var(--transition-fast);
+}
+.form-check input[type="checkbox"]:checked + label::before {
+    background-color: var(--c-primary);
+    border-color: var(--c-primary);
+}
+.form-check input[type="checkbox"]:checked + label::after {
+    transform: translateY(-50%) scale(1); /* Aparece */
+}
+.form-check input[type="checkbox"]:focus + label::before {
+    box-shadow: 0 0 0 3px var(--c-primary-alpha); /* Foco V5 */
+}
+
+
+/* --- [BASE V5] Estilos de Conteúdo (SEO/FAQ) --- */
+.tool-content-wrapper {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--spacing-xl);
+    padding: 0 var(--spacing-sm);
+}
+.tool-content-wrapper h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-md);
+}
+.tool-content-wrapper p,
+.tool-content-wrapper ol,
+.tool-content-wrapper ul {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+}
+.tool-content-wrapper ol,
+.tool-content-wrapper ul {
+    padding-left: 30px;
+}
+.tool-content-wrapper li {
+    margin-bottom: var(--spacing-sm);
+}
+
+/* [BASE V5] "Outras Ferramentas" / Relacionados */
+.other-tools-section {
+    padding-top: var(--spacing-xl);
+}
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-lg);
+}
+.grid.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+.grid.category-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+}
+.tools-grid .card--tool h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1.15rem;
+}
+
+/* --- [ESPECÍFICO] Media Queries --- */
+@media (min-width: 576px) {
+    .options-grid .checkbox-grid { 
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+@media (min-width: 768px) { 
+    .options-grid { 
+        grid-template-columns: 1fr 1fr; 
+        align-items: center;
+        gap: var(--spacing-xl);
+    } 
+}

@@ -1,0 +1,271 @@
+/* ==========================================================
+   CSS Específico - Calculadora de Rescisão (Padrão V5)
+   ========================================================== */
+
+/* --- [BASE V5] Estrutura --- */
+.tool-container-large { max-width: 1000px; } 
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+/* Header Centralizado */
+.category-header { 
+    text-align: center; 
+    margin-bottom: var(--spacing-xl); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* Subnav V5 */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários --- */
+.form-group { margin-bottom: var(--spacing-lg); width: 100%; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; text-align: left; }
+
+.form-input, .form-select {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    background-clip: padding-box;
+    border: 1px solid var(--c-border);
+    appearance: none;
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-select {
+    background-image: var(--select-arrow);
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 16px 12px;
+}
+.form-input:focus, .form-select:focus {
+    border-color: var(--c-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--c-primary-alpha);
+}
+
+/* CORREÇÃO 1: Ícone do Calendário (Date Input) */
+/* Garante contraste no dark mode e aplica a cor verde Utilweb */
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+}
+
+/* No modo escuro, invertemos a cor preta para algo visível e aplicamos filtro para ficar verde */
+@media (prefers-color-scheme: dark) {
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        /* Filtro calculado para gerar o verde #128C7E a partir do preto */
+        filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    }
+}
+/* Se você usa classe .dark-mode no body via JS */
+body.dark-mode input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+
+/* --- [ESPECÍFICO] Grid do Formulário --- */
+.calculadora-header { text-align: center; margin-bottom: 25px; }
+.calculadora-header h2 { font-size: 1.8rem; line-height: 1.2; }
+.calculadora-header p { font-size: 1.1rem; max-width: 700px; margin: 10px auto 0; color: var(--c-text-secondary); }
+
+.form-grid-rescisao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px 25px;
+    border: none; padding: 0; margin: 0 0 25px 0;
+    border-bottom: 1px solid var(--c-border);
+    padding-bottom: 25px;
+}
+.form-grid-rescisao:last-of-type { border-bottom: none; }
+
+.section-title-form {
+    grid-column: 1 / -1;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--c-primary);
+    border-left: 4px solid var(--c-primary);
+    padding-left: 10px;
+}
+
+/* CORREÇÃO 2: Checkbox Personalizado V5 */
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    cursor: pointer;
+    grid-column: 1 / -1;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--c-border);
+    border-radius: 6px;
+    background-color: var(--c-background);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    flex-shrink: 0; /* Impede que encolha */
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked {
+    background-color: var(--c-primary);
+    border-color: var(--c-primary);
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked::after {
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.checkbox-wrapper label {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--c-text-primary);
+    cursor: pointer;
+}
+
+.btn-full-width { width: 100%; margin-top: 20px; padding: 15px; font-size: 1.1rem; }
+.btn--primary { color: #fff; background-color: var(--c-primary); border-color: var(--c-primary); }
+.btn--primary:hover { background-color: var(--c-primary-dark); border-color: var(--c-primary-dark); }
+
+
+/* --- [ESPECÍFICO] Resultados (Lado a Lado) --- */
+#results-section { 
+    padding: 25px; 
+    margin-top: 25px; 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius-lg); 
+}
+#results-section .section-title { text-align: center; font-size: 1.5rem; margin-bottom: 20px; }
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+@media (min-width: 768px) { 
+    .results-container { flex-direction: row; } 
+}
+
+.results-column { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+
+.results-column-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.results-column-title.positive { border-color: var(--c-success); color: var(--c-success); }
+.results-column-title.negative { border-color: var(--c-error); color: var(--c-error); }
+
+.breakdown-row { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 8px 10px; 
+    font-size: 0.95rem; 
+    border-bottom: 1px solid var(--c-border);
+    background-color: var(--c-background);
+    border-radius: 4px;
+}
+.breakdown-row span:last-child { font-weight: 600; }
+.breakdown-row.positive span:last-child { color: var(--c-success); }
+.breakdown-row.negative span:last-child { color: var(--c-error); }
+
+.results-summary-final {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid var(--c-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.results-summary-final span:last-child { color: var(--c-primary); font-size: 1.8rem; }
+
+
+/* [BASE V5] Conteúdo SEO */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 700; margin-top: var(--spacing-md); margin-bottom: 5px; color: var(--c-text-primary); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+/* --- Tabela de Aviso Prévio (SEO & UX) --- */
+.table-aviso-previo {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.95rem;
+    border-radius: var(--border-radius);
+    overflow: hidden; /* Para arredondar as bordas */
+    border: 1px solid var(--c-border);
+}
+
+.table-aviso-previo th, 
+.table-aviso-previo td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--c-border);
+}
+
+.table-aviso-previo th {
+    background-color: var(--c-surface);
+    color: var(--c-primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--c-primary);
+}
+
+.table-aviso-previo tr:last-child td {
+    border-bottom: none;
+}
+
+.table-aviso-previo tr:nth-child(even) {
+    background-color: var(--c-background); /* Efeito Zebra suave */
+}
+
+/* Responsividade */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,233 @@
+/* ==========================================================
+   CSS Específico - Calendário de Fertilidade (Padrão V5)
+   ========================================================== */
+
+/* --- PALETA DE CORES ESPECÍFICA --- */
+:root {
+    /* Cores funcionais do calendário */
+    --cor-menstruacao-fundo: #E53935;
+    --cor-menstruacao-texto: #FFFFFF;
+    --cor-fertil-fundo: #03A9F4;
+    --cor-fertil-texto: #FFFFFF;
+    --cor-ovulacao-fundo: #76FF03;
+    --cor-ovulacao-texto: #000000;
+    
+    /* 'Hoje' usa variáveis do tema para se adaptar (Dark/Light) */
+    --cor-hoje-border: var(--c-primary); 
+}
+
+/* --- [BASE V5] Estrutura --- */
+.tool-container-large { max-width: 1100px; } 
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+/* Header Centralizado */
+.category-header { 
+    text-align: center; 
+    margin-bottom: var(--spacing-xl); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+
+/* --- LAYOUT PRINCIPAL (Grid 2 Colunas) --- */
+.calendario-container { 
+    display: grid; 
+    grid-template-columns: 320px 1fr; 
+    gap: 40px; 
+    align-items: flex-start; 
+    margin-top: 30px;
+}
+
+/* Coluna Esquerda: Controles */
+.interface-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 25px; 
+    position: sticky; 
+    top: 20px; 
+}
+
+.painel-controle { 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius); 
+    padding: 25px; 
+}
+
+.form-step { margin-bottom: 25px; }
+.form-step:last-child { margin-bottom: 0; }
+
+.step-title { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 1.1rem; 
+    font-weight: 600;
+    margin: 0 0 8px 0; 
+    color: var(--c-text-primary);
+}
+
+.step-number { 
+    background-color: var(--c-primary); 
+    color: #fff; 
+    border-radius: 50%; 
+    width: 28px; 
+    height: 28px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-weight: 700; 
+    font-size: 0.9rem;
+}
+
+.step-description { 
+    font-size: 0.9rem; 
+    color: var(--c-text-secondary); 
+    margin: 0 0 12px 0; 
+    line-height: 1.4; 
+}
+
+/* Inputs V5 */
+.form-input {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out;
+}
+.form-input:focus { border-color: var(--c-primary); outline: 0; }
+
+/* Botão Limpar Data */
+.date-input-container { position: relative; }
+.clear-date-btn { 
+    position: absolute; top: 50%; right: 12px; transform: translateY(-50%); 
+    background: none; border: none; font-size: 1.5rem; 
+    color: var(--c-text-secondary); cursor: pointer; padding: 0;
+}
+.clear-date-btn:hover { color: var(--c-error); }
+
+/* --- RESUMO --- */
+.results-summary-wrapper { 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-left: 4px solid var(--c-primary);
+    border-radius: var(--border-radius); 
+    padding: 20px; 
+    animation: fadeIn 0.5s ease-in-out; 
+}
+.results-summary-wrapper h3 { margin: 0 0 15px 0; font-size: 1.1rem; }
+.summary-item { 
+    font-size: 0.95rem; 
+    padding: 8px 0; 
+    border-bottom: 1px solid var(--c-border); 
+}
+.summary-item:last-child { border-bottom: none; }
+.summary-item .date-highlight { color: var(--c-primary); font-weight: 700; }
+
+/* --- LEGENDA --- */
+.legenda { 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius); 
+    padding: 20px; 
+}
+.legenda h4 { margin: 0 0 15px 0; font-size: 1rem; color: var(--c-text-secondary); text-transform: uppercase; letter-spacing: 1px;}
+.legenda-item { display: flex; align-items: center; margin-bottom: 8px; font-size: 0.9rem; }
+.cor-legenda { width: 16px; height: 16px; border-radius: 4px; margin-right: 10px; }
+
+/* Cores da Legenda */
+.cor-legenda.menstruacao { background-color: var(--cor-menstruacao-fundo); }
+.cor-legenda.fertil { background-color: var(--cor-fertil-fundo); }
+.cor-legenda.ovulacao { background-color: var(--cor-ovulacao-fundo); }
+.cor-legenda.hoje-fundo { border: 2px solid var(--c-primary); background: transparent; }
+
+
+/* --- CALENDÁRIO VISUAL --- */
+.calendario-wrapper { 
+    background-color: var(--c-surface); 
+    border-radius: var(--border-radius-lg); 
+    box-shadow: var(--shadow-md); 
+    overflow: hidden; 
+    border: 1px solid var(--c-border);
+}
+
+.calendario-header { 
+    display: flex; justify-content: space-between; align-items: center; 
+    padding: 20px; 
+    background-color: var(--c-background); 
+    border-bottom: 1px solid var(--c-border); 
+}
+.calendario-header h3 { margin: 0; font-size: 1.3rem; text-transform: capitalize; }
+
+.btn-nav-calendario { 
+    background: none; border: 1px solid var(--c-border); border-radius: 50%; 
+    width: 40px; height: 40px; cursor: pointer; font-size: 1.2rem; 
+    color: var(--c-text-secondary); transition: all 0.2s ease; display: flex; align-items: center; justify-content: center;
+}
+.btn-nav-calendario:hover { background-color: var(--c-primary); color: #fff; border-color: var(--c-primary); }
+
+.calendario-grid-container { padding: 20px; }
+
+.dias-semana { 
+    display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin-bottom: 10px; 
+}
+.dia-semana { 
+    text-align: center; font-weight: 700; font-size: 0.85rem; 
+    color: var(--c-text-secondary); text-transform: uppercase; 
+}
+
+.calendario-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+
+.dia {
+    aspect-ratio: 1 / 1;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 8px;
+    font-size: 1rem; font-weight: 500;
+    color: var(--c-text-primary);
+    cursor: default;
+    border: 2px solid transparent; /* Espaço reservado para borda de 'hoje' */
+}
+
+/* Estados do Dia */
+.dia.mes-atual { font-weight: 600; }
+.dia.menstruacao { background-color: var(--cor-menstruacao-fundo); color: var(--cor-menstruacao-texto) !important; }
+.dia.fertil { background-color: var(--cor-fertil-fundo); color: var(--cor-fertil-texto) !important; }
+.dia.ovulacao { 
+    background-color: var(--cor-ovulacao-fundo); 
+    color: var(--cor-ovulacao-texto) !important; 
+    font-weight: 800; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    transform: scale(1.05);
+    z-index: 1;
+}
+.dia.hoje {
+    border-color: var(--c-primary);
+    background-color: rgba(18, 140, 126, 0.1); /* Verde bem claro transparente */
+}
+
+/* [BASE V5] Conteúdo SEO */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 700; margin-top: var(--spacing-md); margin-bottom: 5px; color: var(--c-text-primary); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper .disclaimer-box { background-color: rgba(229, 57, 53, 0.1); border-left: 4px solid #E53935; padding: 15px; margin-bottom: 25px; border-radius: 4px; }
+.tool-content-wrapper .disclaimer-box h3 { color: #E53935; margin-top: 0; font-size: 1.1rem; }
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+    .calendario-container { grid-template-columns: 1fr; gap: 30px; }
+    .interface-wrapper { position: static; }
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }

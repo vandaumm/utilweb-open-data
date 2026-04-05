@@ -1,0 +1,353 @@
+/* =============================================
+   CSS Específico - Relógio Mundial HUB (Padrão V5 - Correção Fullscreen)
+   ============================================= */
+
+/* [V5] CORREÇÃO BUG ROLAGEM: 
+   Impede que o <body> role quando o modal de tela cheia estiver ativo.
+   O JS vai adicionar/remover esta classe no <body>. */
+body.fullscreen-active {
+    overflow: hidden;
+}
+
+.tool-container {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- Breadcrumbs e Cabeçalho --- */
+.breadcrumbs {
+    margin-bottom: var(--spacing-md);
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+}
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+.category-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+.category-header p {
+    font-size: 1.1rem;
+    max-width: 60ch;
+    margin: 0 auto;
+    color: var(--c-text-secondary);
+}
+
+/* --- Sub-Navegação --- */
+.tool-subnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm) var(--spacing-md);
+    justify-content: center;
+    padding: var(--spacing-md);
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius-lg);
+    margin-bottom: var(--spacing-xl);
+}
+.tool-subnav a {
+    font-weight: 600;
+    color: var(--c-text-secondary);
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    transition: all var(--transition-fast);
+}
+.tool-subnav a:hover {
+    background-color: var(--c-background);
+    color: var(--c-text-primary);
+}
+.tool-subnav a.is-active {
+    background-color: var(--c-primary-alpha);
+    color: var(--c-primary);
+}
+
+/* --- Relógio Principal (Local) --- */
+.tool-card-relogio {
+    text-align: center;
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.tool-card-relogio h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--c-text-primary);
+}
+.main-clock {
+    margin-top: var(--spacing-md);
+}
+
+/* [V3] Tamanho Médio (Padrão) do Relógio Normal */
+.main-clock-time {
+    font-family: 'monospace', monospace;
+    font-size: 4.5rem; /* Tamanho Médio */
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--c-text-primary);
+    transition: color 0.3s ease, font-size 0.2s ease;
+}
+.main-clock-date {
+    font-size: 1.2rem; /* Tamanho Médio */
+    margin-top: 5px;
+    color: var(--c-text-secondary);
+    transition: font-size 0.2s ease;
+}
+
+/* [V3] Tamanho Máximo do Relógio Normal (ativado pela classe) */
+html.clock-zoom-max .main-clock-time {
+    font-size: 6rem; /* Tamanho Máximo */
+}
+html.clock-zoom-max .main-clock-date {
+    font-size: 1.5rem; /* Tamanho Máximo */
+}
+
+/* --- Controles --- */
+.tool-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+}
+.tool-control-group {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+.tool-color-picker {
+    border: none; background: none; width: 32px; height: 32px;
+    padding: 0; border-radius: 50%; cursor: pointer;
+    overflow: hidden; border: 2px solid var(--c-border);
+}
+.tool-color-picker::-webkit-color-swatch { border: none; border-radius: 50%; padding: 0; }
+.tool-color-picker::-moz-color-swatch { border: none; border-radius: 50%; padding: 0; }
+
+.tool-btn-icon {
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    color: var(--c-text-secondary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: all var(--transition-fast);
+}
+.tool-btn-icon:hover {
+    color: var(--c-primary);
+    border-color: var(--c-primary);
+    background-color: var(--c-background);
+}
+.tool-btn-icon svg {
+    width: 20px; 
+    height: 20px; 
+    stroke: currentColor;
+    stroke-width: 2px; 
+    fill: none;
+}
+
+/* --- Grid de Relógio Mundial --- */
+.world-clock-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+.card--timezone {
+    padding: var(--spacing-lg);
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    transition: all var(--transition-fast);
+    text-decoration: none;
+}
+.card--timezone:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--c-primary);
+}
+.card--timezone .city-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--c-primary);
+    margin: 0;
+}
+.card--timezone .city-date {
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    margin: 2px 0 0;
+}
+.card--timezone .city-time {
+    font-family: 'monospace', monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--c-text-primary);
+    margin: var(--spacing-md) 0;
+    display: block;
+}
+.card--timezone .city-offset {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--c-text-secondary);
+}
+
+/* --- Seção de FAQ --- */
+.tool-content-wrapper {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--spacing-xxl);
+    padding: 0 var(--spacing-sm);
+}
+.tool-content-wrapper h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-md);
+}
+.tool-content-wrapper p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+}
+.tool-content-wrapper h4 {
+    margin-top: var(--spacing-xl);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--c-text-primary);
+}
+
+
+/* --- Contêiner de Tela Cheia --- */
+.fullscreen-container {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: var(--c-background); z-index: 2147483647;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transition: opacity 0.2s ease;
+    overflow: hidden; /* [V3] Impede a barra de rolagem INTERNA */
+}
+.fullscreen-container.is-active {
+    opacity: 1; visibility: visible; pointer-events: auto;
+}
+
+/* [V3] Tamanho Médio (Padrão) da Tela Cheia */
+#fullscreen-time {
+    font-family: 'monospace', monospace; font-weight: 600; line-height: 1.1;
+    color: var(--c-text-primary); 
+    font-size: 18vw; /* Tamanho Médio */
+    transition: color 0.3s ease, font-size 0.2s ease;
+}
+#fullscreen-date { 
+    font-size: 3vw; /* Tamanho Médio */
+    color: var(--c-text-secondary); 
+    transition: font-size 0.2s ease;
+}
+
+/* [V3] Tamanho Máximo da Tela Cheia (proporção corrigida 6:1) */
+html.clock-zoom-max #fullscreen-time {
+    font-size: 22vw; /* Tamanho Máximo */
+}
+html.clock-zoom-max #fullscreen-date {
+    font-size: 4vw; /* Tamanho Máximo */
+}
+
+/* Botão de Fechar */
+#fullscreen-close-btn {
+    position: absolute; top: var(--spacing-lg); right: var(--spacing-lg);
+    background: none; border: none; color: var(--c-text-secondary);
+    font-size: 2.5rem; font-weight: 300; cursor: pointer;
+    line-height: 1; padding: 0.5rem; transition: color var(--transition-fast);
+}
+#fullscreen-close-btn:hover { color: var(--c-text-primary); }
+
+/* [V5] Estiliza os novos controles de zoom da tela cheia */
+.fullscreen-controls {
+    position: absolute;
+    bottom: var(--spacing-xl);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0; /* Reseta o margin-top dos .tool-controls */
+    
+    /* Fundo semitransparente para melhor leitura */
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
+}
+
+/* No modo escuro, o fundo fica mais claro */
+[data-theme="dark"] .fullscreen-controls {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* [V5] Esconde os botões de zoom da tela cheia no mobile, assim como os principais */
+#zoom-control-group-fs {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+
+/* --- Media Queries (Mobile) --- */
+@media (max-width: 767px) {
+    /* [V3] Esconde os controles de zoom no mobile */
+    #zoom-control-group {
+        display: none;
+    }
+
+    /* [V5] Esconde os controles de zoom da tela cheia também */
+    #zoom-control-group-fs {
+        display: none;
+    }
+
+    /* Ajusta os tamanhos base para mobile (sem zoom) */
+    .main-clock-time { 
+        font-size: 3rem;
+    }
+    .main-clock-date { 
+        font-size: 1rem;
+    }
+
+    /* Tamanho da tela cheia no mobile (sem zoom) */
+    #fullscreen-time { 
+        font-size: 20vw;
+    }
+    #fullscreen-date { 
+        font-size: 4vw;
+    }
+
+    /* [V5] Ajusta posição dos controles da tela cheia no mobile */
+    .fullscreen-controls {
+        bottom: var(--spacing-lg);
+    }
+}
+/* Alerta de Discrepância de Horário */
+.clock-alert {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-md);
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
+.clock-alert.hidden {
+    display: none;
+}
+/* Estilo escuro para o alerta */
+[data-theme="dark"] .clock-alert {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: #ffc107;
+    border-color: rgba(255, 193, 7, 0.2);
+}

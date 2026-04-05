@@ -1,0 +1,188 @@
+/* ==========================================================
+   CSS Específico - Calculadora de IMC (Padrão V5)
+   ========================================================== */
+
+/* --- [BASE V5] Estrutura --- */
+.tool-container-large { max-width: 1000px; } 
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { 
+    text-align: center; 
+    margin-bottom: var(--spacing-xl); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* Subnav V5 */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- LAYOUT PRINCIPAL (Grid Split) --- */
+.imc-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+@media (min-width: 768px) {
+    .imc-container {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+}
+
+/* --- COLUNA 1: FORMULÁRIO --- */
+.imc-form-section { display: flex; flex-direction: column; gap: 20px; }
+
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; }
+.form-input {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out;
+}
+.form-input:focus { border-color: var(--c-primary); outline: 0; }
+
+/* Box de Contexto (Faixa Ideal) */
+.resultado-contexto {
+    padding: 20px;
+    background-color: var(--c-background);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin-top: 10px;
+}
+.resultado-contexto p { margin: 0; font-size: 0.95rem; color: var(--c-text-secondary); margin-bottom: 5px; }
+
+.faixa-destaque {
+    font-weight: 700;
+    font-size: 1.2rem !important;
+    color: var(--c-text-primary) !important;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+.faixa-destaque.active { color: var(--c-primary) !important; opacity: 1; }
+
+.disclaimer-importante {
+    font-size: 0.85rem;
+    text-align: center;
+    color: var(--c-text-secondary);
+    line-height: 1.5;
+    padding: 0 10px;
+}
+
+/* --- COLUNA 2: RESULTADO VISUAL --- */
+.imc-resultado-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius-lg);
+    min-height: 300px;
+}
+
+.resultado-label { font-size: 1.1rem; color: var(--c-text-secondary); margin-bottom: 0; }
+.resultado-valor {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--c-text-primary);
+    line-height: 1;
+    margin: 10px 0 20px 0;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Gráfico SVG */
+.grafico-imc-container {
+    position: relative;
+    width: 280px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.grafico-imc { width: 100%; height: 100%; overflow: visible; }
+
+.imc-segmento {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0.2;
+    cursor: default;
+}
+.imc-segmento.active {
+    opacity: 1;
+    stroke: var(--c-surface);
+    stroke-width: 0.5;
+    filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.1));
+}
+
+/* Texto da Categoria (Pílula) */
+.imc-categoria-texto-grafico {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease;
+}
+
+/* Cores e Classes de Estado */
+.cat-preencha { background-color: var(--c-border); color: var(--c-text-secondary); }
+.cat-magreza { background-color: #3498db; }
+.cat-normal { background-color: #2ecc71; }
+.cat-sobrepeso { background-color: #f1c40f; }
+.cat-obesidade { background-color: #e67e22; }
+
+/* Legenda */
+.legenda-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+.legenda-item { display: flex; align-items: center; font-size: 0.9rem; color: var(--c-text-secondary); }
+.legenda-cor { width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; }
+.legenda-cor.magreza { background-color: #3498db; }
+.legenda-cor.normal { background-color: #2ecc71; }
+.legenda-cor.sobrepeso { background-color: #f1c40f; }
+.legenda-cor.obesidade { background-color: #e67e22; }
+
+/* [BASE V5] Conteúdo SEO */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 700; margin-top: var(--spacing-md); margin-bottom: 5px; color: var(--c-text-primary); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper blockquote { border-left: 4px solid var(--c-primary); padding-left: 20px; margin: 20px 0; font-style: italic; color: var(--c-text-secondary); }
+
+/* Tabela SEO */
+.tool-content-wrapper table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem; border: 1px solid var(--c-border); border-radius: var(--border-radius); overflow: hidden; }
+.tool-content-wrapper th, .tool-content-wrapper td { border: 1px solid var(--c-border); padding: 12px; text-align: left; }
+.tool-content-wrapper th { background-color: var(--c-surface); font-weight: 700; color: var(--c-text-primary); }
+.tool-content-wrapper tbody tr:nth-child(2) td { background-color: rgba(46, 204, 113, 0.1); font-weight: 600; } /* Destaque Normal */
+
+/* Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }

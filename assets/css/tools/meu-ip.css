@@ -1,0 +1,150 @@
+/* =============================================
+   CSS Específico - Meu IP (Padrão V5 COMPLETO)
+   ============================================= */
+
+:root {
+    --timer-color: var(--c-text-primary);
+}
+body.fullscreen-active {
+    overflow: hidden;
+}
+.tool-container { 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [BASE V5] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- [BASE V5] Sub-Navegação --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Card Principal --- */
+.card.tool-card {
+    padding: var(--spacing-lg);
+}
+
+/* --- [BASE V5] Estilos de Botão Padrão --- */
+.btn { 
+    display: inline-block; 
+    padding: 0.75rem 1.25rem; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    line-height: 1.5; 
+    text-align: center; 
+    text-decoration: none; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    -webkit-user-select: none; 
+    user-select: none; 
+    border: 1px solid transparent; 
+    border-radius: var(--border-radius); 
+    transition: all var(--transition-fast); 
+}
+.btn--primary { 
+    color: #fff; 
+    background-color: var(--c-primary); 
+    border-color: var(--c-primary); 
+}
+.btn--primary:hover { 
+    background-color: var(--c-primary-dark); 
+    border-color: var(--c-primary-dark); 
+}
+.btn--xlarge { 
+    padding: 1rem 2rem; 
+    font-size: 1.1rem; 
+}
+.btn--full-width { 
+    display: block; 
+    width: 100%; 
+    margin-top: var(--spacing-xl); 
+}
+
+/* --- [BASE V5] Estilos de Formulário Padrão (para consistência) --- */
+.form-input { box-sizing: border-box; display: block; width: 100%; padding: 0.8rem 1rem; font-size: 1rem; font-family: inherit; line-height: 1.5; background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); color: var(--c-text-primary); transition: all var(--transition-fast); }
+.form-input:focus { border-color: var(--c-primary); box-shadow: 0 0 0 3px var(--c-primary-alpha); outline: none; }
+/* ... (estilos de .form-range, .form-check, etc. estariam aqui se usados) ... */
+
+/* --- [BASE V5] Estilos de Conteúdo (SEO/FAQ) --- */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper p, .tool-content-wrapper ol, .tool-content-wrapper ul { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ol, .tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+
+/* [BASE V5] "Outras Ferramentas" / Relacionados */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+.tools-grid .card--tool h3 { display: flex; align-items: center; gap: var(--spacing-sm); font-size: 1.15rem; }
+
+/* [BASE V5] Bloco de Anúncio */
+.tool-ad-container {
+    text-align: center;
+    margin-top: var(--spacing-xl); /* Padrão para ads dentro do card */
+}
+
+
+/* =============================================
+   [ESPECÍFICO] Estilos do "Meu IP"
+   ============================================= */
+
+/* Centraliza o conteúdo do card principal */
+.card.tool-card.card--ip-tool {
+    text-align: center;
+}
+
+#ip-display {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--c-primary);
+    background-color: var(--c-surface-dark);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    font-family: 'monospace', monospace;
+    word-wrap: break-word; /* Garante que o IPv6 quebre a linha */
+}
+
+/* O botão de copiar já herda .btn--primary, mas ajustamos a margem */
+#copy-btn {
+    margin-top: var(--spacing-sm);
+}
+
+.ip-details { 
+    margin-top: var(--spacing-xl); 
+    text-align: left; 
+    max-width: 400px; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--c-border);
+}
+.ip-details p { 
+    margin: 10px 0; 
+    font-size: 1rem; 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 15px;
+}
+.ip-details span {
+    color: var(--c-text-secondary); /* Label */
+}
+.ip-details strong { 
+    color: var(--c-text-primary); /* Valor */
+    font-weight: 600;
+    text-align: right;
+}

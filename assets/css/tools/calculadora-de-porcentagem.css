@@ -1,0 +1,157 @@
+/* ==========================================================
+   CSS Específico - Calculadora de Porcentagem (Padrão V5 CORRIGIDO)
+   ========================================================== */
+
+/* --- [BASE V5] Estrutura e Breadcrumbs --- */
+.tool-container { max-width: 800px; }
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+/* --- CORREÇÃO 1: Header Centralizado --- */
+.category-header { 
+    text-align: center; 
+    margin-bottom: var(--spacing-xl); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- CORREÇÃO 2: Subnav Padrão V5 (Cópia Exata) --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários e Inputs --- */
+.form-group { margin-bottom: var(--spacing-lg); width: 100%; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; text-align: left; }
+
+.form-input {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    background-clip: padding-box;
+    border: 1px solid var(--c-border);
+    appearance: none;
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-input:focus {
+    border-color: var(--c-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--c-primary-alpha);
+}
+
+/* ==========================================================
+   [ESPECÍFICO] Estilos da Ferramenta
+   ========================================================== */
+
+.calculadora-header { text-align: center; margin-bottom: 25px; }
+.calculadora-header h2 { font-size: 1.8rem; line-height: 1.2; }
+.calculadora-header p { font-size: 1.1rem; max-width: 700px; margin: 10px auto 0; color: var(--c-text-secondary); }
+
+/* --- CORREÇÃO 3: Abas (Padrão V5 "Juros Compostos") --- */
+.tabs { 
+    display: flex; 
+    justify-content: flex-start; /* Mobile-first: esquerda */
+    border-bottom: 2px solid var(--c-border); 
+    margin-bottom: 25px; 
+    overscroll-behavior-x: contain;
+    
+    /* Rolagem no celular */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar { display: none; }
+
+.tab-link { 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border: none; 
+    background: none; 
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: var(--c-text-secondary); 
+    border-bottom: 2px solid transparent; 
+    margin-bottom: -2px; 
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out; 
+    white-space: nowrap; 
+}
+.tab-link:hover { color: var(--c-primary); }
+.tab-link.active { color: var(--c-primary); border-bottom-color: var(--c-primary); }
+
+.tab-content { display: none; padding-top: 10px; }
+.tab-content.active { display: block; animation: fadeIn 0.3s; }
+.tab-description { font-size: 0.95rem; color: var(--c-text-secondary); text-align: center; margin-bottom: 20px; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* --- CORREÇÃO 4: Grid de Inputs que NÃO VAZA (Responsivo) --- */
+.form-grid-percent {
+    display: grid;
+    /* Usa o padrão minmax para quebrar linha em telas pequenas */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    align-items: end;
+}
+
+/* Ajuste do separador ("de", "para") */
+.form-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: var(--c-text-secondary);
+    font-weight: 500;
+    padding-bottom: 15px; /* Alinha visualmente com inputs */
+    min-width: 40px;
+}
+
+/* RESULTADOS */
+.resultado-box {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius-lg);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.resultado-box p { margin: 5px 0; font-size: 1.1rem; color: var(--c-text-primary); }
+.resultado-box p.valor-final { font-size: 1.8rem; font-weight: 600; margin-top: 10px; }
+.resultado-box .valor-destaque { color: var(--c-primary); }
+.resultado-box .valor-destaque.aumento { color: var(--c-success); }
+.resultado-box .valor-destaque.diminuicao { color: var(--c-error); }
+
+/* --- RESPONSIVIDADE --- */
+@media (min-width: 600px) {
+    .tabs { justify-content: center; overflow-x: hidden; } /* Centraliza no desktop */
+}
+
+/* [BASE V5] Conteúdo SEO */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 700; margin-top: var(--spacing-md); margin-bottom: 5px; color: var(--c-text-primary); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper code { background-color: var(--c-surface); padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 0.9em; border: 1px solid var(--c-border); }
+.tool-content-wrapper blockquote { border-left: 4px solid var(--c-primary); margin: 1.5em 0; padding: 10px 20px; background-color: var(--c-surface); font-style: italic; }
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }

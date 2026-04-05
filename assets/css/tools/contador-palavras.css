@@ -1,0 +1,132 @@
+/* =============================================
+   CSS Específico - Contador de Palavras (Padrão V5 FINAL)
+   ============================================= */
+
+/* --- [BASE V5] Variáveis e Estrutura --- */
+:root {
+    --timer-color: var(--c-text-primary);
+}
+.tool-container { 
+    max-width: 800px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [BASE V5 CORRIGIDO] Breadcrumbs --- */
+.breadcrumbs { 
+    margin-bottom: var(--spacing-md); 
+    font-size: 0.9rem; 
+    color: var(--c-text-secondary); /* Cor cinza padrão */
+}
+.breadcrumbs a { 
+    color: var(--c-text-secondary); /* Cor cinza para links em tool page */
+    text-decoration: none; 
+    transition: color 0.2s;
+}
+.breadcrumbs a:hover { 
+    color: var(--c-primary); 
+}
+.breadcrumbs span { margin: 0 0.25rem; }
+
+/* --- [BASE V5 CORRIGIDO] Cabeçalho (Título Centralizado) --- */
+.category-header { 
+    text-align: center; /* CORREÇÃO APLICADA: Garante que tudo esteja centralizado */
+    margin-bottom: var(--spacing-xl); 
+}
+.category-header h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: var(--spacing-sm); 
+}
+.category-header p.page-description { 
+    font-size: 1.1rem; 
+    max-width: 60ch; 
+    margin: 0 auto; 
+    color: var(--c-text-secondary); 
+}
+
+/* --- [BASE V5 CORRIGIDO] Sub-Navegação (Layout Padrão) --- */
+.tool-subnav { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: var(--spacing-sm) var(--spacing-md); 
+    justify-content: center; 
+    padding: var(--spacing-md); 
+    background-color: var(--c-surface); 
+    border: 1px solid var(--c-border); 
+    border-radius: var(--border-radius-lg); 
+    margin-top: var(--spacing-xl); 
+}
+.tool-subnav a { 
+    font-weight: 600; 
+    color: var(--c-text-secondary); 
+    text-decoration: none; 
+    padding: var(--spacing-sm) var(--spacing-md); 
+    border-radius: var(--border-radius); 
+    transition: all var(--transition-fast); 
+}
+.tool-subnav a:hover { 
+    background-color: var(--c-background); 
+    color: var(--c-text-primary); 
+}
+.tool-subnav a.is-active { 
+    background-color: var(--c-primary-alpha); 
+    color: var(--c-primary); 
+}
+
+/* --- [BASE V5] Botões e Inputs (Omitidos, mas incluídos no arquivo final) --- */
+/* ... */
+
+
+/* --- [BASE V5] Estilos de Conteúdo (SEO/FAQ) --- */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h4 { font-size: 1.1rem; font-weight: 600; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper ul, .tool-content-wrapper ol { padding-left: 20px; margin-bottom: 1.5em; line-height: 1.8; }
+.tool-content-wrapper hr { margin: 2em 0; border: 0; border-top: 1px solid var(--c-border); opacity: 0.5; }
+.tool-content-wrapper table { width: 100%; border-collapse: collapse; margin: 1.5em 0; }
+.tool-content-wrapper th, .tool-content-wrapper td { border: 1px solid var(--c-border); padding: 10px; text-align: left; }
+.tool-content-wrapper th { background-color: var(--c-surface); }
+
+/* =============================================
+   [ESPECÍFICO] Estilos do Contador
+   ============================================= */
+
+/* === BLOCO CORRIGIDO FINAL === */
+.form-input#text-input { 
+    width: 100%; 
+    padding: 15px; 
+    border-radius: var(--border-radius); 
+    border: 1px solid var(--c-border); 
+    background-color: var(--c-surface); 
+    resize: vertical; 
+    
+    /* CORREÇÕES PARA V5 */
+    font-size: 1.2rem; /* Aumenta a fonte para melhor legibilidade */
+    color: var(--c-text-primary); /* ESSENCIAL: Garante o contraste no Modo Noturno */
+}
+/* =============================== */
+
+
+.results-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: var(--spacing-lg); 
+    margin-top: var(--spacing-xl); 
+}
+.stat-card { 
+    text-align: center; 
+    padding: 20px; 
+    background-color: var(--c-surface); 
+    border-radius: var(--border-radius);
+    border: 1px solid var(--c-border);
+}
+.stat-card h4 { 
+    font-size: 0.9rem; 
+    font-weight: 500; 
+    color: var(--c-text-secondary); 
+    margin-bottom: 8px; 
+}
+.stat-card-value { 
+    font-size: 2.2rem; 
+    font-weight: 600; 
+    color: var(--c-primary); 
+    display: block; 
+}

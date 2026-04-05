@@ -1,0 +1,349 @@
+/* =============================================
+   CSS Específico - Temporizador (Padrão V5 - Correção Final)
+   ============================================= */
+
+/* [PADRÃO V5] Cor customizável */
+:root {
+    --timer-color: var(--c-text-primary);
+}
+
+/* [PADRÃO] Bug de Rolagem Fullscreen */
+body.fullscreen-active {
+    overflow: hidden;
+}
+
+/* [CORREÇÃO] Removido o max-width: 700px para herdar o padrão global */
+.tool-container { 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [PADRÃO] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- [PADRÃO] Sub-Navegação --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [PADRÃO] Card Principal e H2 --- */
+.tool-card {
+    padding: var(--spacing-lg);
+}
+.tool-card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--c-text-primary);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg);
+}
+
+
+/* --- [ESPECÍFICO] Formulário de Setup (Padronizado) --- */
+.time-input-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+.time-input-grid label { 
+    display: block; 
+    margin-bottom: var(--spacing-sm); 
+    font-weight: 600; 
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    text-align: left;
+}
+/* Estilos de Input V5 */
+.form-input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: 1.5;
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: var(--border-radius);
+    color: var(--c-text-primary);
+    transition: all var(--transition-fast);
+}
+.form-input:focus {
+    border-color: var(--c-primary);
+    box-shadow: 0 0 0 3px var(--c-primary-alpha);
+    outline: none;
+}
+.form-input.input--large {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 12px 15px;
+    text-align: center;
+}
+/* Estilos de Botão V5 */
+.btn.btn--primary {
+    background-color: var(--c-primary);
+    color: #FFFFFF;
+    border: 1px solid var(--c-primary);
+    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all var(--transition-fast);
+}
+.btn.btn--primary:hover {
+    background-color: #0E6D5F;
+    border-color: #0E6D5F;
+}
+.btn.btn--xlarge { padding: 1rem 2rem; font-size: 1.1rem; }
+.btn--full-width { width: 100%; margin-top: var(--spacing-xl); }
+
+/* [CORREÇÃO] Timers Rápidos (Padrão V5 leve) */
+.quick-timers-section {
+    text-align: center;
+    margin-top: var(--spacing-xl);
+}
+.quick-timers-title {
+    font-size: 1.2rem;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+.quick-timers-grid { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: var(--spacing-sm); 
+    justify-content: center; 
+}
+/* Novo estilo V5 para botões secundários */
+.quick-timers-grid .btn {
+    font-weight: 600;
+    color: var(--c-text-secondary);
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    transition: all var(--transition-fast);
+    background-color: var(--c-surface);
+    border: 1px solid var(--c-border);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.quick-timers-grid .btn:hover {
+    background-color: var(--c-background);
+    color: var(--c-text-primary);
+    border-color: var(--c-border);
+}
+/* --- Fim do Setup --- */
+
+
+/* --- [PADRÃO V5] Display do Timer (Ativo) --- */
+.timer-display-v5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: var(--spacing-sm);
+    margin: var(--spacing-lg) 0;
+}
+.time-remaining { 
+    font-size: 4.5rem; /* Nível Médio */
+    font-weight: 600; 
+    font-family: 'monospace', monospace; 
+    color: var(--timer-color); 
+    text-align: center; 
+    transition: color 0.3s ease, font-size 0.2s ease; 
+    line-height: 1.1;
+    padding-bottom: calc(1.2rem + 5px);
+}
+
+/* [PADRÃO V5] Zoom Nível Máximo */
+html.clock-zoom-max .time-remaining {
+    font-size: 6rem;
+    padding-bottom: calc(1.5rem + 5px);
+}
+
+/* [Específico] Barra de Progresso */
+.progress-bar-container { 
+    width: 100%; 
+    height: 10px; 
+    background-color: var(--c-border); 
+    border-radius: 5px; 
+    margin: var(--spacing-xl) 0; 
+    overflow: hidden; 
+}
+#progress-bar { 
+    height: 100%; 
+    background-color: var(--c-primary); 
+    width: 100%; 
+    transition: width 0.5s linear; 
+}
+
+/* --- [PADRÃO V5] Controles de Ferramenta (Unificado) --- */
+.tool-controls { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--spacing-lg); margin-top: var(--spacing-xl); font-size: 0.9rem; color: var(--c-text-secondary); }
+.tool-control-group { display: flex; align-items: center; gap: var(--spacing-sm); }
+.tool-color-picker { border: none; background: none; width: 32px; height: 32px; padding: 0; border-radius: 50%; cursor: pointer; overflow: hidden; border: 2px solid var(--c-border); }
+.tool-color-picker::-webkit-color-swatch { border: none; border-radius: 50%; padding: 0; }
+.tool-color-picker::-moz-color-swatch { border: none; border-radius: 50%; padding: 0; }
+.tool-btn-icon { background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); width: 40px; height: 40px; cursor: pointer; color: var(--c-text-secondary); display: inline-flex; align-items: center; justify-content: center; padding: 0; transition: all var(--transition-fast); }
+.tool-btn-icon:hover { color: var(--c-primary); border-color: var(--c-primary); background-color: var(--c-background); }
+.tool-btn-icon svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2px; fill: none; }
+#add-time-btn svg { stroke-width: 1.5px; }
+
+
+/* --- [Específico] Estado Finalizado --- */
+.timer-finished-icon {
+    font-size: 3rem;
+    margin: 20px 0;
+    line-height: 1;
+}
+#timer-finished p {
+    color: var(--c-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+#timer-finished .btn--full-width {
+    margin-top: var(--spacing-md);
+    margin-bottom: 0;
+}
+
+
+/* --- [PADRÃO V5] Container de Tela Cheia --- */
+body.fullscreen-active { overflow: hidden; }
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c-background);
+    z-index: 2147483647; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.fullscreen-container.is-active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* [PADRÃO V5] Zoom Nível Médio */
+.fullscreen-display-time {
+    font-family: 'monospace', monospace;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--timer-color);
+    font-size: 12vw;
+    transition: color 0.3s ease, font-size 0.2s ease;
+    text-align: center;
+}
+/* [PADRÃO V5] Zoom Nível Máximo */
+html.clock-zoom-max .fullscreen-display-time {
+    font-size: 16vw;
+}
+
+/* [Específico] Mensagem de "Tempo Esgotado" (Tela Cheia) */
+.fullscreen-finished-message {
+    display: none;
+    text-align: center;
+    color: var(--c-text-primary);
+}
+.fullscreen-finished-icon {
+    font-size: 10vw;
+    line-height: 1;
+    margin-bottom: var(--spacing-lg);
+}
+.fullscreen-finished-text {
+    font-size: 8vw;
+    font-weight: 600;
+}
+.fullscreen-container.is-finished .fullscreen-display-time { display: none; }
+.fullscreen-container.is-finished #fullscreen-finished-message { display: block; }
+html.clock-zoom-max .fullscreen-finished-icon { font-size: 13vw; }
+html.clock-zoom-max .fullscreen-finished-text { font-size: 10vw; }
+
+
+/* [PADRÃO V5] Controles de Tela Cheia */
+#fullscreen-close-btn { position: absolute; top: var(--spacing-lg); right: var(--spacing-lg); background: none; border: none; color: var(--c-text-secondary); font-size: 2.5rem; font-weight: 300; cursor: pointer; line-height: 1; padding: 0.5rem; transition: color var(--transition-fast); }
+#fullscreen-close-btn:hover { color: var(--c-text-primary); }
+.fullscreen-controls { position: absolute; bottom: var(--spacing-xl); left: 50%; transform: translateX(-50%); margin-top: 0; background-color: rgba(0, 0, 0, 0.05); padding: var(--spacing-sm) var(--spacing-lg); border-radius: var(--border-radius-lg); }
+[data-theme="dark"] .fullscreen-controls { background-color: rgba(255, 255, 255, 0.05); }
+#zoom-control-group-fs { display: flex; align-items: center; gap: var(--spacing-sm); }
+/* --- Fim do Container de Tela Cheia --- */
+
+
+/* --- [PADRÃO] Estilos de Conteúdo (FAQ) --- */
+.tool-content-wrapper {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--spacing-xxl);
+    padding: 0 var(--spacing-sm);
+}
+.tool-content-wrapper h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-md);
+}
+.tool-content-wrapper p, .tool-content-wrapper ul {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+}
+.tool-content-wrapper h3, .tool-content-wrapper h4 {
+    font-size: 1.4rem;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+}
+.tool-content-wrapper ol, 
+.tool-content-wrapper ul { 
+    padding-left: 30px; 
+}
+.tool-content-wrapper hr { 
+    margin: var(--spacing-xl) 0; 
+    border: 0; 
+    border-top: 1px solid var(--c-border); 
+}
+
+
+/* --- [PADRÃO V5] Media Queries (Mobile) --- */
+@media (max-width: 767px) {
+    .tool-card {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+    
+    /* Esconde controles de zoom */
+    #zoom-control-group { display: none; }
+    #zoom-control-group-fs { display: none; }
+
+    /* Ajusta tamanhos base (sem zoom) */
+    .time-remaining { 
+        font-size: 3rem; 
+        padding-bottom: calc(0.8rem + 2px);
+    }
+    
+    /* Tamanho da tela cheia (sem zoom) */
+    .fullscreen-display-time { font-size: 15vw; }
+    .fullscreen-finished-icon { font-size: 25vw; }
+    .fullscreen-finished-text { font-size: 15vw; }
+
+    .fullscreen-controls { bottom: var(--spacing-lg); }
+    
+    .time-input-grid { 
+        grid-template-columns: 1fr;
+    }
+    .time-input-grid div { text-align: left; }
+    .time-input-grid label { text-align: left; }
+}

@@ -1,0 +1,192 @@
+/* ==========================================================
+   CSS Específico - Calculadora de Juros Compostos (Padrão V5 CORRIGIDO)
+   ========================================================== */
+
+/* --- [BASE V5] Estrutura, Breadcrumbs, Headers, etc. --- */
+.tool-container { max-width: 800px; }
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p.page-description { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [BASE V5] Formulários e Botões --- */
+.form-group { margin-bottom: var(--spacing-lg); }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; text-align: left; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.75rem 1.25rem; font-size: 1rem; font-weight: 600; text-align: center; text-decoration: none; cursor: pointer; border: 1px solid transparent; border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.btn--primary { color: #fff; background-color: var(--c-primary); border-color: var(--c-primary); }
+.btn--primary:hover { background-color: var(--c-primary-dark); border-color: var(--c-primary-dark); }
+.btn:disabled { background-color: var(--c-surface-dark) !important; color: var(--c-text-disabled) !important; border-color: var(--c-border) !important; cursor: not-allowed; transform: none !important; }
+
+.form-input, .form-select {
+    display: block; width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--c-text-primary);
+    background-color: var(--c-background);
+    background-clip: padding-box;
+    border: 1px solid var(--c-border);
+    appearance: none;
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-select {
+    background-image: var(--select-arrow);
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 16px 12px;
+}
+.form-input:focus, .form-select:focus {
+    border-color: var(--c-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--c-primary-alpha);
+}
+
+
+/* --- [BASE V5] Conteúdo SEO --- */
+.tool-content-wrapper { max-width: 75ch; margin-left: auto; margin-right: auto; margin-top: var(--spacing-xl); padding: 0 var(--spacing-sm); }
+.tool-content-wrapper h2 { font-size: 1.8rem; margin-bottom: var(--spacing-md); }
+.tool-content-wrapper h3 { font-size: 1.3rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper p, .tool-content-wrapper ul, .tool-content-wrapper ol { font-size: 1.05rem; line-height: 1.7; margin-bottom: var(--spacing-lg); }
+.tool-content-wrapper ul, .tool-content-wrapper ol { padding-left: 30px; }
+.tool-content-wrapper li { margin-bottom: var(--spacing-sm); }
+.tool-content-wrapper table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.9rem; }
+.tool-content-wrapper th, .tool-content-wrapper td { border: 1px solid var(--c-border); padding: 12px; text-align: center; }
+.tool-content-wrapper th { background-color: var(--c-surface); font-weight: 600; }
+.tool-content-wrapper blockquote { border-left: 4px solid var(--c-primary); margin: 1.5em 0; padding: 10px 20px; background-color: var(--c-surface); font-style: italic; }
+
+
+/* [BASE V5] Outras Categorias */
+.other-tools-section { padding-top: var(--spacing-xl); }
+.section-title { text-align: center; font-size: 1.8rem; margin-bottom: var(--spacing-lg); }
+.grid.category-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg); }
+
+/* ==========================================================
+   [ESPECÍFICO] Estilos da Calculadora (do seu CSS e inline)
+   ========================================================== */
+
+.sr-only { 
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; 
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; 
+}
+*:focus-visible {
+    outline: 2px solid var(--c-primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+/* Container mais largo (Padrão Relógio) */
+.tool-container-large { max-width: 1000px; }
+
+.calculadora-header { text-align: center; margin-bottom: 25px; }
+.calculadora-header h2 { font-size: 1.8rem; line-height: 1.2; }
+.calculadora-header p { font-size: 1.1rem; max-width: 700px; margin: 10px auto 0; color: var(--c-text-secondary); }
+
+/* === CORREÇÃO 1: Abas (Mobile-First) === */
+.tabs { 
+    display: flex; 
+    justify-content: flex-start; /* Padrão (celular) é alinhado à esquerda */
+    border-bottom: 2px solid var(--c-border); 
+    margin-bottom: 25px; 
+    overscroll-behavior-x: contain; /* Impede a rolagem vertical/diagonal */
+
+    /* [V5] Ativa a rolagem horizontal no celular */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* Esconde a barra de rolagem visualmente */
+.tabs::-webkit-scrollbar {
+    display: none;
+}
+/* === FIM DA CORREÇÃO 1 === */
+
+.tab-link { padding: 10px 20px; cursor: pointer; border: none; background: none; font-size: 1rem; font-weight: 500; color: var(--c-text-secondary); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out; white-space: nowrap; }
+.tab-link.active { color: var(--c-primary); border-bottom-color: var(--c-primary); }
+.tab-content { display: none; padding-top: 10px;}
+.tab-content.active { display: block; }
+
+/* Formulário */
+.form-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Reduzido de 250px para 200px */
+    gap: 25px; 
+    border: none; 
+    padding: 0; 
+}
+.form-grid label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9rem; }
+.slider-container { display: flex; align-items: center; gap: 15px; }
+.slider { flex-grow: 1; -webkit-appearance: none; width: 100%; height: 8px; background: var(--c-border); border-radius: 5px; outline: none; transition: opacity .2s, background-color 0.2s ease-in-out; }
+.slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; background: var(--c-primary); cursor: pointer; border-radius: 50%; }
+.slider::-moz-range-thumb { width: 20px; height: 20px; background: var(--c-primary); cursor: pointer; border-radius: 50%; border: none;}
+.slider-input { max-width: 100px; text-align: center; }
+
+/* Grupo de Input (do seu inline <style>) */
+.input-group { display: flex; }
+.input-group .form-input { border-top-right-radius: 0; border-bottom-right-radius: 0; flex-grow: 1; min-width: 60px; }
+.input-group .form-select { 
+    border-left: 0; 
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+    background-color: var(--c-surface); 
+    padding-left: 10px;
+    padding-right: 2.5rem; /* Espaço para a seta V5 */
+}
+
+/* Resultados */
+#results-section { padding-top: 30px; margin-top: 25px; transition: background-color 0.2s ease-in-out; }
+.results-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; text-align: center; }
+.stat-card { padding-bottom: 10px; }
+.stat-label { font-size: 0.9rem; color: var(--c-text-secondary); margin-bottom: 5px; }
+.stat-value { font-size: 1.8rem; font-weight: 600; color: var(--c-primary); }
+.stat-value.positive { color: var(--c-success); }
+.chart-container { margin-top: 35px; height: 350px; }
+
+/* Ações Pós-Resultado */
+.results-actions { display: flex; justify-content: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--c-border); transition: border-color 0.2s ease-in-out; }
+.btn.btn-secondary { background-color: var(--c-surface); color: var(--c-text-secondary); border: 1px solid var(--c-border); transition: all 0.2s ease-in-out; }
+.btn.btn-secondary:hover { background-color: var(--c-border); color: var(--c-text-primary); }
+
+/* Tabela de Resultados */
+#results-table-container { 
+    margin-top: 35px; max-height: 400px; overflow-y: auto; 
+    border-radius: 6px; border: 1px solid var(--c-border);
+    transition: border-color 0.2s ease-in-out;
+}
+.results-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.results-table th { 
+    background-color: var(--c-primary); color: #FFFFFF; 
+    padding: 12px; text-align: center; font-weight: 600;
+    position: sticky; top: 0; z-index: 1;
+}
+.results-table td { 
+    border: none; border-bottom: 1px solid var(--c-border);
+    padding: 12px; text-align: center;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; 
+}
+.results-table tbody tr:nth-child(even) { background-color: var(--c-surface); }
+.results-table td:first-child { font-weight: 600; }
+.results-table tbody tr:last-child td { border-bottom: none; }
+
+/* Resultado da Meta */
+#meta-result { text-align: center; padding: 20px; }
+#meta-result p { font-size: 1.1rem; }
+#meta-result .aporte-necessario { font-size: 2.2rem; font-weight: 700; color: var(--c-primary); margin-top: 10px; }
+
+/* === CORREÇÃO 2: Responsividade das Abas (Desktop) === */
+@media (min-width: 600px) {
+  .tabs { 
+      justify-content: center; /* Centraliza no desktop */
+      overflow-x: hidden; /* Desliga a rolagem no desktop */
+  }
+}

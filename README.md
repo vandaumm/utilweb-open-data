@@ -1,18 +1,60 @@
-Bem-vindo ao repositório de dados abertos do Utilweb, o maior portal de utilitários do Brasil, construído nas madrugadas.
+# 🛠️ Utilweb: Open Data & Logic Engine
 
-Este repositório contém a lógica matemática e os bancos de dados JSON estruturados que alimentam mais de 1.190 ferramentas gratuitas. Meu objetivo é democratizar esses dados para que outros devs não precisem mapear na mão os fatores de conversão ou as regras de cálculo trabalhista.
+Read in English below. / Leia em Português na seção dedicada abaixo.
 
-📦 O que tem aqui?
-conversores-db.json (2.8MB): Centenas de fatores de conversão (física, culinária, engenharia, etc.).
+Welcome to the open-source data repository of [Utilweb](https://utilweb.com.br), one of the largest utility portals in Brazil, built entirely during my night shifts. 
 
-js/tools/: Lógicas atualizadas das leis trabalhistas brasileiras e matemática financeira (Rescisão, Salário Líquido, Juros Compostos).
+This repository contains the core mathematical logic and structured JSON databases that power 1,190+ free tools. The goal is to provide a clean infrastructure so developers worldwide don't have to manually map physical conversion factors or complex math formulas from scratch.
 
-moedas-db.json e horario-db.json: Estrutura de dados para APIs financeiras e de fuso horário.
+## 🌍 Global Assets (For all developers)
 
-🤝 Como contribuir (Estou sem tempo!)
-Como toco esse projeto sozinho e o tempo é escasso, a comunidade pode ajudar de duas formas:
-1 - Encontrou um erro de cálculo ou uma tabela do INSS desatualizada? Abra uma Issue ou mande um Pull Request alterando o JS.
+* conversores-db.json & conversores.js: A massive database with hundreds of physical, engineering, and culinary conversion factors. The JS file includes the Vanilla JS engine to process linear and non-linear formulas (like Temperatures: Celsius, Fahrenheit, Kelvin).
+* moedas-db.json & moedas.js: Data structure and logic engine for currency and crypto conversion tools.
+* horario-db.json & horario.js: Timezone and global clock logic.
 
-2 - Quer uma ferramenta nova no site? Adicione a lógica no JSON e envie o PR.
+---
 
-Nota: Todo uso destes dados em projetos de terceiros é livre, pedimos apenas um link de atribuição para a ferramenta oficial no Utilweb como fonte dos dados.
+## 🇧🇷 Ativos Globais (Para Desenvolvedores Brasileiros)
+
+Bem-vindo ao repositório de dados abertos do [Utilweb](https://utilweb.com.br), construído nas minhas madrugadas de plantão. Este repositório foca em fornecer uma infraestrutura limpa para que outros devs não precisem mapear fatores de conversão ou fórmulas matemáticas complexas do zero.
+
+O que temos aqui:
+
+* conversores-db.json & conversores.js: Centenas de fatores de conversão mastigados (física, engenharia, culinária). O arquivo JS inclui o motor Vanilla JS para processar cálculos lineares e não-lineares (como escalas de temperatura).
+* moedas-db.json & moedas.js: Lógica e estrutura de dados para conversores de moedas e criptomoedas.
+* horario-db.json & horario.js: Lógica de fuso horário e relógio global.
+
+---
+
+## 🤝 How to Contribute / Como Contribuir
+
+I maintain this massive project alone during my scarce free time. The community can help in two ways:
+
+1. Found a calculation bug or math error? Open an Issue or submit a Pull Request fixing the JS logic.
+2. Want a new unit or currency added? Add the data to the JSON and send a PR. 
+
+If you know TypeScript and want to help type the JSON structures, your PR will be highly appreciated!
+
+**Versão PT-BR:**
+Mantenho este projeto massivo sozinho no meu pouco tempo livre. A comunidade pode ajudar de duas formas:
+
+1. Encontrou um bug de cálculo ou erro matemático? Abra uma Issue ou mande um Pull Request corrigindo a lógica no JS.
+2. Quer adicionar uma nova unidade ou moeda? Adicione os dados no JSON correspondente e envie o PR.
+
+Se você trabalha com TypeScript e quiser ajudar com a tipagem das estruturas JSON, seu PR será muito bem-vindo!
+
+---
+
+## ⚖️ License & Attribution (Important)
+
+This data and logic are free to use in your personal or commercial projects. 
+However, you must provide attribution by linking back to the official tool as the source of the data. 
+
+**PT-BR:** Estes dados e lógicas são gratuitos para uso em seus projetos pessoais ou comerciais. 
+No entanto, você deve fornecer atribuição colocando um link para a ferramenta oficial como fonte dos dados.
+
+HTML snippet for attribution / Snippet HTML para atribuição:
+`<p>Data and calculations powered by <a href="https://utilweb.com.br" target="_blank">Utilweb</a></p>`
+
+By using this repository, you agree to include the attribution link above in your project's interface or documentation.
+Ao utilizar este repositório, você concorda em incluir o link de atribuição acima na interface ou documentação do seu projeto.

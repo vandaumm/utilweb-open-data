@@ -1,5 +1,7 @@
 # 🛠️ Utilweb: Open Data & Logic Engine
 
+Participe da nossa comunidade no Discord para colaborar: https://discord.gg/Mn8yWa3JPJ
+
 Read in English below. / Leia em Português na seção dedicada abaixo.
 
 Welcome to the open-source data repository of [Utilweb](https://utilweb.com.br), one of the largest utility portals in Brazil, built entirely during my night shifts. 

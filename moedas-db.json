@@ -1,0 +1,2752 @@
+[
+    {
+        "slug": "dolar-para-real-hoje",
+        "name": "Dólar Americano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "💵",
+        "code_a": "USD",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "bitcoin-para-real-hoje",
+        "name": "Bitcoin para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "₿",
+        "code_a": "BTC",
+        "code_b": "BRL",
+        "sign_a": "₿",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "euro-para-real-hoje",
+        "name": "Euro para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "💶",
+        "code_a": "EUR",
+        "code_b": "BRL",
+        "sign_a": "€",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "libra-para-real-hoje",
+        "name": "Libra Esterlina para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "💷",
+        "code_a": "GBP",
+        "code_b": "BRL",
+        "sign_a": "£",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "ethereum-para-real-hoje",
+        "name": "Ethereum para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "💎",
+        "code_a": "ETH",
+        "code_b": "BRL",
+        "sign_a": "Ξ",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "litecoin-para-real-hoje",
+        "name": "Litecoin para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "Ł",
+        "code_a": "LTC",
+        "code_b": "BRL",
+        "sign_a": "Ł",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-hoje",
+        "name": "Dólar Hoje: Valor e Cotação (Real para Dólar)",
+        "category": "Moedas",
+        "icon": "💵",
+        "code_a": "BRL",
+        "code_b": "USD",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "real-para-euro-hoje",
+        "name": "Euro Hoje: Valor e Cotação (Real para Euro)",
+        "category": "Moedas",
+        "icon": "💶",
+        "code_a": "BRL",
+        "code_b": "EUR",
+        "sign_a": "R$",
+        "sign_b": "€"
+    },
+    {
+        "slug": "real-para-bitcoin-hoje",
+        "name": "Bitcoin Hoje: Valor e Cotação (Real para BTC)",
+        "category": "Moedas",
+        "icon": "₿",
+        "code_a": "BRL",
+        "code_b": "BTC",
+        "sign_a": "R$",
+        "sign_b": "₿"
+    },
+    {
+        "slug": "real-para-libra-hoje",
+        "name": "Libra Hoje: Valor e Cotação (Real para Libra)",
+        "category": "Moedas",
+        "icon": "💷",
+        "code_a": "BRL",
+        "code_b": "GBP",
+        "sign_a": "R$",
+        "sign_b": "£"
+    },
+    {
+        "slug": "peso-argentino-para-real-hoje",
+        "name": "Peso Argentino Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
+        "icon": "🇦🇷",
+        "code_a": "ARS",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-argentino-hoje",
+        "name": "Real para Peso Argentino: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇦🇷",
+        "code_a": "BRL",
+        "code_b": "ARS",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "real-para-ethereum-hoje",
+        "name": "Ethereum Hoje: Valor e Cotação (Real para ETH)",
+        "category": "Moedas",
+        "icon": "💎",
+        "code_a": "BRL",
+        "code_b": "ETH",
+        "sign_a": "R$",
+        "sign_b": "Ξ"
+    },
+    {
+        "slug": "dolar-canadense-para-real-hoje",
+        "name": "Dólar Canadense Hoje: Valor (CAD para Real)",
+        "category": "Moedas",
+        "icon": "🇨🇦",
+        "code_a": "CAD",
+        "code_b": "BRL",
+        "sign_a": "C$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-canadense-hoje",
+        "name": "Real para Dólar Canadense: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇦",
+        "code_a": "BRL",
+        "code_b": "CAD",
+        "sign_a": "R$",
+        "sign_b": "C$"
+    },
+    {
+        "slug": "dolar-australiano-para-real-hoje",
+        "name": "Dólar Australiano Hoje: Valor (AUD para Real)",
+        "category": "Moedas",
+        "icon": "🇦🇺",
+        "code_a": "AUD",
+        "code_b": "BRL",
+        "sign_a": "A$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-australiano-hoje",
+        "name": "Real para Dólar Australiano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇦🇺",
+        "code_a": "BRL",
+        "code_b": "AUD",
+        "sign_a": "R$",
+        "sign_b": "A$"
+    },
+    {
+        "slug": "iene-para-real-hoje",
+        "name": "Iene Japonês para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇯🇵",
+        "code_a": "JPY",
+        "code_b": "BRL",
+        "sign_a": "¥",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-litecoin-hoje",
+        "name": "Litecoin Hoje: Valor e Cotação (Real para LTC)",
+        "category": "Moedas",
+        "icon": "Ł",
+        "code_a": "BRL",
+        "code_b": "LTC",
+        "sign_a": "R$",
+        "sign_b": "Ł"
+    },
+    {
+        "slug": "real-para-iene-hoje",
+        "name": "Real para Iene: Cotação Hoje (Viagem e Remessa)",
+        "category": "Moedas",
+        "icon": "🇯🇵",
+        "code_a": "BRL",
+        "code_b": "JPY",
+        "sign_a": "R$",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "franco-suico-para-real-hoje",
+        "name": "Franco Suíço Hoje: Valor (CHF para Real)",
+        "category": "Moedas",
+        "icon": "🇨🇭",
+        "code_a": "CHF",
+        "code_b": "BRL",
+        "sign_a": "Fr",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-franco-suico-hoje",
+        "name": "Real para Franco Suíço: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇭",
+        "code_a": "BRL",
+        "code_b": "CHF",
+        "sign_a": "R$",
+        "sign_b": "Fr"
+    },
+    {
+        "slug": "peso-chileno-para-real-hoje",
+        "name": "Peso Chileno Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
+        "icon": "🇨🇱",
+        "code_a": "CLP",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-chileno-hoje",
+        "name": "Real para Peso Chileno: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇱",
+        "code_a": "BRL",
+        "code_b": "CLP",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "peso-uruguaio-para-real-hoje",
+        "name": "Peso Uruguaio Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
+        "icon": "🇺🇾",
+        "code_a": "UYU",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-uruguaio-hoje",
+        "name": "Real para Peso Uruguaio: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇺🇾",
+        "code_a": "BRL",
+        "code_b": "UYU",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "guarani-paraguaio-para-real-hoje",
+        "name": "Guarani Paraguaio Hoje: Valor (PYG para Real)",
+        "category": "Moedas",
+        "icon": "🇵🇾",
+        "code_a": "PYG",
+        "code_b": "BRL",
+        "sign_a": "₲",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-guarani-paraguaio-hoje",
+        "name": "Real para Guarani: Cotação Hoje (Compras Paraguai)",
+        "category": "Moedas",
+        "icon": "🇵🇾",
+        "code_a": "BRL",
+        "code_b": "PYG",
+        "sign_a": "R$",
+        "sign_b": "₲"
+    },
+    {
+        "slug": "yuan-chines-para-real-hoje",
+        "name": "Yuan Chinês Hoje: Valor (Yuan para Real)",
+        "category": "Moedas",
+        "icon": "🇨🇳",
+        "code_a": "CNY",
+        "code_b": "BRL",
+        "sign_a": "¥",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-yuan-chines-hoje",
+        "name": "Real para Yuan Chinês: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇳",
+        "code_a": "BRL",
+        "code_b": "CNY",
+        "sign_a": "R$",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "peso-mexicano-para-real-hoje",
+        "name": "Peso Mexicano Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
+        "icon": "🇲🇽",
+        "code_a": "MXN",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-mexicano-hoje",
+        "name": "Real para Peso Mexicano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇲🇽",
+        "code_a": "BRL",
+        "code_b": "MXN",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "rand-sul-africano-para-real-hoje",
+        "name": "Rand Sul-Africano Hoje: Valor (Rand para Real)",
+        "category": "Moedas",
+        "icon": "🇿🇦",
+        "code_a": "ZAR",
+        "code_b": "BRL",
+        "sign_a": "R",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-rand-sul-africano-hoje",
+        "name": "Real para Rand Sul-Africano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇿🇦",
+        "code_a": "BRL",
+        "code_b": "ZAR",
+        "sign_a": "R$",
+        "sign_b": "R"
+    },
+    {
+        "slug": "peso-colombiano-para-real-hoje",
+        "name": "Peso Colombiano Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
+        "icon": "🇨🇴",
+        "code_a": "COP",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-colombiano-hoje",
+        "name": "Real para Peso Colombiano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇴",
+        "code_a": "BRL",
+        "code_b": "COP",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "sol-peruano-para-real-hoje",
+        "name": "Sol Peruano Hoje: Valor (Sol para Real)",
+        "category": "Moedas",
+        "icon": "🇵🇪",
+        "code_a": "PEN",
+        "code_b": "BRL",
+        "sign_a": "S/",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-sol-peruano-hoje",
+        "name": "Real para Sol Peruano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇵🇪",
+        "code_a": "BRL",
+        "code_b": "PEN",
+        "sign_a": "R$",
+        "sign_b": "S/"
+    },
+    {
+        "slug": "real-para-lira-turca-hoje",
+        "name": "Real para Lira Turca: Cotação Hoje (Viagem Turquia)",
+        "category": "Moedas",
+        "icon": "🇹🇷",
+        "code_a": "BRL",
+        "code_b": "TRY",
+        "sign_a": "R$",
+        "sign_b": "₺"
+    },
+    {
+        "slug": "lira-turca-para-real-hoje",
+        "name": "Lira Turca para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇹🇷",
+        "code_a": "TRY",
+        "code_b": "BRL",
+        "sign_a": "₺",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "dolar-neozelandes-para-real-hoje",
+        "name": "Dólar Neozelandês para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇳🇿",
+        "code_a": "NZD",
+        "code_b": "BRL",
+        "sign_a": "NZ$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-neozelandes-hoje",
+        "name": "Real para Dólar Neozelandês: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇳🇿",
+        "code_a": "BRL",
+        "code_b": "NZD",
+        "sign_a": "R$",
+        "sign_b": "NZ$"
+    },
+    {
+        "slug": "coroa-norueguesa-para-real-hoje",
+        "name": "Coroa Norueguesa para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇳🇴",
+        "code_a": "NOK",
+        "code_b": "BRL",
+        "sign_a": "kr",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-coroa-norueguesa-hoje",
+        "name": "Real para Coroa Norueguesa: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇳🇴",
+        "code_a": "BRL",
+        "code_b": "NOK",
+        "sign_a": "R$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-sueca-para-real-hoje",
+        "name": "Coroa Sueca para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇸🇪",
+        "code_a": "SEK",
+        "code_b": "BRL",
+        "sign_a": "kr",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-coroa-sueca-hoje",
+        "name": "Real para Coroa Sueca: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇸🇪",
+        "code_a": "BRL",
+        "code_b": "SEK",
+        "sign_a": "R$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "rupia-indiana-para-real-hoje",
+        "name": "Rúpia Indiana para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇮🇳",
+        "code_a": "INR",
+        "code_b": "BRL",
+        "sign_a": "₹",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-rupia-indiana-hoje",
+        "name": "Real para Rúpia Indiana: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇮🇳",
+        "code_a": "BRL",
+        "code_b": "INR",
+        "sign_a": "R$",
+        "sign_b": "₹"
+    },
+    {
+        "slug": "coroa-dinamarquesa-para-real-hoje",
+        "name": "Coroa Dinamarquesa para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇩🇰",
+        "code_a": "DKK",
+        "code_b": "BRL",
+        "sign_a": "kr",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-coroa-dinamarquesa-hoje",
+        "name": "Real para Coroa Dinamarquesa: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇩🇰",
+        "code_a": "BRL",
+        "code_b": "DKK",
+        "sign_a": "R$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "dolar-de-singapura-para-real-hoje",
+        "name": "Dólar de Singapura para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇸🇬",
+        "code_a": "SGD",
+        "code_b": "BRL",
+        "sign_a": "S$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-de-singapura-hoje",
+        "name": "Real para Dólar de Singapura: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇸🇬",
+        "code_a": "BRL",
+        "code_b": "SGD",
+        "sign_a": "R$",
+        "sign_b": "S$"
+    },
+    {
+        "slug": "won-sul-coreano-para-real-hoje",
+        "name": "Won Sul-Coreano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇰🇷",
+        "code_a": "KRW",
+        "code_b": "BRL",
+        "sign_a": "₩",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-won-sul-coreano-hoje",
+        "name": "Real para Won Sul-Coreano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇰🇷",
+        "code_a": "BRL",
+        "code_b": "KRW",
+        "sign_a": "R$",
+        "sign_b": "₩"
+    },
+    {
+        "slug": "boliviano-para-real-hoje",
+        "name": "Boliviano da Bolívia para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇧🇴",
+        "code_a": "BOB",
+        "code_b": "BRL",
+        "sign_a": "Bs.",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-boliviano-hoje",
+        "name": "Real para Boliviano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇧🇴",
+        "code_a": "BRL",
+        "code_b": "BOB",
+        "sign_a": "R$",
+        "sign_b": "Bs."
+    },
+    {
+        "slug": "shekel-para-real-hoje",
+        "name": "Shekel de Israel para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇮🇱",
+        "code_a": "ILS",
+        "code_b": "BRL",
+        "sign_a": "₪",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-shekel-hoje",
+        "name": "Real para Shekel: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇮🇱",
+        "code_a": "BRL",
+        "code_b": "ILS",
+        "sign_a": "R$",
+        "sign_b": "₪"
+    },
+    {
+        "slug": "florim-hungaro-para-real-hoje",
+        "name": "Florim Húngaro para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇭🇺",
+        "code_a": "HUF",
+        "code_b": "BRL",
+        "sign_a": "Ft",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-florim-hungaro-hoje",
+        "name": "Real para Florim Húngaro: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇭🇺",
+        "code_a": "BRL",
+        "code_b": "HUF",
+        "sign_a": "R$",
+        "sign_b": "Ft"
+    },
+    {
+        "slug": "coroa-tcheca-para-real-hoje",
+        "name": "Coroa Tcheca para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇨🇿",
+        "code_a": "CZK",
+        "code_b": "BRL",
+        "sign_a": "Kč",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-coroa-tcheca-hoje",
+        "name": "Real para Coroa Tcheca: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇿",
+        "code_a": "BRL",
+        "code_b": "CZK",
+        "sign_a": "R$",
+        "sign_b": "Kč"
+    },
+    {
+        "slug": "dirham-para-real-hoje",
+        "name": "Dirham dos Emirados Árabes para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇦🇪",
+        "code_a": "AED",
+        "code_b": "BRL",
+        "sign_a": "د.إ",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dirham-hoje",
+        "name": "Real para Dirham: Cotação Hoje (Dubai)",
+        "category": "Moedas",
+        "icon": "🇦🇪",
+        "code_a": "BRL",
+        "code_b": "AED",
+        "sign_a": "R$",
+        "sign_b": "د.إ"
+    },
+    {
+        "slug": "riyal-saudita-para-real-hoje",
+        "name": "Riyal Saudita para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇸🇦",
+        "code_a": "SAR",
+        "code_b": "BRL",
+        "sign_a": "﷼",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-riyal-saudita-hoje",
+        "name": "Real para Riyal Saudita: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇸🇦",
+        "code_a": "BRL",
+        "code_b": "SAR",
+        "sign_a": "R$",
+        "sign_b": "﷼"
+    },
+    {
+        "slug": "zloty-polones-para-real-hoje",
+        "name": "Zloty Polonês para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇵🇱",
+        "code_a": "PLN",
+        "code_b": "BRL",
+        "sign_a": "zł",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-zloty-polones-hoje",
+        "name": "Real para Zloty Polonês: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇵🇱",
+        "code_a": "BRL",
+        "code_b": "PLN",
+        "sign_a": "R$",
+        "sign_b": "zł"
+    },
+    {
+        "slug": "rublo-russo-para-real-hoje",
+        "name": "Rublo Russo para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇷🇺",
+        "code_a": "RUB",
+        "code_b": "BRL",
+        "sign_a": "₽",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-rublo-russo-hoje",
+        "name": "Real para Rublo Russo: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇷🇺",
+        "code_a": "BRL",
+        "code_b": "RUB",
+        "sign_a": "R$",
+        "sign_b": "₽"
+    },
+    {
+        "slug": "baht-tailandes-para-real-hoje",
+        "name": "Baht Tailandês para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇹🇭",
+        "code_a": "THB",
+        "code_b": "BRL",
+        "sign_a": "฿",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-baht-tailandes-hoje",
+        "name": "Real para Baht Tailandês: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇹🇭",
+        "code_a": "BRL",
+        "code_b": "THB",
+        "sign_a": "R$",
+        "sign_b": "฿"
+    },
+    {
+        "slug": "dong-vietnamita-para-real-hoje",
+        "name": "Dong Vietnamita para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇻🇳",
+        "code_a": "VND",
+        "code_b": "BRL",
+        "sign_a": "₫",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dong-vietnamita-hoje",
+        "name": "Real para Dong Vietnamita: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇻🇳",
+        "code_a": "BRL",
+        "code_b": "VND",
+        "sign_a": "R$",
+        "sign_b": "₫"
+    },
+    {
+        "slug": "rupia-indonesia-para-real-hoje",
+        "name": "Rupia Indonésia para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇮🇩",
+        "code_a": "IDR",
+        "code_b": "BRL",
+        "sign_a": "Rp",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-rupia-indonesia-hoje",
+        "name": "Real para Rupia Indonésia: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇮🇩",
+        "code_a": "BRL",
+        "code_b": "IDR",
+        "sign_a": "R$",
+        "sign_b": "Rp"
+    },
+    {
+        "slug": "rial-catarense-para-real-hoje",
+        "name": "Rial do Catar para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇶🇦",
+        "code_a": "QAR",
+        "code_b": "BRL",
+        "sign_a": "﷼",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-rial-catarense-hoje",
+        "name": "Real para Rial do Catar: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇶🇦",
+        "code_a": "BRL",
+        "code_b": "QAR",
+        "sign_a": "R$",
+        "sign_b": "﷼"
+    },
+    {
+        "slug": "libra-egipcia-para-real-hoje",
+        "name": "Libra Egípcia para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇪🇬",
+        "code_a": "EGP",
+        "code_b": "BRL",
+        "sign_a": "E£",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-libra-egipcia-hoje",
+        "name": "Real para Libra Egípcia: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇪🇬",
+        "code_a": "BRL",
+        "code_b": "EGP",
+        "sign_a": "R$",
+        "sign_b": "E£"
+    },
+    {
+        "slug": "ringgit-malaio-para-real-hoje",
+        "name": "Ringgit Malaio para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇲🇾",
+        "code_a": "MYR",
+        "code_b": "BRL",
+        "sign_a": "RM",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-ringgit-malaio-hoje",
+        "name": "Real para Ringgit Malaio: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇲🇾",
+        "code_a": "BRL",
+        "code_b": "MYR",
+        "sign_a": "R$",
+        "sign_b": "RM"
+    },
+    {
+        "slug": "peso-filipino-para-real-hoje",
+        "name": "Peso Filipino para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇵🇭",
+        "code_a": "PHP",
+        "code_b": "BRL",
+        "sign_a": "₱",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-filipino-hoje",
+        "name": "Real para Peso Filipino: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇵🇭",
+        "code_a": "BRL",
+        "code_b": "PHP",
+        "sign_a": "R$",
+        "sign_b": "₱"
+    },
+    {
+        "slug": "dolar-de-hong-kong-para-real-hoje",
+        "name": "Dólar de Hong Kong para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇭🇰",
+        "code_a": "HKD",
+        "code_b": "BRL",
+        "sign_a": "HK$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-de-hong-kong-hoje",
+        "name": "Real para Dólar de Hong Kong: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇭🇰",
+        "code_a": "BRL",
+        "code_b": "HKD",
+        "sign_a": "R$",
+        "sign_b": "HK$"
+    },
+    {
+        "slug": "dirham-marroquino-para-real-hoje",
+        "name": "Dirham Marroquino para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇲🇦",
+        "code_a": "MAD",
+        "code_b": "BRL",
+        "sign_a": "DH",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dirham-marroquino-hoje",
+        "name": "Real para Dirham Marroquino: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇲🇦",
+        "code_a": "BRL",
+        "code_b": "MAD",
+        "sign_a": "R$",
+        "sign_b": "DH"
+    },
+    {
+        "slug": "dolar-taiwanense-para-real-hoje",
+        "name": "Dólar de Taiwan para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇹🇼",
+        "code_a": "TWD",
+        "code_b": "BRL",
+        "sign_a": "NT$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-taiwanense-hoje",
+        "name": "Real para Dólar de Taiwan: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇹🇼",
+        "code_a": "BRL",
+        "code_b": "TWD",
+        "sign_a": "R$",
+        "sign_b": "NT$"
+    },
+    {
+        "slug": "peso-dominicano-para-real-hoje",
+        "name": "Peso Dominicano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇩🇴",
+        "code_a": "DOP",
+        "code_b": "BRL",
+        "sign_a": "$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-peso-dominicano-hoje",
+        "name": "Real para Peso Dominicano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇩🇴",
+        "code_a": "BRL",
+        "code_b": "DOP",
+        "sign_a": "R$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "colon-costa-riquenho-para-real-hoje",
+        "name": "Colón da Costa Rica para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇨🇷",
+        "code_a": "CRC",
+        "code_b": "BRL",
+        "sign_a": "₡",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-colon-costa-riquenho-hoje",
+        "name": "Real para Colón da Costa Rica: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇨🇷",
+        "code_a": "BRL",
+        "code_b": "CRC",
+        "sign_a": "R$",
+        "sign_b": "₡"
+    },
+    {
+        "slug": "coroa-islandesa-para-real-hoje",
+        "name": "Coroa Islandesa para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇮🇸",
+        "code_a": "ISK",
+        "code_b": "BRL",
+        "sign_a": "kr",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-coroa-islandesa-hoje",
+        "name": "Real para Coroa Islandesa: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇮🇸",
+        "code_a": "BRL",
+        "code_b": "ISK",
+        "sign_a": "R$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "dolar-jamaicano-para-real-hoje",
+        "name": "Dólar Jamaicano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇯🇲",
+        "code_a": "JMD",
+        "code_b": "BRL",
+        "sign_a": "J$",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dolar-jamaicano-hoje",
+        "name": "Real para Dólar Jamaicano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇯🇲",
+        "code_a": "BRL",
+        "code_b": "JMD",
+        "sign_a": "R$",
+        "sign_b": "J$"
+    },
+    {
+        "slug": "lempira-hondurenha-para-real-hoje",
+        "name": "Lempira de Honduras para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇭🇳",
+        "code_a": "HNL",
+        "code_b": "BRL",
+        "sign_a": "L",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-lempira-hondurenha-hoje",
+        "name": "Real para Lempira de Honduras: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇭🇳",
+        "code_a": "BRL",
+        "code_b": "HNL",
+        "sign_a": "R$",
+        "sign_b": "L"
+    },
+    {
+        "slug": "quetzal-guatemalteco-para-real-hoje",
+        "name": "Quetzal da Guatemala para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇬🇹",
+        "code_a": "GTQ",
+        "code_b": "BRL",
+        "sign_a": "Q",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-quetzal-guatemalteco-hoje",
+        "name": "Real para Quetzal da Guatemala: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇬🇹",
+        "code_a": "BRL",
+        "code_b": "GTQ",
+        "sign_a": "R$",
+        "sign_b": "Q"
+    },
+    {
+        "slug": "naira-nigeriana-para-real-hoje",
+        "name": "Naira Nigeriana para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇳🇬",
+        "code_a": "NGN",
+        "code_b": "BRL",
+        "sign_a": "₦",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-naira-nigeriana-hoje",
+        "name": "Real para Naira Nigeriana: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇳🇬",
+        "code_a": "BRL",
+        "code_b": "NGN",
+        "sign_a": "R$",
+        "sign_b": "₦"
+    },
+    {
+        "slug": "kwanza-angolano-para-real-hoje",
+        "name": "Kwanza Angolano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇦🇴",
+        "code_a": "AOA",
+        "code_b": "BRL",
+        "sign_a": "Kz",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-kwanza-angolano-hoje",
+        "name": "Real para Kwanza Angolano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇦🇴",
+        "code_a": "BRL",
+        "code_b": "AOA",
+        "sign_a": "R$",
+        "sign_b": "Kz"
+    },
+    {
+        "slug": "xelim-queniano-para-real-hoje",
+        "name": "Xelim Queniano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇰🇪",
+        "code_a": "KES",
+        "code_b": "BRL",
+        "sign_a": "KSh",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-xelim-queniano-hoje",
+        "name": "Real para Xelim Queniano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇰🇪",
+        "code_a": "BRL",
+        "code_b": "KES",
+        "sign_a": "R$",
+        "sign_b": "KSh"
+    },
+    {
+        "slug": "xelim-tanzaniano-para-real-hoje",
+        "name": "Xelim Tanzaniano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇹🇿",
+        "code_a": "TZS",
+        "code_b": "BRL",
+        "sign_a": "TSh",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-xelim-tanzaniano-hoje",
+        "name": "Real para Xelim Tanzaniano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇹🇿",
+        "code_a": "BRL",
+        "code_b": "TZS",
+        "sign_a": "R$",
+        "sign_b": "TSh"
+    },
+    {
+        "slug": "lev-bulgaro-para-real-hoje",
+        "name": "Lev Búlgaro para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇧🇬",
+        "code_a": "BGN",
+        "code_b": "BRL",
+        "sign_a": "лв",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-lev-bulgaro-hoje",
+        "name": "Real para Lev Búlgaro: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇧🇬",
+        "code_a": "BRL",
+        "code_b": "BGN",
+        "sign_a": "R$",
+        "sign_b": "лв"
+    },
+    {
+        "slug": "leu-romeno-para-real-hoje",
+        "name": "Leu Romeno para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇷🇴",
+        "code_a": "RON",
+        "code_b": "BRL",
+        "sign_a": "lei",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-leu-romeno-hoje",
+        "name": "Real para Leu Romeno: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇷🇴",
+        "code_a": "BRL",
+        "code_b": "RON",
+        "sign_a": "R$",
+        "sign_b": "lei"
+    },
+    {
+        "slug": "lek-albanes-para-real-hoje",
+        "name": "Lek Albanês para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇦🇱",
+        "code_a": "ALL",
+        "code_b": "BRL",
+        "sign_a": "L",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-lek-albanes-hoje",
+        "name": "Real para Lek Albanês: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇦🇱",
+        "code_a": "BRL",
+        "code_b": "ALL",
+        "sign_a": "R$",
+        "sign_b": "L"
+    },
+    {
+        "slug": "tenge-cazaque-para-real-hoje",
+        "name": "Tenge do Cazaquistão para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇰🇿",
+        "code_a": "KZT",
+        "code_b": "BRL",
+        "sign_a": "₸",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-tenge-cazaque-hoje",
+        "name": "Real para Tenge do Cazaquistão: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇰🇿",
+        "code_a": "BRL",
+        "code_b": "KZT",
+        "sign_a": "R$",
+        "sign_b": "₸"
+    },
+    {
+        "slug": "dinar-servio-para-real-hoje",
+        "name": "Dinar Sérvio para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇷🇸",
+        "code_a": "RSD",
+        "code_b": "BRL",
+        "sign_a": "din",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dinar-servio-hoje",
+        "name": "Real para Dinar Sérvio: Cotação Hoje (Belgrado)",
+        "category": "Moedas",
+        "icon": "🇷🇸",
+        "code_a": "BRL",
+        "code_b": "RSD",
+        "sign_a": "R$",
+        "sign_b": "din"
+    },
+    {
+        "slug": "lari-georgiano-para-real-hoje",
+        "name": "Lari Georgiano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇬🇪",
+        "code_a": "GEL",
+        "code_b": "BRL",
+        "sign_a": "₾",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-lari-georgiano-hoje",
+        "name": "Real para Lari Georgiano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇬🇪",
+        "code_a": "BRL",
+        "code_b": "GEL",
+        "sign_a": "R$",
+        "sign_b": "₾"
+    },
+    {
+        "slug": "manat-azerbaijano-para-real-hoje",
+        "name": "Manat do Azerbaijão para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇦🇿",
+        "code_a": "AZN",
+        "code_b": "BRL",
+        "sign_a": "₼",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-manat-azerbaijano-hoje",
+        "name": "Real para Manat do Azerbaijão: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇦🇿",
+        "code_a": "BRL",
+        "code_b": "AZN",
+        "sign_a": "R$",
+        "sign_b": "₼"
+    },
+    {
+        "slug": "som-uzbeque-para-real-hoje",
+        "name": "Som Uzbeque para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇺🇿",
+        "code_a": "UZS",
+        "code_b": "BRL",
+        "sign_a": "so'm",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-som-uzbeque-hoje",
+        "name": "Real para Som Uzbeque: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇺🇿",
+        "code_a": "BRL",
+        "code_b": "UZS",
+        "sign_a": "R$",
+        "sign_b": "so'm"
+    },
+    {
+        "slug": "rial-omanense-para-real-hoje",
+        "name": "Rial de Omã para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇴🇲",
+        "code_a": "OMR",
+        "code_b": "BRL",
+        "sign_a": "ر.ع.",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-rial-omanense-hoje",
+        "name": "Real para Rial de Omã: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇴🇲",
+        "code_a": "BRL",
+        "code_b": "OMR",
+        "sign_a": "R$",
+        "sign_b": "ر.ع."
+    },
+    {
+        "slug": "dinar-jordaniano-para-real-hoje",
+        "name": "Dinar Jordaniano para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇯🇴",
+        "code_a": "JOD",
+        "code_b": "BRL",
+        "sign_a": "JD",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dinar-jordaniano-hoje",
+        "name": "Real para Dinar Jordaniano: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇯🇴",
+        "code_a": "BRL",
+        "code_b": "JOD",
+        "sign_a": "R$",
+        "sign_b": "JD"
+    },
+    {
+        "slug": "dinar-kuwaitiano-para-real-hoje",
+        "name": "Dinar do Kuwait para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇰🇼",
+        "code_a": "KWD",
+        "code_b": "BRL",
+        "sign_a": "KD",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dinar-kuwaitiano-hoje",
+        "name": "Real para Dinar do Kuwait: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇰🇼",
+        "code_a": "BRL",
+        "code_b": "KWD",
+        "sign_a": "R$",
+        "sign_b": "KD"
+    },
+    {
+        "slug": "dinar-bareinita-para-real-hoje",
+        "name": "Dinar do Bahrein para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇧🇭",
+        "code_a": "BHD",
+        "code_b": "BRL",
+        "sign_a": ".د.ب",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "real-para-dinar-bareinita-hoje",
+        "name": "Real para Dinar do Bahrein: Cotação Hoje",
+        "category": "Moedas",
+        "icon": "🇧🇭",
+        "code_a": "BRL",
+        "code_b": "BHD",
+        "sign_a": "R$",
+        "sign_b": "BD"
+    },
+    {
+        "slug": "metical-mocambicano-para-real-hoje",
+        "name": "Metical de Moçambique para Real Brasileiro",
+        "category": "Moedas",
+        "icon": "🇲🇿",
+        "code_a": "MZN",
+        "code_b": "BRL",
+        "sign_a": "MT",
+        "sign_b": "R$"
+    },
+    {
+        "slug": "dolar-para-euro-hoje",
+        "name": "Dólar Americano para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "USD",
+        "code_b": "EUR",
+        "sign_a": "$",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-dolar-hoje",
+        "name": "Euro para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "EUR",
+        "code_b": "USD",
+        "sign_a": "€",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-libra-hoje",
+        "name": "Dólar Americano para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "USD",
+        "code_b": "GBP",
+        "sign_a": "$",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-dolar-hoje",
+        "name": "Libra Esterlina para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "GBP",
+        "code_b": "USD",
+        "sign_a": "£",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-iene-hoje",
+        "name": "Dólar Americano para Iene Japonês",
+        "category": "Moedas",
+        "icon": "🇯🇵",
+        "code_a": "USD",
+        "code_b": "JPY",
+        "sign_a": "$",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "iene-para-dolar-hoje",
+        "name": "Iene Japonês para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "JPY",
+        "code_b": "USD",
+        "sign_a": "¥",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-franco-suico-hoje",
+        "name": "Dólar Americano para Franco Suíço",
+        "category": "Moedas",
+        "icon": "🇨🇭",
+        "code_a": "USD",
+        "code_b": "CHF",
+        "sign_a": "$",
+        "sign_b": "Fr."
+    },
+    {
+        "slug": "franco-suico-para-dolar-hoje",
+        "name": "Franco Suíço para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "CHF",
+        "code_b": "USD",
+        "sign_a": "Fr.",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dolar-canadense-hoje",
+        "name": "Dólar Americano para Dólar Canadense",
+        "category": "Moedas",
+        "icon": "🇨🇦",
+        "code_a": "USD",
+        "code_b": "CAD",
+        "sign_a": "$",
+        "sign_b": "C$"
+    },
+    {
+        "slug": "dolar-canadense-para-dolar-hoje",
+        "name": "Dólar Canadense para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "CAD",
+        "code_b": "USD",
+        "sign_a": "C$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dolar-australiano-hoje",
+        "name": "Dólar Americano para Dólar Australiano",
+        "category": "Moedas",
+        "icon": "🇦🇺",
+        "code_a": "USD",
+        "code_b": "AUD",
+        "sign_a": "$",
+        "sign_b": "A$"
+    },
+    {
+        "slug": "dolar-australiano-para-dolar-hoje",
+        "name": "Dólar Australiano para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "AUD",
+        "code_b": "USD",
+        "sign_a": "A$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-yuan-chines-hoje",
+        "name": "Dólar Americano para Yuan Chinês",
+        "category": "Moedas",
+        "icon": "🇨🇳",
+        "code_a": "USD",
+        "code_b": "CNY",
+        "sign_a": "$",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "yuan-chines-para-dolar-hoje",
+        "name": "Yuan Chinês para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "CNY",
+        "code_b": "USD",
+        "sign_a": "¥",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-peso-mexicano-hoje",
+        "name": "Dólar Americano para Peso Mexicano",
+        "category": "Moedas",
+        "icon": "🇲🇽",
+        "code_a": "USD",
+        "code_b": "MXN",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "peso-mexicano-para-dolar-hoje",
+        "name": "Peso Mexicano para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "MXN",
+        "code_b": "USD",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dirham-hoje",
+        "name": "Dólar Americano para Dirham (Dubai)",
+        "category": "Moedas",
+        "icon": "🇦🇪",
+        "code_a": "USD",
+        "code_b": "AED",
+        "sign_a": "$",
+        "sign_b": "د.إ"
+    },
+    {
+        "slug": "dirham-para-dolar-hoje",
+        "name": "Dirham dos Emirados Árabes para Dólar",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "AED",
+        "code_b": "USD",
+        "sign_a": "د.إ",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-rial-catarense-hoje",
+        "name": "Dólar Americano para Rial do Catar",
+        "category": "Moedas",
+        "icon": "🇶🇦",
+        "code_a": "USD",
+        "code_b": "QAR",
+        "sign_a": "$",
+        "sign_b": "﷼"
+    },
+    {
+        "slug": "rial-catarense-para-dolar-hoje",
+        "name": "Rial do Catar para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "QAR",
+        "code_b": "USD",
+        "sign_a": "﷼",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-shekel-hoje",
+        "name": "Dólar Americano para Shekel de Israel",
+        "category": "Moedas",
+        "icon": "🇮🇱",
+        "code_a": "USD",
+        "code_b": "ILS",
+        "sign_a": "$",
+        "sign_b": "₪"
+    },
+    {
+        "slug": "shekel-para-dolar-hoje",
+        "name": "Shekel de Israel para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "ILS",
+        "code_b": "USD",
+        "sign_a": "₪",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-riyal-saudita-hoje",
+        "name": "Dólar Americano para Riyal Saudita",
+        "category": "Moedas",
+        "icon": "🇸🇦",
+        "code_a": "USD",
+        "code_b": "SAR",
+        "sign_a": "$",
+        "sign_b": "﷼"
+    },
+    {
+        "slug": "riyal-saudita-para-dolar-hoje",
+        "name": "Riyal Saudita para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "SAR",
+        "code_b": "USD",
+        "sign_a": "﷼",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dinar-kuwaitiano-hoje",
+        "name": "Dólar Americano para Dinar do Kuwait",
+        "category": "Moedas",
+        "icon": "🇰🇼",
+        "code_a": "USD",
+        "code_b": "KWD",
+        "sign_a": "$",
+        "sign_b": "KD"
+    },
+    {
+        "slug": "dinar-kuwaitiano-para-dolar-hoje",
+        "name": "Dinar do Kuwait para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "KWD",
+        "code_b": "USD",
+        "sign_a": "KD",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dinar-jordaniano-hoje",
+        "name": "Dólar Americano para Dinar Jordaniano",
+        "category": "Moedas",
+        "icon": "🇯🇴",
+        "code_a": "USD",
+        "code_b": "JOD",
+        "sign_a": "$",
+        "sign_b": "JD"
+    },
+    {
+        "slug": "dinar-jordaniano-para-dolar-hoje",
+        "name": "Dinar Jordaniano para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "JOD",
+        "code_b": "USD",
+        "sign_a": "JD",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dinar-bareinita-hoje",
+        "name": "Dólar Americano para Dinar do Bahrein",
+        "category": "Moedas",
+        "icon": "🇧🇭",
+        "code_a": "USD",
+        "code_b": "BHD",
+        "sign_a": "$",
+        "sign_b": "BD"
+    },
+    {
+        "slug": "dinar-bareinita-para-dolar-hoje",
+        "name": "Dinar do Bahrein para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "BHD",
+        "code_b": "USD",
+        "sign_a": "BD",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-rupia-indiana-hoje",
+        "name": "Dólar Americano para Rúpia Indiana",
+        "category": "Moedas",
+        "icon": "🇮🇳",
+        "code_a": "USD",
+        "code_b": "INR",
+        "sign_a": "$",
+        "sign_b": "₹"
+    },
+    {
+        "slug": "rupia-indiana-para-dolar-hoje",
+        "name": "Rúpia Indiana para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "INR",
+        "code_b": "USD",
+        "sign_a": "₹",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-rand-sul-africano-hoje",
+        "name": "Dólar Americano para Rand Sul-Africano",
+        "category": "Moedas",
+        "icon": "🇿🇦",
+        "code_a": "USD",
+        "code_b": "ZAR",
+        "sign_a": "$",
+        "sign_b": "R"
+    },
+    {
+        "slug": "rand-sul-africano-para-dolar-hoje",
+        "name": "Rand Sul-Africano para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "ZAR",
+        "code_b": "USD",
+        "sign_a": "R",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-rublo-russo-hoje",
+        "name": "Dólar Americano para Rublo Russo",
+        "category": "Moedas",
+        "icon": "🇷🇺",
+        "code_a": "USD",
+        "code_b": "RUB",
+        "sign_a": "$",
+        "sign_b": "₽"
+    },
+    {
+        "slug": "rublo-russo-para-dolar-hoje",
+        "name": "Rublo Russo para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "RUB",
+        "code_b": "USD",
+        "sign_a": "₽",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-lira-turca-hoje",
+        "name": "Dólar Americano para Lira Turca",
+        "category": "Moedas",
+        "icon": "🇹🇷",
+        "code_a": "USD",
+        "code_b": "TRY",
+        "sign_a": "$",
+        "sign_b": "₺"
+    },
+    {
+        "slug": "lira-turca-para-dolar-hoje",
+        "name": "Lira Turca para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "TRY",
+        "code_b": "USD",
+        "sign_a": "₺",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-peso-chileno-hoje",
+        "name": "Dólar Americano para Peso Chileno",
+        "category": "Moedas",
+        "icon": "🇨🇱",
+        "code_a": "USD",
+        "code_b": "CLP",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "peso-chileno-para-dolar-hoje",
+        "name": "Peso Chileno para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "CLP",
+        "code_b": "USD",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-coroa-norueguesa-hoje",
+        "name": "Dólar Americano para Coroa Norueguesa",
+        "category": "Moedas",
+        "icon": "🇳🇴",
+        "code_a": "USD",
+        "code_b": "NOK",
+        "sign_a": "$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-norueguesa-para-dolar-hoje",
+        "name": "Coroa Norueguesa para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "NOK",
+        "code_b": "USD",
+        "sign_a": "kr",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-coroa-sueca-hoje",
+        "name": "Dólar Americano para Coroa Sueca",
+        "category": "Moedas",
+        "icon": "🇸🇪",
+        "code_a": "USD",
+        "code_b": "SEK",
+        "sign_a": "$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-sueca-para-dolar-hoje",
+        "name": "Coroa Sueca para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "SEK",
+        "code_b": "USD",
+        "sign_a": "kr",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-coroa-dinamarquesa-hoje",
+        "name": "Dólar Americano para Coroa Dinamarquesa",
+        "category": "Moedas",
+        "icon": "🇩🇰",
+        "code_a": "USD",
+        "code_b": "DKK",
+        "sign_a": "$",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-dinamarquesa-para-dolar-hoje",
+        "name": "Coroa Dinamarquesa para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "DKK",
+        "code_b": "USD",
+        "sign_a": "kr",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-zloty-polones-hoje",
+        "name": "Dólar Americano para Zloty Polonês",
+        "category": "Moedas",
+        "icon": "🇵🇱",
+        "code_a": "USD",
+        "code_b": "PLN",
+        "sign_a": "$",
+        "sign_b": "zł"
+    },
+    {
+        "slug": "zloty-polones-para-dolar-hoje",
+        "name": "Zloty Polonês para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "PLN",
+        "code_b": "USD",
+        "sign_a": "zł",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dolar-de-singapura-hoje",
+        "name": "Dólar Americano para Dólar de Singapura",
+        "category": "Moedas",
+        "icon": "🇸🇬",
+        "code_a": "USD",
+        "code_b": "SGD",
+        "sign_a": "$",
+        "sign_b": "S$"
+    },
+    {
+        "slug": "dolar-de-singapura-para-dolar-hoje",
+        "name": "Dólar de Singapura para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "SGD",
+        "code_b": "USD",
+        "sign_a": "S$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-won-sul-coreano-hoje",
+        "name": "Dólar Americano para Won Sul-Coreano",
+        "category": "Moedas",
+        "icon": "🇰🇷",
+        "code_a": "USD",
+        "code_b": "KRW",
+        "sign_a": "$",
+        "sign_b": "₩"
+    },
+    {
+        "slug": "won-sul-coreano-para-dolar-hoje",
+        "name": "Won Sul-Coreano para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "KRW",
+        "code_b": "USD",
+        "sign_a": "₩",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dolar-taiwanense-hoje",
+        "name": "Dólar Americano para Dólar de Taiwan",
+        "category": "Moedas",
+        "icon": "🇹🇼",
+        "code_a": "USD",
+        "code_b": "TWD",
+        "sign_a": "$",
+        "sign_b": "NT$"
+    },
+    {
+        "slug": "dolar-taiwanense-para-dolar-hoje",
+        "name": "Dólar de Taiwan para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "TWD",
+        "code_b": "USD",
+        "sign_a": "NT$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dolar-da-nova-zelandia-hoje",
+        "name": "Dólar Americano para Dólar da Nova Zelândia",
+        "category": "Moedas",
+        "icon": "🇳🇿",
+        "code_a": "USD",
+        "code_b": "NZD",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-da-nova-zelandia-para-dolar-hoje",
+        "name": "Dólar da Nova Zelândia para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "NZD",
+        "code_b": "USD",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-rupia-indonesia-hoje",
+        "name": "Dólar Americano para Rupia Indonésia",
+        "category": "Moedas",
+        "icon": "🇮🇩",
+        "code_a": "USD",
+        "code_b": "IDR",
+        "sign_a": "$",
+        "sign_b": "Rp"
+    },
+    {
+        "slug": "rupia-indonesia-para-dolar-hoje",
+        "name": "Rupia Indonésia para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "IDR",
+        "code_b": "USD",
+        "sign_a": "Rp",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-baht-tailandes-hoje",
+        "name": "Dólar Americano para Baht Tailandês",
+        "category": "Moedas",
+        "icon": "🇹🇭",
+        "code_a": "USD",
+        "code_b": "THB",
+        "sign_a": "$",
+        "sign_b": "฿"
+    },
+    {
+        "slug": "baht-tailandes-para-dolar-hoje",
+        "name": "Baht Tailandês para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "THB",
+        "code_b": "USD",
+        "sign_a": "฿",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-peso-filipino-hoje",
+        "name": "Dólar Americano para Peso Filipino",
+        "category": "Moedas",
+        "icon": "🇵🇭",
+        "code_a": "USD",
+        "code_b": "PHP",
+        "sign_a": "$",
+        "sign_b": "₱"
+    },
+    {
+        "slug": "peso-filipino-para-dolar-hoje",
+        "name": "Peso Filipino para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "PHP",
+        "code_b": "USD",
+        "sign_a": "₱",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-naira-nigeriana-hoje",
+        "name": "Dólar Americano para Naira Nigeriana",
+        "category": "Moedas",
+        "icon": "🇳🇬",
+        "code_a": "USD",
+        "code_b": "NGN",
+        "sign_a": "$",
+        "sign_b": "₦"
+    },
+    {
+        "slug": "naira-nigeriana-para-dolar-hoje",
+        "name": "Naira Nigeriana para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "NGN",
+        "code_b": "USD",
+        "sign_a": "₦",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-leu-romeno-hoje",
+        "name": "Dólar Americano para Leu Romeno",
+        "category": "Moedas",
+        "icon": "🇷🇴",
+        "code_a": "USD",
+        "code_b": "RON",
+        "sign_a": "$",
+        "sign_b": "lei"
+    },
+    {
+        "slug": "leu-romeno-para-dolar-hoje",
+        "name": "Leu Romeno para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "RON",
+        "code_b": "USD",
+        "sign_a": "lei",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-lev-bulgaro-hoje",
+        "name": "Dólar Americano para Lev Búlgaro",
+        "category": "Moedas",
+        "icon": "🇧🇬",
+        "code_a": "USD",
+        "code_b": "BGN",
+        "sign_a": "$",
+        "sign_b": "лв"
+    },
+    {
+        "slug": "lev-bulgaro-para-dolar-hoje",
+        "name": "Lev Búlgaro para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "BGN",
+        "code_b": "USD",
+        "sign_a": "лв",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-dinar-servio-hoje",
+        "name": "Dólar Americano para Dinar Sérvio",
+        "category": "Moedas",
+        "icon": "🇷🇸",
+        "code_a": "USD",
+        "code_b": "RSD",
+        "sign_a": "$",
+        "sign_b": "din"
+    },
+    {
+        "slug": "dinar-servio-para-dolar-hoje",
+        "name": "Dinar Sérvio para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "RSD",
+        "code_b": "USD",
+        "sign_a": "din",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-lek-albanes-hoje",
+        "name": "Dólar Americano para Lek Albanês",
+        "category": "Moedas",
+        "icon": "🇦🇱",
+        "code_a": "USD",
+        "code_b": "ALL",
+        "sign_a": "$",
+        "sign_b": "L"
+    },
+    {
+        "slug": "lek-albanes-para-dolar-hoje",
+        "name": "Lek Albanês para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "ALL",
+        "code_b": "USD",
+        "sign_a": "L",
+        "sign_b": "$"
+    },
+    {
+        "slug": "euro-para-libra-hoje",
+        "name": "Euro para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "EUR",
+        "code_b": "GBP",
+        "sign_a": "€",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-euro-hoje",
+        "name": "Libra Esterlina para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "GBP",
+        "code_b": "EUR",
+        "sign_a": "£",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-iene-hoje",
+        "name": "Euro para Iene Japonês",
+        "category": "Moedas",
+        "icon": "🇯🇵",
+        "code_a": "EUR",
+        "code_b": "JPY",
+        "sign_a": "€",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "iene-para-euro-hoje",
+        "name": "Iene Japonês para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "JPY",
+        "code_b": "EUR",
+        "sign_a": "¥",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-franco-suico-hoje",
+        "name": "Euro para Franco Suíço",
+        "category": "Moedas",
+        "icon": "🇨🇭",
+        "code_a": "EUR",
+        "code_b": "CHF",
+        "sign_a": "€",
+        "sign_b": "Fr."
+    },
+    {
+        "slug": "franco-suico-para-euro-hoje",
+        "name": "Franco Suíço para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "CHF",
+        "code_b": "EUR",
+        "sign_a": "Fr.",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-dolar-canadense-hoje",
+        "name": "Euro para Dólar Canadense",
+        "category": "Moedas",
+        "icon": "🇨🇦",
+        "code_a": "EUR",
+        "code_b": "CAD",
+        "sign_a": "€",
+        "sign_b": "C$"
+    },
+    {
+        "slug": "dolar-canadense-para-euro-hoje",
+        "name": "Dólar Canadense para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "CAD",
+        "code_b": "EUR",
+        "sign_a": "C$",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-dolar-australiano-hoje",
+        "name": "Euro para Dólar Australiano",
+        "category": "Moedas",
+        "icon": "🇦🇺",
+        "code_a": "EUR",
+        "code_b": "AUD",
+        "sign_a": "€",
+        "sign_b": "A$"
+    },
+    {
+        "slug": "dolar-australiano-para-euro-hoje",
+        "name": "Dólar Australiano para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "AUD",
+        "code_b": "EUR",
+        "sign_a": "A$",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-dolar-da-nova-zelandia-hoje",
+        "name": "Euro para Dólar da Nova Zelândia",
+        "category": "Moedas",
+        "icon": "🇳🇿",
+        "code_a": "EUR",
+        "code_b": "NZD",
+        "sign_a": "€",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-da-nova-zelandia-para-euro-hoje",
+        "name": "Dólar da Nova Zelândia para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "NZD",
+        "code_b": "EUR",
+        "sign_a": "$",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-yuan-chines-hoje",
+        "name": "Euro para Yuan Chinês",
+        "category": "Moedas",
+        "icon": "🇨🇳",
+        "code_a": "EUR",
+        "code_b": "CNY",
+        "sign_a": "€",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "yuan-chines-para-euro-hoje",
+        "name": "Yuan Chinês para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "CNY",
+        "code_b": "EUR",
+        "sign_a": "¥",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-won-sul-coreano-hoje",
+        "name": "Euro para Won Sul-Coreano",
+        "category": "Moedas",
+        "icon": "🇰🇷",
+        "code_a": "EUR",
+        "code_b": "KRW",
+        "sign_a": "€",
+        "sign_b": "₩"
+    },
+    {
+        "slug": "won-sul-coreano-para-euro-hoje",
+        "name": "Won Sul-Coreano para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "KRW",
+        "code_b": "EUR",
+        "sign_a": "₩",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-coroa-norueguesa-hoje",
+        "name": "Euro para Coroa Norueguesa",
+        "category": "Moedas",
+        "icon": "🇳🇴",
+        "code_a": "EUR",
+        "code_b": "NOK",
+        "sign_a": "€",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-norueguesa-para-euro-hoje",
+        "name": "Coroa Norueguesa para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "NOK",
+        "code_b": "EUR",
+        "sign_a": "kr",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-coroa-sueca-hoje",
+        "name": "Euro para Coroa Sueca",
+        "category": "Moedas",
+        "icon": "🇸🇪",
+        "code_a": "EUR",
+        "code_b": "SEK",
+        "sign_a": "€",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-sueca-para-euro-hoje",
+        "name": "Coroa Sueca para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "SEK",
+        "code_b": "EUR",
+        "sign_a": "kr",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-coroa-dinamarquesa-hoje",
+        "name": "Euro para Coroa Dinamarquesa",
+        "category": "Moedas",
+        "icon": "🇩🇰",
+        "code_a": "EUR",
+        "code_b": "DKK",
+        "sign_a": "€",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-dinamarquesa-para-euro-hoje",
+        "name": "Coroa Dinamarquesa para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "DKK",
+        "code_b": "EUR",
+        "sign_a": "kr",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-zloty-polones-hoje",
+        "name": "Euro para Zloty Polonês",
+        "category": "Moedas",
+        "icon": "🇵🇱",
+        "code_a": "EUR",
+        "code_b": "PLN",
+        "sign_a": "€",
+        "sign_b": "zł"
+    },
+    {
+        "slug": "zloty-polones-para-euro-hoje",
+        "name": "Zloty Polonês para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "PLN",
+        "code_b": "EUR",
+        "sign_a": "zł",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-lira-turca-hoje",
+        "name": "Euro para Lira Turca",
+        "category": "Moedas",
+        "icon": "🇹🇷",
+        "code_a": "EUR",
+        "code_b": "TRY",
+        "sign_a": "€",
+        "sign_b": "₺"
+    },
+    {
+        "slug": "lira-turca-para-euro-hoje",
+        "name": "Lira Turca para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "TRY",
+        "code_b": "EUR",
+        "sign_a": "₺",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-dirham-hoje",
+        "name": "Euro para Dirham (Dubai)",
+        "category": "Moedas",
+        "icon": "🇦🇪",
+        "code_a": "EUR",
+        "code_b": "AED",
+        "sign_a": "€",
+        "sign_b": "د.إ"
+    },
+    {
+        "slug": "dirham-para-euro-hoje",
+        "name": "Dirham dos Emirados Árabes para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "AED",
+        "code_b": "EUR",
+        "sign_a": "د.إ",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-peso-mexicano-hoje",
+        "name": "Euro para Peso Mexicano",
+        "category": "Moedas",
+        "icon": "🇲🇽",
+        "code_a": "EUR",
+        "code_b": "MXN",
+        "sign_a": "€",
+        "sign_b": "$"
+    },
+    {
+        "slug": "peso-mexicano-para-euro-hoje",
+        "name": "Peso Mexicano para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "MXN",
+        "code_b": "EUR",
+        "sign_a": "$",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-rand-sul-africano-hoje",
+        "name": "Euro para Rand Sul-Africano",
+        "category": "Moedas",
+        "icon": "🇿🇦",
+        "code_a": "EUR",
+        "code_b": "ZAR",
+        "sign_a": "€",
+        "sign_b": "R"
+    },
+    {
+        "slug": "rand-sul-africano-para-euro-hoje",
+        "name": "Rand Sul-Africano para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "ZAR",
+        "code_b": "EUR",
+        "sign_a": "R",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-rupia-indiana-hoje",
+        "name": "Euro para Rúpia Indiana",
+        "category": "Moedas",
+        "icon": "🇮🇳",
+        "code_a": "EUR",
+        "code_b": "INR",
+        "sign_a": "€",
+        "sign_b": "₹"
+    },
+    {
+        "slug": "rupia-indiana-para-euro-hoje",
+        "name": "Rúpia Indiana para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "INR",
+        "code_b": "EUR",
+        "sign_a": "₹",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-rublo-russo-hoje",
+        "name": "Euro para Rublo Russo",
+        "category": "Moedas",
+        "icon": "🇷🇺",
+        "code_a": "EUR",
+        "code_b": "RUB",
+        "sign_a": "€",
+        "sign_b": "₽"
+    },
+    {
+        "slug": "rublo-russo-para-euro-hoje",
+        "name": "Rublo Russo para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "RUB",
+        "code_b": "EUR",
+        "sign_a": "₽",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-leu-romeno-hoje",
+        "name": "Euro para Leu Romeno",
+        "category": "Moedas",
+        "icon": "🇷🇴",
+        "code_a": "EUR",
+        "code_b": "RON",
+        "sign_a": "€",
+        "sign_b": "lei"
+    },
+    {
+        "slug": "leu-romeno-para-euro-hoje",
+        "name": "Leu Romeno para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "RON",
+        "code_b": "EUR",
+        "sign_a": "lei",
+        "sign_b": "€"
+    },
+    {
+        "slug": "euro-para-lev-bulgaro-hoje",
+        "name": "Euro para Lev Búlgaro",
+        "category": "Moedas",
+        "icon": "🇧🇬",
+        "code_a": "EUR",
+        "code_b": "BGN",
+        "sign_a": "€",
+        "sign_b": "лв"
+    },
+    {
+        "slug": "lev-bulgaro-para-euro-hoje",
+        "name": "Lev Búlgaro para Euro",
+        "category": "Moedas",
+        "icon": "🇪🇺",
+        "code_a": "BGN",
+        "code_b": "EUR",
+        "sign_a": "лв",
+        "sign_b": "€"
+    },
+    {
+        "slug": "libra-para-iene-hoje",
+        "name": "Libra Esterlina para Iene Japonês",
+        "category": "Moedas",
+        "icon": "🇯🇵",
+        "code_a": "GBP",
+        "code_b": "JPY",
+        "sign_a": "£",
+        "sign_b": "¥"
+    },
+    {
+        "slug": "iene-para-libra-hoje",
+        "name": "Iene Japonês para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "JPY",
+        "code_b": "GBP",
+        "sign_a": "¥",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-franco-suico-hoje",
+        "name": "Libra Esterlina para Franco Suíço",
+        "category": "Moedas",
+        "icon": "🇨🇭",
+        "code_a": "GBP",
+        "code_b": "CHF",
+        "sign_a": "£",
+        "sign_b": "Fr."
+    },
+    {
+        "slug": "franco-suico-para-libra-hoje",
+        "name": "Franco Suíço para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "CHF",
+        "code_b": "GBP",
+        "sign_a": "Fr.",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-dolar-canadense-hoje",
+        "name": "Libra Esterlina para Dólar Canadense",
+        "category": "Moedas",
+        "icon": "🇨🇦",
+        "code_a": "GBP",
+        "code_b": "CAD",
+        "sign_a": "£",
+        "sign_b": "C$"
+    },
+    {
+        "slug": "dolar-canadense-para-libra-hoje",
+        "name": "Dólar Canadense para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "CAD",
+        "code_b": "GBP",
+        "sign_a": "C$",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-dolar-australiano-hoje",
+        "name": "Libra Esterlina para Dólar Australiano",
+        "category": "Moedas",
+        "icon": "🇦🇺",
+        "code_a": "GBP",
+        "code_b": "AUD",
+        "sign_a": "£",
+        "sign_b": "A$"
+    },
+    {
+        "slug": "dolar-australiano-para-libra-hoje",
+        "name": "Dólar Australiano para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "AUD",
+        "code_b": "GBP",
+        "sign_a": "A$",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-coroa-norueguesa-hoje",
+        "name": "Libra Esterlina para Coroa Norueguesa",
+        "category": "Moedas",
+        "icon": "🇳🇴",
+        "code_a": "GBP",
+        "code_b": "NOK",
+        "sign_a": "£",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-norueguesa-para-libra-hoje",
+        "name": "Coroa Norueguesa para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "NOK",
+        "code_b": "GBP",
+        "sign_a": "kr",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-coroa-sueca-hoje",
+        "name": "Libra Esterlina para Coroa Sueca",
+        "category": "Moedas",
+        "icon": "🇸🇪",
+        "code_a": "GBP",
+        "code_b": "SEK",
+        "sign_a": "£",
+        "sign_b": "kr"
+    },
+    {
+        "slug": "coroa-sueca-para-libra-hoje",
+        "name": "Coroa Sueca para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "SEK",
+        "code_b": "GBP",
+        "sign_a": "kr",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-dolar-da-nova-zelandia-hoje",
+        "name": "Libra Esterlina para Dólar da Nova Zelândia",
+        "category": "Moedas",
+        "icon": "🇳🇿",
+        "code_a": "GBP",
+        "code_b": "NZD",
+        "sign_a": "£",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-da-nova-zelandia-para-libra-hoje",
+        "name": "Dólar da Nova Zelândia para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "NZD",
+        "code_b": "GBP",
+        "sign_a": "$",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-rand-sul-africano-hoje",
+        "name": "Libra Esterlina para Rand Sul-Africano",
+        "category": "Moedas",
+        "icon": "🇿🇦",
+        "code_a": "GBP",
+        "code_b": "ZAR",
+        "sign_a": "£",
+        "sign_b": "R"
+    },
+    {
+        "slug": "rand-sul-africano-para-libra-hoje",
+        "name": "Rand Sul-Africano para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "ZAR",
+        "code_b": "GBP",
+        "sign_a": "R",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-dolar-de-singapura-hoje",
+        "name": "Libra Esterlina para Dólar de Singapura",
+        "category": "Moedas",
+        "icon": "🇸🇬",
+        "code_a": "GBP",
+        "code_b": "SGD",
+        "sign_a": "£",
+        "sign_b": "S$"
+    },
+    {
+        "slug": "dolar-de-singapura-para-libra-hoje",
+        "name": "Dólar de Singapura para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "SGD",
+        "code_b": "GBP",
+        "sign_a": "S$",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-dirham-hoje",
+        "name": "Libra Esterlina para Dirham (Dubai)",
+        "category": "Moedas",
+        "icon": "🇦🇪",
+        "code_a": "GBP",
+        "code_b": "AED",
+        "sign_a": "£",
+        "sign_b": "د.إ"
+    },
+    {
+        "slug": "dirham-para-libra-hoje",
+        "name": "Dirham dos Emirados Árabes para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "AED",
+        "code_b": "GBP",
+        "sign_a": "د.إ",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-lira-turca-hoje",
+        "name": "Libra Esterlina para Lira Turca",
+        "category": "Moedas",
+        "icon": "🇹🇷",
+        "code_a": "GBP",
+        "code_b": "TRY",
+        "sign_a": "£",
+        "sign_b": "₺"
+    },
+    {
+        "slug": "lira-turca-para-libra-hoje",
+        "name": "Lira Turca para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "TRY",
+        "code_b": "GBP",
+        "sign_a": "₺",
+        "sign_b": "£"
+    },
+    {
+        "slug": "libra-para-rupia-indiana-hoje",
+        "name": "Libra Esterlina para Rúpia Indiana",
+        "category": "Moedas",
+        "icon": "🇮🇳",
+        "code_a": "GBP",
+        "code_b": "INR",
+        "sign_a": "£",
+        "sign_b": "₹"
+    },
+    {
+        "slug": "rupia-indiana-para-libra-hoje",
+        "name": "Rúpia Indiana para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
+        "code_a": "INR",
+        "code_b": "GBP",
+        "sign_a": "₹",
+        "sign_b": "£"
+    },
+    {
+        "slug": "dolar-para-peso-argentino-hoje",
+        "name": "Dólar Americano para Peso Argentino",
+        "category": "Moedas",
+        "icon": "🇦🇷",
+        "code_a": "USD",
+        "code_b": "ARS",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "peso-argentino-para-dolar-hoje",
+        "name": "Peso Argentino para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "ARS",
+        "code_b": "USD",
+        "sign_a": "$",
+        "sign_b": "$"
+    },
+    {
+        "slug": "dolar-para-peso-uruguaio-hoje",
+        "name": "Dólar Americano para Peso Uruguaio",
+        "category": "Moedas",
+        "icon": "🇺🇾",
+        "code_a": "USD",
+        "code_b": "UYU",
+        "sign_a": "$",
+        "sign_b": "$U"
+    },
+    {
+        "slug": "peso-uruguaio-para-dolar-hoje",
+        "name": "Peso Uruguaio para Dólar Americano",
+        "category": "Moedas",
+        "icon": "🇺🇸",
+        "code_a": "UYU",
+        "code_b": "USD",
+        "sign_a": "$U",
+        "sign_b": "$"
+    }
+]

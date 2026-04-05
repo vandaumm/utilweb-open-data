@@ -1,0 +1,129 @@
+/* ==========================================================================
+   Moedas Tool Styles
+   Baseado no layout de Conversores, mas usando as variáveis globais do site
+   para garantir contraste perfeito em Light/Dark mode.
+   ========================================================================== */
+
+/* --- Container Principal (O Card) --- */
+.currency-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    flex-wrap: wrap;
+    
+    /* CORES: Usa as variáveis do Global CSS */
+    background-color: var(--c-surface); /* Branco no Light, Cinza Escuro no Dark */
+    border: 1px solid var(--c-border);
+    
+    /* Destaque visual: Borda grossa no topo com a cor primária (Verde do site) */
+    border-top: 4px solid var(--c-primary); 
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.currency-box:hover {
+    box-shadow: var(--shadow-md);
+}
+
+/* --- Grupo de Inputs --- */
+.currency-box .input-group {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+}
+
+.currency-box .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700; /* Mais negrito para leitura */
+    color: var(--c-text-secondary); /* Cinza padrão do tema */
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* --- Inputs (Os números) --- */
+.currency-box .input-group input {
+    width: 100%;
+    font-size: 2.2rem; /* Grande para destaque */
+    font-family: monospace; /* Fonte numérica */
+    font-weight: 700;
+    padding: 15px;
+    
+    /* Cores Globais */
+    background-color: var(--c-background); /* Cinza claro no Light, Preto suave no Dark */
+    color: var(--c-primary); /* O Verde do seu site (#128C7E ou #20c997) */
+    
+    border: 2px solid var(--c-border);
+    border-radius: var(--border-radius);
+    transition: all 0.2s ease;
+}
+
+/* Foco (Quando clica para digitar) */
+.currency-box .input-group input:focus {
+    border-color: var(--c-primary);
+    box-shadow: 0 0 0 4px var(--c-primary-alpha); /* Aquele brilho suave definido no global */
+    outline: none;
+}
+
+/* --- Botão de Troca (Swap) --- */
+.currency-box .swap-icon {
+    font-size: 1.8rem;
+    color: var(--c-primary); /* Verde do site */
+    
+    /* Círculo para parecer botão */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--c-background);
+    border: 1px solid var(--c-border);
+    
+    cursor: pointer;
+    margin-top: 28px; /* Alinha com os inputs */
+    transition: all 0.3s ease;
+}
+
+.currency-box .swap-icon:hover {
+    background-color: var(--c-primary);
+    color: var(--c-surface); /* Ícone fica branco/escuro dependendo do tema */
+    transform: rotate(180deg);
+    border-color: var(--c-primary);
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+    .currency-box {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .currency-box .input-group {
+        width: 100%; /* Ocupa largura total no celular */
+    }
+    
+    .currency-box .input-group input { 
+        font-size: 1.8rem; /* Fonte um pouco menor para não quebrar */
+    }
+    
+    .currency-box .swap-icon { 
+        margin-top: 0; 
+        transform: rotate(90deg); /* Seta para baixo no mobile */
+    }
+    
+    .currency-box .swap-icon:hover {
+        transform: rotate(270deg);
+    }
+}
+/* --- [PADRÃO] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }

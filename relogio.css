@@ -1,0 +1,286 @@
+/* =============================================
+   CSS Específico - Relógio de Cidade (Padrão V5)
+   ============================================= */
+
+:root {
+    --timer-color: var(--c-text-primary);
+}
+body.fullscreen-active {
+    overflow: hidden;
+}
+.tool-container { 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* --- [PADRÃO] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }
+
+.category-header { text-align: center; margin-bottom: var(--spacing-xl); }
+.category-header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); }
+.category-header p { font-size: 1.1rem; max-width: 60ch; margin: 0 auto; color: var(--c-text-secondary); }
+
+/* --- [PADRÃO] Sub-Navegação --- */
+.tool-subnav { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); justify-content: center; padding: var(--spacing-md); background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius-lg); margin-top: var(--spacing-xl); }
+.tool-subnav a { font-weight: 600; color: var(--c-text-secondary); text-decoration: none; padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); transition: all var(--transition-fast); }
+.tool-subnav a:hover { background-color: var(--c-background); color: var(--c-text-primary); }
+.tool-subnav a.is-active { background-color: var(--c-primary-alpha); color: var(--c-primary); }
+
+/* --- [PADRÃO] Card Principal --- */
+.card.tool-card {
+    padding: var(--spacing-lg);
+}
+
+/* --- [PADRÃO V5] Display do Relógio (Nível Médio) --- */
+.timer-display-v5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: var(--spacing-sm);
+    margin: 0;
+}
+.current-time { 
+    font-size: 4.5rem;
+    font-weight: 600; 
+    font-family: 'monospace', monospace; 
+    color: var(--timer-color);
+    text-align: center; 
+    transition: color 0.3s ease, font-size 0.2s ease; 
+    line-height: 1.1;
+    padding-bottom: calc(1.2rem + 5px); 
+}
+html.clock-zoom-max .current-time {
+    font-size: 6rem;
+    padding-bottom: calc(1.5rem + 5px);
+}
+.current-date {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--c-text-secondary);
+    text-align: center;
+    margin-top: calc(-1 * var(--spacing-md)); 
+    margin-bottom: var(--spacing-lg);
+    transition: font-size 0.2s ease;
+}
+html.clock-zoom-max .current-date {
+    font-size: 1.5rem;
+}
+
+/* --- [PADRÃO V5] Controles de Ferramenta (Unificado) --- */
+.tool-controls { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--spacing-lg); margin-top: var(--spacing-xl); margin-bottom: var(--spacing-xl); font-size: 0.9rem; color: var(--c-text-secondary); }
+.tool-control-group { display: flex; align-items: center; gap: var(--spacing-sm); }
+.tool-color-picker { border: none; background: none; width: 32px; height: 32px; padding: 0; border-radius: 50%; cursor: pointer; overflow: hidden; border: 2px solid var(--c-border); }
+.tool-color-picker::-webkit-color-swatch { border: none; border-radius: 50%; padding: 0; }
+.tool-color-picker::-moz-color-swatch { border: none; border-radius: 50%; padding: 0; }
+
+/* Botão Padrão (Zoom, FS) */
+.tool-btn-icon { background-color: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--border-radius); width: 40px; height: 40px; cursor: pointer; color: var(--c-text-secondary); display: inline-flex; align-items: center; justify-content: center; padding: 0; transition: all var(--transition-fast); }
+.tool-btn-icon svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2px; fill: none; }
+.tool-btn-icon:active {
+    transform: scale(0.95);
+    background-color: var(--c-background);
+}
+@media (hover: hover) {
+    .tool-btn-icon:hover { 
+        color: var(--c-primary); 
+        border-color: var(--c-primary); 
+        background-color: var(--c-background); 
+    }
+}
+.tool-ad-container { margin-top: var(--spacing-xl); text-align: center; }
+
+
+/* --- [ESPECÍFICO] Card de Informações da Cidade --- */
+.tool-content-card {
+    padding: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+.tool-content-card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg);
+}
+.tool-content-card .city-info-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: var(--spacing-lg);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+.tool-content-card .city-info-list li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--c-border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+.tool-content-card .city-info-list li:first-child {
+    padding-top: 0;
+    border-top: 1px solid var(--c-border);
+    padding-top: var(--spacing-sm);
+}
+.tool-content-card .city-info-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.tool-content-card .city-info-list strong {
+    display: inline-block;
+    min-width: 180px;
+    color: var(--c-text-secondary);
+    font-weight: 600;
+}
+.tool-content-card .city-info-list li.info-item--highlight strong {
+    color: var(--c-primary);
+}
+.tool-content-card .city-info-list li.info-item--highlight span {
+    color: var(--c-primary);
+    font-weight: 600;
+}
+
+
+/* --- [PADRÃO V5] Container de Tela Cheia --- */
+body.fullscreen-active { overflow: hidden; }
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c-background);
+    z-index: 2147483647;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.fullscreen-container.is-active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.fullscreen-display-time {
+    font-family: 'monospace', monospace;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--timer-color); 
+    font-size: 12vw;
+    transition: color 0.3s ease, font-size 0.2s ease;
+    text-align: center;
+}
+.fullscreen-display-date {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 500;
+    color: var(--c-text-secondary);
+    transition: font-size 0.2s ease;
+    text-align: center;
+}
+html.clock-zoom-max .fullscreen-display-time {
+    font-size: 16vw;
+}
+html.clock-zoom-max .fullscreen-display-date {
+    font-size: 3.5vw;
+}
+
+#fullscreen-close-btn {
+    position: absolute;
+    top: var(--spacing-lg);
+    right: var(--spacing-lg);
+    background: none;
+    border: none;
+    color: var(--c-text-secondary);
+    font-size: 2.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.5rem;
+    transition: color var(--transition-fast);
+}
+#fullscreen-close-btn:hover {
+    color: var(--c-text-primary);
+}
+
+.fullscreen-controls { position: absolute; bottom: var(--spacing-xl); left: 50%; transform: translateX(-50%); margin-top: 0; background-color: rgba(0, 0, 0, 0.05); padding: var(--spacing-sm) var(--spacing-lg); border-radius: var(--border-radius-lg); }
+[data-theme="dark"] .fullscreen-controls { background-color: rgba(255, 255, 255, 0.05); }
+#zoom-control-group-fs { display: flex; align-items: center; gap: var(--spacing-sm); }
+
+
+/* --- [PADRÃO V5] Estilos de Conteúdo (SEO/FAQ) --- */
+.tool-content-wrapper {
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--spacing-xl);
+    padding: 0 var(--spacing-sm);
+}
+.tool-content-wrapper h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-md);
+}
+.tool-content-wrapper p,
+.tool-content-wrapper ol {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+}
+/* ... (outros estilos de h3, h4, etc. se necessário) ... */
+
+/* [PADRÃO V5] "Outras Ferramentas" / Relacionados */
+.other-tools-section {
+    padding-top: var(--spacing-xl);
+}
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-lg);
+}
+.grid.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+.tools-grid .card--tool h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1.15rem; /* Ajuste fino */
+}
+
+
+/* --- [PADRÃO V5] Media Queries (Mobile) --- */
+@media (max-width: 767px) {
+    .card.tool-card, .tool-content-card {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+    
+    #zoom-control-group { display: none; }
+    #zoom-control-group-fs { display: none; }
+
+    .current-time { 
+        font-size: 3rem; 
+        padding-bottom: calc(0.8rem + 2px);
+    }
+    .current-date {
+        font-size: 1rem;
+    }
+    
+    .fullscreen-display-time { font-size: 16vw; }
+    .fullscreen-display-date { font-size: 4.5vw; }
+    .fullscreen-controls { bottom: var(--spacing-lg); }
+    
+    /* Info Card */
+    .tool-content-card .city-info-list strong {
+        min-width: 100px;
+    }
+}

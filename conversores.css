@@ -1,0 +1,75 @@
+/* --- Estilo Base (Espelhado do Relógio) --- */
+.tool-container { font-family: system-ui, -apple-system, sans-serif; }
+
+.converter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg) 0;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--c-text-secondary);
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    font-size: 2.5rem;
+    font-family: 'monospace', monospace;
+    font-weight: 700;
+    padding: 15px;
+    border: 2px solid var(--c-border);
+    border-radius: var(--border-radius);
+    background: var(--c-background);
+    color: var(--c-text-primary);
+    transition: all var(--transition-fast);
+}
+
+.input-group input:focus {
+    border-color: var(--c-primary);
+    box-shadow: 0 0 0 4px var(--c-primary-alpha);
+    outline: none;
+}
+
+.swap-icon {
+    font-size: 2.5rem;
+    color: var(--c-primary);
+    cursor: pointer;
+    margin-top: 25px; /* Alinha com o input */
+    transition: transform var(--transition-base);
+}
+.swap-icon:hover { transform: rotate(180deg); }
+
+/* --- Lista de Info (Estilo Cidades) --- */
+.city-info-list { list-style: none; padding: 0; }
+.city-info-list li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--c-border);
+    display: flex;
+    justify-content: space-between;
+}
+.city-info-list li:last-child { border-bottom: none; }
+.city-info-list strong { color: var(--c-text-secondary); }
+.info-item--highlight span { color: var(--c-primary); font-weight: 700; }
+
+@media (max-width: 768px) {
+    .input-group input { font-size: 1.8rem; }
+    .swap-icon { margin-top: 0; transform: rotate(90deg); }
+}
+/* --- [PADRÃO] Breadcrumbs e Cabeçalho --- */
+.breadcrumbs { margin-bottom: var(--spacing-md); font-size: 0.9rem; color: var(--c-text-secondary); }
+.breadcrumbs a { color: var(--c-text-secondary); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--c-primary); }
+.breadcrumbs span { margin: 0 0.25rem; }

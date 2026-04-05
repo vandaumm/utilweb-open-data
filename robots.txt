@@ -1,0 +1,14 @@
+User-agent: *
+
+# Bloqueio de áreas de baixo valor e busca interna
+Disallow: /category/
+Disallow: /author/
+Disallow: /?s=
+Disallow: */feed/
+
+# Bloqueio APENAS de pastas de lógica estrutural (Segurança)
+Disallow: /templates/
+Disallow: /includes/
+
+# Link para o seu sitemap
+Sitemap: https://utilweb.com.br/sitemap.xml

@@ -58,3 +58,57 @@ HTML snippet for attribution / Snippet HTML para atribuição:
 
 By using this repository, you agree to include the attribution link above in your project's interface or documentation.
 Ao utilizar este repositório, você concorda em incluir o link de atribuição acima na interface ou documentação do seu projeto.
+
+=== MAPA DE ARQUIVOS UTILWEB (V16.2) ===
+Data: 05/04/2026 13:52
+Ordem: Arquivos da raiz primeiro.
+utilweb/
+├── .htaccess
+├── ads.txt
+├── index.php
+├── manifest.json
+├── robots.txt
+├── sitemap.php
+├── sw.js
+├── assets/
+│   ├── conversores-db.json ⭐
+│   ├── estilo.css
+│   ├── guias-db.json
+│   ├── horario-db.json ⭐
+│   ├── moedas-db.json ⭐
+│   ├── rates-cache.json
+│   ├── script.js
+│   ├── search-index.json
+│   ├── css/
+│   │   ├── blog.css
+│   │   ├── categoria.css
+│   │   ├── style.css
+│   │   └── tools/ ⭐
+│   │       ├── calculadora-rescisao.css
+│   │       ├── calculadora-salario-liquido.css
+│   │       ├── conversores.css
+│   │       └── moedas.css
+│   └── js/
+│       ├── dark-mode.js
+│       ├── main.js
+│       ├── search.js
+│       └── tools/ ⭐
+│           ├── calculadora-rescisao.js
+│           ├── calculadora-salario-liquido.js
+│           ├── conversores.js
+│           └── moedas.js
+├── conversores/
+│   └── unidade/
+├── financeiras/
+│   ├── calculadora-13-salario/
+│   ├── calculadora-ferias/
+│   └── calculadora-rescisao/
+├── includes/
+│   ├── footer_utilweb.php
+│   └── header_utilweb.php
+├── saude/
+│   ├── calculadora-de-sono/
+│   └── calculadora-imc/
+└── tempo/
+    ├── cronometro/
+    └── relogio-online/

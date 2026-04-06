@@ -1,8 +1,8 @@
 [
     {
-        "slug": "dollar-to-real-today",
-        "name": "US Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-para-real-hoje",
+        "name": "Dólar Americano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "💵",
         "code_a": "USD",
         "code_b": "BRL",
@@ -10,9 +10,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "bitcoin-to-real-today",
-        "name": "Bitcoin to Brazilian Real",
-        "category": "Currencies",
+        "slug": "bitcoin-para-real-hoje",
+        "name": "Bitcoin para Real Brasileiro",
+        "category": "Moedas",
         "icon": "₿",
         "code_a": "BTC",
         "code_b": "BRL",
@@ -20,9 +20,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "euro-to-real-today",
-        "name": "Euro to Brazilian Real",
-        "category": "Currencies",
+        "slug": "euro-para-real-hoje",
+        "name": "Euro para Real Brasileiro",
+        "category": "Moedas",
         "icon": "💶",
         "code_a": "EUR",
         "code_b": "BRL",
@@ -30,9 +30,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "pound-to-real-today",
-        "name": "British Pound to Brazilian Real",
-        "category": "Currencies",
+        "slug": "libra-para-real-hoje",
+        "name": "Libra Esterlina para Real Brasileiro",
+        "category": "Moedas",
         "icon": "💷",
         "code_a": "GBP",
         "code_b": "BRL",
@@ -40,9 +40,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "ethereum-to-real-today",
-        "name": "Ethereum to Brazilian Real",
-        "category": "Currencies",
+        "slug": "ethereum-para-real-hoje",
+        "name": "Ethereum para Real Brasileiro",
+        "category": "Moedas",
         "icon": "💎",
         "code_a": "ETH",
         "code_b": "BRL",
@@ -50,9 +50,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "litecoin-to-real-today",
-        "name": "Litecoin to Brazilian Real",
-        "category": "Currencies",
+        "slug": "litecoin-para-real-hoje",
+        "name": "Litecoin para Real Brasileiro",
+        "category": "Moedas",
         "icon": "Ł",
         "code_a": "LTC",
         "code_b": "BRL",
@@ -60,9 +60,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-dollar-today",
-        "name": "Brazilian Real to US Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-hoje",
+        "name": "Dólar Hoje: Valor e Cotação (Real para Dólar)",
+        "category": "Moedas",
         "icon": "💵",
         "code_a": "BRL",
         "code_b": "USD",
@@ -70,9 +70,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "real-to-euro-today",
-        "name": "Brazilian Real to Euro",
-        "category": "Currencies",
+        "slug": "real-para-euro-hoje",
+        "name": "Euro Hoje: Valor e Cotação (Real para Euro)",
+        "category": "Moedas",
         "icon": "💶",
         "code_a": "BRL",
         "code_b": "EUR",
@@ -80,9 +80,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "real-to-bitcoin-today",
-        "name": "Brazilian Real to Bitcoin",
-        "category": "Currencies",
+        "slug": "real-para-bitcoin-hoje",
+        "name": "Bitcoin Hoje: Valor e Cotação (Real para BTC)",
+        "category": "Moedas",
         "icon": "₿",
         "code_a": "BRL",
         "code_b": "BTC",
@@ -90,9 +90,9 @@
         "sign_b": "₿"
     },
     {
-        "slug": "real-to-pound-today",
-        "name": "Brazilian Real to British Pound",
-        "category": "Currencies",
+        "slug": "real-para-libra-hoje",
+        "name": "Libra Hoje: Valor e Cotação (Real para Libra)",
+        "category": "Moedas",
         "icon": "💷",
         "code_a": "BRL",
         "code_b": "GBP",
@@ -100,9 +100,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "argentine-peso-to-real-today",
-        "name": "Argentine Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-argentino-para-real-hoje",
+        "name": "Peso Argentino Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
         "icon": "🇦🇷",
         "code_a": "ARS",
         "code_b": "BRL",
@@ -110,9 +110,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-argentine-peso-today",
-        "name": "Brazilian Real to Argentine Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-argentino-hoje",
+        "name": "Real para Peso Argentino: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇦🇷",
         "code_a": "BRL",
         "code_b": "ARS",
@@ -120,9 +120,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "real-to-ethereum-today",
-        "name": "Brazilian Real to Ethereum",
-        "category": "Currencies",
+        "slug": "real-para-ethereum-hoje",
+        "name": "Ethereum Hoje: Valor e Cotação (Real para ETH)",
+        "category": "Moedas",
         "icon": "💎",
         "code_a": "BRL",
         "code_b": "ETH",
@@ -130,9 +130,9 @@
         "sign_b": "Ξ"
     },
     {
-        "slug": "canadian-dollar-to-real-today",
-        "name": "Canadian Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-canadense-para-real-hoje",
+        "name": "Dólar Canadense Hoje: Valor (CAD para Real)",
+        "category": "Moedas",
         "icon": "🇨🇦",
         "code_a": "CAD",
         "code_b": "BRL",
@@ -140,9 +140,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-canadian-dollar-today",
-        "name": "Brazilian Real to Canadian Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-canadense-hoje",
+        "name": "Real para Dólar Canadense: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇦",
         "code_a": "BRL",
         "code_b": "CAD",
@@ -150,9 +150,9 @@
         "sign_b": "C$"
     },
     {
-        "slug": "australian-dollar-to-real-today",
-        "name": "Australian Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-australiano-para-real-hoje",
+        "name": "Dólar Australiano Hoje: Valor (AUD para Real)",
+        "category": "Moedas",
         "icon": "🇦🇺",
         "code_a": "AUD",
         "code_b": "BRL",
@@ -160,9 +160,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-australian-dollar-today",
-        "name": "Brazilian Real to Australian Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-australiano-hoje",
+        "name": "Real para Dólar Australiano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇦🇺",
         "code_a": "BRL",
         "code_b": "AUD",
@@ -170,9 +170,9 @@
         "sign_b": "A$"
     },
     {
-        "slug": "japanese-yen-to-real-today",
-        "name": "Japanese Yen to Brazilian Real",
-        "category": "Currencies",
+        "slug": "iene-para-real-hoje",
+        "name": "Iene Japonês para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇯🇵",
         "code_a": "JPY",
         "code_b": "BRL",
@@ -180,9 +180,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-litecoin-today",
-        "name": "Brazilian Real to Litecoin",
-        "category": "Currencies",
+        "slug": "real-para-litecoin-hoje",
+        "name": "Litecoin Hoje: Valor e Cotação (Real para LTC)",
+        "category": "Moedas",
         "icon": "Ł",
         "code_a": "BRL",
         "code_b": "LTC",
@@ -190,9 +190,9 @@
         "sign_b": "Ł"
     },
     {
-        "slug": "real-to-japanese-yen-today",
-        "name": "Brazilian Real to Japanese Yen",
-        "category": "Currencies",
+        "slug": "real-para-iene-hoje",
+        "name": "Real para Iene: Cotação Hoje (Viagem e Remessa)",
+        "category": "Moedas",
         "icon": "🇯🇵",
         "code_a": "BRL",
         "code_b": "JPY",
@@ -200,9 +200,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "swiss-franc-to-real-today",
-        "name": "Swiss Franc to Brazilian Real",
-        "category": "Currencies",
+        "slug": "franco-suico-para-real-hoje",
+        "name": "Franco Suíço Hoje: Valor (CHF para Real)",
+        "category": "Moedas",
         "icon": "🇨🇭",
         "code_a": "CHF",
         "code_b": "BRL",
@@ -210,9 +210,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-swiss-franc-today",
-        "name": "Brazilian Real to Swiss Franc",
-        "category": "Currencies",
+        "slug": "real-para-franco-suico-hoje",
+        "name": "Real para Franco Suíço: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇭",
         "code_a": "BRL",
         "code_b": "CHF",
@@ -220,9 +220,9 @@
         "sign_b": "Fr"
     },
     {
-        "slug": "chilean-peso-to-real-today",
-        "name": "Chilean Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-chileno-para-real-hoje",
+        "name": "Peso Chileno Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
         "icon": "🇨🇱",
         "code_a": "CLP",
         "code_b": "BRL",
@@ -230,9 +230,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-chilean-peso-today",
-        "name": "Brazilian Real to Chilean Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-chileno-hoje",
+        "name": "Real para Peso Chileno: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇱",
         "code_a": "BRL",
         "code_b": "CLP",
@@ -240,9 +240,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "uruguayan-peso-to-real-today",
-        "name": "Uruguayan Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-uruguaio-para-real-hoje",
+        "name": "Peso Uruguaio Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
         "icon": "🇺🇾",
         "code_a": "UYU",
         "code_b": "BRL",
@@ -250,9 +250,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-uruguayan-peso-today",
-        "name": "Brazilian Real to Uruguayan Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-uruguaio-hoje",
+        "name": "Real para Peso Uruguaio: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇺🇾",
         "code_a": "BRL",
         "code_b": "UYU",
@@ -260,9 +260,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "paraguayan-guarani-to-real-today",
-        "name": "Paraguayan Guarani to Brazilian Real",
-        "category": "Currencies",
+        "slug": "guarani-paraguaio-para-real-hoje",
+        "name": "Guarani Paraguaio Hoje: Valor (PYG para Real)",
+        "category": "Moedas",
         "icon": "🇵🇾",
         "code_a": "PYG",
         "code_b": "BRL",
@@ -270,9 +270,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-paraguayan-guarani-today",
-        "name": "Brazilian Real to Paraguayan Guarani",
-        "category": "Currencies",
+        "slug": "real-para-guarani-paraguaio-hoje",
+        "name": "Real para Guarani: Cotação Hoje (Compras Paraguai)",
+        "category": "Moedas",
         "icon": "🇵🇾",
         "code_a": "BRL",
         "code_b": "PYG",
@@ -280,9 +280,9 @@
         "sign_b": "₲"
     },
     {
-        "slug": "chinese-yuan-to-real-today",
-        "name": "Chinese Yuan to Brazilian Real",
-        "category": "Currencies",
+        "slug": "yuan-chines-para-real-hoje",
+        "name": "Yuan Chinês Hoje: Valor (Yuan para Real)",
+        "category": "Moedas",
         "icon": "🇨🇳",
         "code_a": "CNY",
         "code_b": "BRL",
@@ -290,9 +290,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-chinese-yuan-today",
-        "name": "Brazilian Real to Chinese Yuan",
-        "category": "Currencies",
+        "slug": "real-para-yuan-chines-hoje",
+        "name": "Real para Yuan Chinês: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇳",
         "code_a": "BRL",
         "code_b": "CNY",
@@ -300,9 +300,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "mexican-peso-to-real-today",
-        "name": "Mexican Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-mexicano-para-real-hoje",
+        "name": "Peso Mexicano Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
         "icon": "🇲🇽",
         "code_a": "MXN",
         "code_b": "BRL",
@@ -310,9 +310,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-mexican-peso-today",
-        "name": "Brazilian Real to Mexican Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-mexicano-hoje",
+        "name": "Real para Peso Mexicano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇲🇽",
         "code_a": "BRL",
         "code_b": "MXN",
@@ -320,9 +320,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "south-african-rand-to-real-today",
-        "name": "South African Rand to Brazilian Real",
-        "category": "Currencies",
+        "slug": "rand-sul-africano-para-real-hoje",
+        "name": "Rand Sul-Africano Hoje: Valor (Rand para Real)",
+        "category": "Moedas",
         "icon": "🇿🇦",
         "code_a": "ZAR",
         "code_b": "BRL",
@@ -330,9 +330,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-south-african-rand-today",
-        "name": "Brazilian Real to South African Rand",
-        "category": "Currencies",
+        "slug": "real-para-rand-sul-africano-hoje",
+        "name": "Real para Rand Sul-Africano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇿🇦",
         "code_a": "BRL",
         "code_b": "ZAR",
@@ -340,9 +340,9 @@
         "sign_b": "R"
     },
     {
-        "slug": "colombian-peso-to-real-today",
-        "name": "Colombian Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-colombiano-para-real-hoje",
+        "name": "Peso Colombiano Hoje: Valor (Peso para Real)",
+        "category": "Moedas",
         "icon": "🇨🇴",
         "code_a": "COP",
         "code_b": "BRL",
@@ -350,9 +350,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-colombian-peso-today",
-        "name": "Brazilian Real to Colombian Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-colombiano-hoje",
+        "name": "Real para Peso Colombiano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇴",
         "code_a": "BRL",
         "code_b": "COP",
@@ -360,9 +360,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "peruvian-sol-to-real-today",
-        "name": "Peruvian Sol to Brazilian Real",
-        "category": "Currencies",
+        "slug": "sol-peruano-para-real-hoje",
+        "name": "Sol Peruano Hoje: Valor (Sol para Real)",
+        "category": "Moedas",
         "icon": "🇵🇪",
         "code_a": "PEN",
         "code_b": "BRL",
@@ -370,9 +370,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-peruvian-sol-today",
-        "name": "Brazilian Real to Peruvian Sol",
-        "category": "Currencies",
+        "slug": "real-para-sol-peruano-hoje",
+        "name": "Real para Sol Peruano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇵🇪",
         "code_a": "BRL",
         "code_b": "PEN",
@@ -380,9 +380,9 @@
         "sign_b": "S/"
     },
     {
-        "slug": "real-to-turkish-lira-today",
-        "name": "Brazilian Real to Turkish Lira",
-        "category": "Currencies",
+        "slug": "real-para-lira-turca-hoje",
+        "name": "Real para Lira Turca: Cotação Hoje (Viagem Turquia)",
+        "category": "Moedas",
         "icon": "🇹🇷",
         "code_a": "BRL",
         "code_b": "TRY",
@@ -390,9 +390,9 @@
         "sign_b": "₺"
     },
     {
-        "slug": "turkish-lira-to-real-today",
-        "name": "Turkish Lira to Brazilian Real",
-        "category": "Currencies",
+        "slug": "lira-turca-para-real-hoje",
+        "name": "Lira Turca para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇹🇷",
         "code_a": "TRY",
         "code_b": "BRL",
@@ -400,9 +400,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "nz-dollar-to-real-today",
-        "name": "New Zealand Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-neozelandes-para-real-hoje",
+        "name": "Dólar Neozelandês para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇳🇿",
         "code_a": "NZD",
         "code_b": "BRL",
@@ -410,9 +410,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-nz-dollar-today",
-        "name": "Brazilian Real to New Zealand Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-neozelandes-hoje",
+        "name": "Real para Dólar Neozelandês: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇳🇿",
         "code_a": "BRL",
         "code_b": "NZD",
@@ -420,9 +420,9 @@
         "sign_b": "NZ$"
     },
     {
-        "slug": "norwegian-krone-to-real-today",
-        "name": "Norwegian Krone to Brazilian Real",
-        "category": "Currencies",
+        "slug": "coroa-norueguesa-para-real-hoje",
+        "name": "Coroa Norueguesa para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇳🇴",
         "code_a": "NOK",
         "code_b": "BRL",
@@ -430,9 +430,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-norwegian-krone-today",
-        "name": "Brazilian Real to Norwegian Krone",
-        "category": "Currencies",
+        "slug": "real-para-coroa-norueguesa-hoje",
+        "name": "Real para Coroa Norueguesa: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇳🇴",
         "code_a": "BRL",
         "code_b": "NOK",
@@ -440,9 +440,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "swedish-krona-to-real-today",
-        "name": "Swedish Krona to Brazilian Real",
-        "category": "Currencies",
+        "slug": "coroa-sueca-para-real-hoje",
+        "name": "Coroa Sueca para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇸🇪",
         "code_a": "SEK",
         "code_b": "BRL",
@@ -450,9 +450,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-swedish-krona-today",
-        "name": "Brazilian Real to Swedish Krona",
-        "category": "Currencies",
+        "slug": "real-para-coroa-sueca-hoje",
+        "name": "Real para Coroa Sueca: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇸🇪",
         "code_a": "BRL",
         "code_b": "SEK",
@@ -460,9 +460,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "indian-rupee-to-real-today",
-        "name": "Indian Rupee to Brazilian Real",
-        "category": "Currencies",
+        "slug": "rupia-indiana-para-real-hoje",
+        "name": "Rúpia Indiana para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇮🇳",
         "code_a": "INR",
         "code_b": "BRL",
@@ -470,9 +470,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-indian-rupee-today",
-        "name": "Brazilian Real to Indian Rupee",
-        "category": "Currencies",
+        "slug": "real-para-rupia-indiana-hoje",
+        "name": "Real para Rúpia Indiana: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇮🇳",
         "code_a": "BRL",
         "code_b": "INR",
@@ -480,9 +480,9 @@
         "sign_b": "₹"
     },
     {
-        "slug": "danish-krone-to-real-today",
-        "name": "Danish Krone to Brazilian Real",
-        "category": "Currencies",
+        "slug": "coroa-dinamarquesa-para-real-hoje",
+        "name": "Coroa Dinamarquesa para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇩🇰",
         "code_a": "DKK",
         "code_b": "BRL",
@@ -490,9 +490,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-danish-krone-today",
-        "name": "Brazilian Real to Danish Krone",
-        "category": "Currencies",
+        "slug": "real-para-coroa-dinamarquesa-hoje",
+        "name": "Real para Coroa Dinamarquesa: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇩🇰",
         "code_a": "BRL",
         "code_b": "DKK",
@@ -500,9 +500,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "singapore-dollar-to-real-today",
-        "name": "Singapore Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-de-singapura-para-real-hoje",
+        "name": "Dólar de Singapura para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇸🇬",
         "code_a": "SGD",
         "code_b": "BRL",
@@ -510,9 +510,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-singapore-dollar-today",
-        "name": "Brazilian Real to Singapore Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-de-singapura-hoje",
+        "name": "Real para Dólar de Singapura: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇸🇬",
         "code_a": "BRL",
         "code_b": "SGD",
@@ -520,9 +520,9 @@
         "sign_b": "S$"
     },
     {
-        "slug": "south-korean-won-to-real-today",
-        "name": "South Korean Won to Brazilian Real",
-        "category": "Currencies",
+        "slug": "won-sul-coreano-para-real-hoje",
+        "name": "Won Sul-Coreano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇰🇷",
         "code_a": "KRW",
         "code_b": "BRL",
@@ -530,9 +530,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-south-korean-won-today",
-        "name": "Brazilian Real to South Korean Won",
-        "category": "Currencies",
+        "slug": "real-para-won-sul-coreano-hoje",
+        "name": "Real para Won Sul-Coreano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇰🇷",
         "code_a": "BRL",
         "code_b": "KRW",
@@ -540,9 +540,9 @@
         "sign_b": "₩"
     },
     {
-        "slug": "bolivian-boliviano-to-real-today",
-        "name": "Bolivian Boliviano to Brazilian Real",
-        "category": "Currencies",
+        "slug": "boliviano-para-real-hoje",
+        "name": "Boliviano da Bolívia para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇧🇴",
         "code_a": "BOB",
         "code_b": "BRL",
@@ -550,9 +550,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-bolivian-boliviano-today",
-        "name": "Brazilian Real to Bolivian Boliviano",
-        "category": "Currencies",
+        "slug": "real-para-boliviano-hoje",
+        "name": "Real para Boliviano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇧🇴",
         "code_a": "BRL",
         "code_b": "BOB",
@@ -560,9 +560,9 @@
         "sign_b": "Bs."
     },
     {
-        "slug": "israeli-shekel-to-real-today",
-        "name": "Israeli Shekel to Brazilian Real",
-        "category": "Currencies",
+        "slug": "shekel-para-real-hoje",
+        "name": "Shekel de Israel para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇮🇱",
         "code_a": "ILS",
         "code_b": "BRL",
@@ -570,9 +570,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-israeli-shekel-today",
-        "name": "Brazilian Real to Israeli Shekel",
-        "category": "Currencies",
+        "slug": "real-para-shekel-hoje",
+        "name": "Real para Shekel: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇮🇱",
         "code_a": "BRL",
         "code_b": "ILS",
@@ -580,9 +580,9 @@
         "sign_b": "₪"
     },
     {
-        "slug": "hungarian-forint-to-real-today",
-        "name": "Hungarian Forint to Brazilian Real",
-        "category": "Currencies",
+        "slug": "florim-hungaro-para-real-hoje",
+        "name": "Florim Húngaro para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇭🇺",
         "code_a": "HUF",
         "code_b": "BRL",
@@ -590,9 +590,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-hungarian-forint-today",
-        "name": "Brazilian Real to Hungarian Forint",
-        "category": "Currencies",
+        "slug": "real-para-florim-hungaro-hoje",
+        "name": "Real para Florim Húngaro: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇭🇺",
         "code_a": "BRL",
         "code_b": "HUF",
@@ -600,9 +600,9 @@
         "sign_b": "Ft"
     },
     {
-        "slug": "czech-koruna-to-real-today",
-        "name": "Czech Koruna to Brazilian Real",
-        "category": "Currencies",
+        "slug": "coroa-tcheca-para-real-hoje",
+        "name": "Coroa Tcheca para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇨🇿",
         "code_a": "CZK",
         "code_b": "BRL",
@@ -610,9 +610,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-czech-koruna-today",
-        "name": "Brazilian Real to Czech Koruna",
-        "category": "Currencies",
+        "slug": "real-para-coroa-tcheca-hoje",
+        "name": "Real para Coroa Tcheca: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇿",
         "code_a": "BRL",
         "code_b": "CZK",
@@ -620,9 +620,9 @@
         "sign_b": "Kč"
     },
     {
-        "slug": "uae-dirham-to-real-today",
-        "name": "UAE Dirham to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dirham-para-real-hoje",
+        "name": "Dirham dos Emirados Árabes para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇦🇪",
         "code_a": "AED",
         "code_b": "BRL",
@@ -630,9 +630,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-uae-dirham-today",
-        "name": "Brazilian Real to UAE Dirham",
-        "category": "Currencies",
+        "slug": "real-para-dirham-hoje",
+        "name": "Real para Dirham: Cotação Hoje (Dubai)",
+        "category": "Moedas",
         "icon": "🇦🇪",
         "code_a": "BRL",
         "code_b": "AED",
@@ -640,9 +640,9 @@
         "sign_b": "د.إ"
     },
     {
-        "slug": "saudi-riyal-to-real-today",
-        "name": "Saudi Riyal to Brazilian Real",
-        "category": "Currencies",
+        "slug": "riyal-saudita-para-real-hoje",
+        "name": "Riyal Saudita para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇸🇦",
         "code_a": "SAR",
         "code_b": "BRL",
@@ -650,9 +650,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-saudi-riyal-today",
-        "name": "Brazilian Real to Saudi Riyal",
-        "category": "Currencies",
+        "slug": "real-para-riyal-saudita-hoje",
+        "name": "Real para Riyal Saudita: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇸🇦",
         "code_a": "BRL",
         "code_b": "SAR",
@@ -660,9 +660,9 @@
         "sign_b": "﷼"
     },
     {
-        "slug": "polish-zloty-to-real-today",
-        "name": "Polish Zloty to Brazilian Real",
-        "category": "Currencies",
+        "slug": "zloty-polones-para-real-hoje",
+        "name": "Zloty Polonês para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇵🇱",
         "code_a": "PLN",
         "code_b": "BRL",
@@ -670,9 +670,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-polish-zloty-today",
-        "name": "Brazilian Real to Polish Zloty",
-        "category": "Currencies",
+        "slug": "real-para-zloty-polones-hoje",
+        "name": "Real para Zloty Polonês: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇵🇱",
         "code_a": "BRL",
         "code_b": "PLN",
@@ -680,9 +680,9 @@
         "sign_b": "zł"
     },
     {
-        "slug": "russian-ruble-to-real-today",
-        "name": "Russian Ruble to Brazilian Real",
-        "category": "Currencies",
+        "slug": "rublo-russo-para-real-hoje",
+        "name": "Rublo Russo para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇷🇺",
         "code_a": "RUB",
         "code_b": "BRL",
@@ -690,9 +690,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-russian-ruble-today",
-        "name": "Brazilian Real to Russian Ruble",
-        "category": "Currencies",
+        "slug": "real-para-rublo-russo-hoje",
+        "name": "Real para Rublo Russo: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇷🇺",
         "code_a": "BRL",
         "code_b": "RUB",
@@ -700,9 +700,9 @@
         "sign_b": "₽"
     },
     {
-        "slug": "thai-baht-to-real-today",
-        "name": "Thai Baht to Brazilian Real",
-        "category": "Currencies",
+        "slug": "baht-tailandes-para-real-hoje",
+        "name": "Baht Tailandês para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇹🇭",
         "code_a": "THB",
         "code_b": "BRL",
@@ -710,9 +710,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-thai-baht-today",
-        "name": "Brazilian Real to Thai Baht",
-        "category": "Currencies",
+        "slug": "real-para-baht-tailandes-hoje",
+        "name": "Real para Baht Tailandês: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇹🇭",
         "code_a": "BRL",
         "code_b": "THB",
@@ -720,9 +720,9 @@
         "sign_b": "฿"
     },
     {
-        "slug": "vietnamese-dong-to-real-today",
-        "name": "Vietnamese Dong to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dong-vietnamita-para-real-hoje",
+        "name": "Dong Vietnamita para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇻🇳",
         "code_a": "VND",
         "code_b": "BRL",
@@ -730,9 +730,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-vietnamese-dong-today",
-        "name": "Brazilian Real to Vietnamese Dong",
-        "category": "Currencies",
+        "slug": "real-para-dong-vietnamita-hoje",
+        "name": "Real para Dong Vietnamita: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇻🇳",
         "code_a": "BRL",
         "code_b": "VND",
@@ -740,9 +740,9 @@
         "sign_b": "₫"
     },
     {
-        "slug": "indonesian-rupiah-to-real-today",
-        "name": "Indonesian Rupiah to Brazilian Real",
-        "category": "Currencies",
+        "slug": "rupia-indonesia-para-real-hoje",
+        "name": "Rupia Indonésia para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇮🇩",
         "code_a": "IDR",
         "code_b": "BRL",
@@ -750,9 +750,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-indonesian-rupiah-today",
-        "name": "Brazilian Real to Indonesian Rupiah",
-        "category": "Currencies",
+        "slug": "real-para-rupia-indonesia-hoje",
+        "name": "Real para Rupia Indonésia: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇮🇩",
         "code_a": "BRL",
         "code_b": "IDR",
@@ -760,9 +760,9 @@
         "sign_b": "Rp"
     },
     {
-        "slug": "qatari-riyal-to-real-today",
-        "name": "Qatari Riyal to Brazilian Real",
-        "category": "Currencies",
+        "slug": "rial-catarense-para-real-hoje",
+        "name": "Rial do Catar para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇶🇦",
         "code_a": "QAR",
         "code_b": "BRL",
@@ -770,9 +770,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-qatari-riyal-today",
-        "name": "Brazilian Real to Qatari Riyal",
-        "category": "Currencies",
+        "slug": "real-para-rial-catarense-hoje",
+        "name": "Real para Rial do Catar: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇶🇦",
         "code_a": "BRL",
         "code_b": "QAR",
@@ -780,9 +780,9 @@
         "sign_b": "﷼"
     },
     {
-        "slug": "egyptian-pound-to-real-today",
-        "name": "Egyptian Pound to Brazilian Real",
-        "category": "Currencies",
+        "slug": "libra-egipcia-para-real-hoje",
+        "name": "Libra Egípcia para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇪🇬",
         "code_a": "EGP",
         "code_b": "BRL",
@@ -790,9 +790,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-egyptian-pound-today",
-        "name": "Brazilian Real to Egyptian Pound",
-        "category": "Currencies",
+        "slug": "real-para-libra-egipcia-hoje",
+        "name": "Real para Libra Egípcia: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇪🇬",
         "code_a": "BRL",
         "code_b": "EGP",
@@ -800,9 +800,9 @@
         "sign_b": "E£"
     },
     {
-        "slug": "malaysian-ringgit-to-real-today",
-        "name": "Malaysian Ringgit to Brazilian Real",
-        "category": "Currencies",
+        "slug": "ringgit-malaio-para-real-hoje",
+        "name": "Ringgit Malaio para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇲🇾",
         "code_a": "MYR",
         "code_b": "BRL",
@@ -810,9 +810,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-malaysian-ringgit-today",
-        "name": "Brazilian Real to Malaysian Ringgit",
-        "category": "Currencies",
+        "slug": "real-para-ringgit-malaio-hoje",
+        "name": "Real para Ringgit Malaio: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇲🇾",
         "code_a": "BRL",
         "code_b": "MYR",
@@ -820,9 +820,9 @@
         "sign_b": "RM"
     },
     {
-        "slug": "philippine-peso-to-real-today",
-        "name": "Philippine Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-filipino-para-real-hoje",
+        "name": "Peso Filipino para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇵🇭",
         "code_a": "PHP",
         "code_b": "BRL",
@@ -830,9 +830,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-philippine-peso-today",
-        "name": "Brazilian Real to Philippine Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-filipino-hoje",
+        "name": "Real para Peso Filipino: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇵🇭",
         "code_a": "BRL",
         "code_b": "PHP",
@@ -840,9 +840,9 @@
         "sign_b": "₱"
     },
     {
-        "slug": "hong-kong-dollar-to-real-today",
-        "name": "Hong Kong Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-de-hong-kong-para-real-hoje",
+        "name": "Dólar de Hong Kong para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇭🇰",
         "code_a": "HKD",
         "code_b": "BRL",
@@ -850,9 +850,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-hong-kong-dollar-today",
-        "name": "Brazilian Real to Hong Kong Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-de-hong-kong-hoje",
+        "name": "Real para Dólar de Hong Kong: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇭🇰",
         "code_a": "BRL",
         "code_b": "HKD",
@@ -860,9 +860,9 @@
         "sign_b": "HK$"
     },
     {
-        "slug": "moroccan-dirham-to-real-today",
-        "name": "Moroccan Dirham to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dirham-marroquino-para-real-hoje",
+        "name": "Dirham Marroquino para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇲🇦",
         "code_a": "MAD",
         "code_b": "BRL",
@@ -870,9 +870,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-moroccan-dirham-today",
-        "name": "Brazilian Real to Moroccan Dirham",
-        "category": "Currencies",
+        "slug": "real-para-dirham-marroquino-hoje",
+        "name": "Real para Dirham Marroquino: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇲🇦",
         "code_a": "BRL",
         "code_b": "MAD",
@@ -880,9 +880,9 @@
         "sign_b": "DH"
     },
     {
-        "slug": "taiwan-dollar-to-real-today",
-        "name": "Taiwan Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-taiwanense-para-real-hoje",
+        "name": "Dólar de Taiwan para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇹🇼",
         "code_a": "TWD",
         "code_b": "BRL",
@@ -890,9 +890,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-taiwan-dollar-today",
-        "name": "Brazilian Real to Taiwan Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-taiwanense-hoje",
+        "name": "Real para Dólar de Taiwan: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇹🇼",
         "code_a": "BRL",
         "code_b": "TWD",
@@ -900,9 +900,9 @@
         "sign_b": "NT$"
     },
     {
-        "slug": "dominican-peso-to-real-today",
-        "name": "Dominican Peso to Brazilian Real",
-        "category": "Currencies",
+        "slug": "peso-dominicano-para-real-hoje",
+        "name": "Peso Dominicano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇩🇴",
         "code_a": "DOP",
         "code_b": "BRL",
@@ -910,9 +910,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-dominican-peso-today",
-        "name": "Brazilian Real to Dominican Peso",
-        "category": "Currencies",
+        "slug": "real-para-peso-dominicano-hoje",
+        "name": "Real para Peso Dominicano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇩🇴",
         "code_a": "BRL",
         "code_b": "DOP",
@@ -920,9 +920,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "costa-rican-colon-to-real-today",
-        "name": "Costa Rican Colón to Brazilian Real",
-        "category": "Currencies",
+        "slug": "colon-costa-riquenho-para-real-hoje",
+        "name": "Colón da Costa Rica para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇨🇷",
         "code_a": "CRC",
         "code_b": "BRL",
@@ -930,9 +930,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-costa-rican-colon-today",
-        "name": "Brazilian Real to Costa Rican Colón",
-        "category": "Currencies",
+        "slug": "real-para-colon-costa-riquenho-hoje",
+        "name": "Real para Colón da Costa Rica: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇨🇷",
         "code_a": "BRL",
         "code_b": "CRC",
@@ -940,9 +940,9 @@
         "sign_b": "₡"
     },
     {
-        "slug": "icelandic-krona-to-real-today",
-        "name": "Icelandic Króna to Brazilian Real",
-        "category": "Currencies",
+        "slug": "coroa-islandesa-para-real-hoje",
+        "name": "Coroa Islandesa para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇮🇸",
         "code_a": "ISK",
         "code_b": "BRL",
@@ -950,9 +950,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-icelandic-krona-today",
-        "name": "Brazilian Real to Icelandic Króna",
-        "category": "Currencies",
+        "slug": "real-para-coroa-islandesa-hoje",
+        "name": "Real para Coroa Islandesa: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇮🇸",
         "code_a": "BRL",
         "code_b": "ISK",
@@ -960,9 +960,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "jamaican-dollar-to-real-today",
-        "name": "Jamaican Dollar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dolar-jamaicano-para-real-hoje",
+        "name": "Dólar Jamaicano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇯🇲",
         "code_a": "JMD",
         "code_b": "BRL",
@@ -970,9 +970,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-jamaican-dollar-today",
-        "name": "Brazilian Real to Jamaican Dollar",
-        "category": "Currencies",
+        "slug": "real-para-dolar-jamaicano-hoje",
+        "name": "Real para Dólar Jamaicano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇯🇲",
         "code_a": "BRL",
         "code_b": "JMD",
@@ -980,9 +980,9 @@
         "sign_b": "J$"
     },
     {
-        "slug": "honduran-lempira-to-real-today",
-        "name": "Honduran Lempira to Brazilian Real",
-        "category": "Currencies",
+        "slug": "lempira-hondurenha-para-real-hoje",
+        "name": "Lempira de Honduras para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇭🇳",
         "code_a": "HNL",
         "code_b": "BRL",
@@ -990,9 +990,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-honduran-lempira-today",
-        "name": "Brazilian Real to Honduran Lempira",
-        "category": "Currencies",
+        "slug": "real-para-lempira-hondurenha-hoje",
+        "name": "Real para Lempira de Honduras: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇭🇳",
         "code_a": "BRL",
         "code_b": "HNL",
@@ -1000,9 +1000,9 @@
         "sign_b": "L"
     },
     {
-        "slug": "guatemalan-quetzal-to-real-today",
-        "name": "Guatemalan Quetzal to Brazilian Real",
-        "category": "Currencies",
+        "slug": "quetzal-guatemalteco-para-real-hoje",
+        "name": "Quetzal da Guatemala para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇬🇹",
         "code_a": "GTQ",
         "code_b": "BRL",
@@ -1010,9 +1010,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-guatemalan-quetzal-today",
-        "name": "Brazilian Real to Guatemalan Quetzal",
-        "category": "Currencies",
+        "slug": "real-para-quetzal-guatemalteco-hoje",
+        "name": "Real para Quetzal da Guatemala: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇬🇹",
         "code_a": "BRL",
         "code_b": "GTQ",
@@ -1020,9 +1020,9 @@
         "sign_b": "Q"
     },
     {
-        "slug": "nigerian-naira-to-real-today",
-        "name": "Nigerian Naira to Brazilian Real",
-        "category": "Currencies",
+        "slug": "naira-nigeriana-para-real-hoje",
+        "name": "Naira Nigeriana para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇳🇬",
         "code_a": "NGN",
         "code_b": "BRL",
@@ -1030,9 +1030,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-nigerian-naira-today",
-        "name": "Brazilian Real to Nigerian Naira",
-        "category": "Currencies",
+        "slug": "real-para-naira-nigeriana-hoje",
+        "name": "Real para Naira Nigeriana: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇳🇬",
         "code_a": "BRL",
         "code_b": "NGN",
@@ -1040,9 +1040,9 @@
         "sign_b": "₦"
     },
     {
-        "slug": "angolan-kwanza-to-real-today",
-        "name": "Angolan Kwanza to Brazilian Real",
-        "category": "Currencies",
+        "slug": "kwanza-angolano-para-real-hoje",
+        "name": "Kwanza Angolano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇦🇴",
         "code_a": "AOA",
         "code_b": "BRL",
@@ -1050,9 +1050,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-angolan-kwanza-today",
-        "name": "Brazilian Real to Angolan Kwanza",
-        "category": "Currencies",
+        "slug": "real-para-kwanza-angolano-hoje",
+        "name": "Real para Kwanza Angolano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇦🇴",
         "code_a": "BRL",
         "code_b": "AOA",
@@ -1060,9 +1060,9 @@
         "sign_b": "Kz"
     },
     {
-        "slug": "kenyan-shilling-to-real-today",
-        "name": "Kenyan Shilling to Brazilian Real",
-        "category": "Currencies",
+        "slug": "xelim-queniano-para-real-hoje",
+        "name": "Xelim Queniano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇰🇪",
         "code_a": "KES",
         "code_b": "BRL",
@@ -1070,9 +1070,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-kenyan-shilling-today",
-        "name": "Brazilian Real to Kenyan Shilling",
-        "category": "Currencies",
+        "slug": "real-para-xelim-queniano-hoje",
+        "name": "Real para Xelim Queniano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇰🇪",
         "code_a": "BRL",
         "code_b": "KES",
@@ -1080,9 +1080,9 @@
         "sign_b": "KSh"
     },
     {
-        "slug": "tanzanian-shilling-to-real-today",
-        "name": "Tanzanian Shilling to Brazilian Real",
-        "category": "Currencies",
+        "slug": "xelim-tanzaniano-para-real-hoje",
+        "name": "Xelim Tanzaniano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇹🇿",
         "code_a": "TZS",
         "code_b": "BRL",
@@ -1090,9 +1090,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-tanzanian-shilling-today",
-        "name": "Brazilian Real to Tanzanian Shilling",
-        "category": "Currencies",
+        "slug": "real-para-xelim-tanzaniano-hoje",
+        "name": "Real para Xelim Tanzaniano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇹🇿",
         "code_a": "BRL",
         "code_b": "TZS",
@@ -1100,9 +1100,9 @@
         "sign_b": "TSh"
     },
     {
-        "slug": "bulgarian-lev-to-real-today",
-        "name": "Bulgarian Lev to Brazilian Real",
-        "category": "Currencies",
+        "slug": "lev-bulgaro-para-real-hoje",
+        "name": "Lev Búlgaro para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇧🇬",
         "code_a": "BGN",
         "code_b": "BRL",
@@ -1110,9 +1110,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-bulgarian-lev-today",
-        "name": "Brazilian Real to Bulgarian Lev",
-        "category": "Currencies",
+        "slug": "real-para-lev-bulgaro-hoje",
+        "name": "Real para Lev Búlgaro: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇧🇬",
         "code_a": "BRL",
         "code_b": "BGN",
@@ -1120,9 +1120,9 @@
         "sign_b": "лв"
     },
     {
-        "slug": "romanian-leu-to-real-today",
-        "name": "Romanian Leu to Brazilian Real",
-        "category": "Currencies",
+        "slug": "leu-romeno-para-real-hoje",
+        "name": "Leu Romeno para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇷🇴",
         "code_a": "RON",
         "code_b": "BRL",
@@ -1130,9 +1130,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-romanian-leu-today",
-        "name": "Brazilian Real to Romanian Leu",
-        "category": "Currencies",
+        "slug": "real-para-leu-romeno-hoje",
+        "name": "Real para Leu Romeno: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇷🇴",
         "code_a": "BRL",
         "code_b": "RON",
@@ -1140,9 +1140,9 @@
         "sign_b": "lei"
     },
     {
-        "slug": "albanian-lek-to-real-today",
-        "name": "Albanian Lek to Brazilian Real",
-        "category": "Currencies",
+        "slug": "lek-albanes-para-real-hoje",
+        "name": "Lek Albanês para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇦🇱",
         "code_a": "ALL",
         "code_b": "BRL",
@@ -1150,9 +1150,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-albanian-lek-today",
-        "name": "Brazilian Real to Albanian Lek",
-        "category": "Currencies",
+        "slug": "real-para-lek-albanes-hoje",
+        "name": "Real para Lek Albanês: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇦🇱",
         "code_a": "BRL",
         "code_b": "ALL",
@@ -1160,9 +1160,9 @@
         "sign_b": "L"
     },
     {
-        "slug": "kazakhstani-tenge-to-real-today",
-        "name": "Kazakhstani Tenge to Brazilian Real",
-        "category": "Currencies",
+        "slug": "tenge-cazaque-para-real-hoje",
+        "name": "Tenge do Cazaquistão para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇰🇿",
         "code_a": "KZT",
         "code_b": "BRL",
@@ -1170,9 +1170,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-kazakhstani-tenge-today",
-        "name": "Brazilian Real to Kazakhstani Tenge",
-        "category": "Currencies",
+        "slug": "real-para-tenge-cazaque-hoje",
+        "name": "Real para Tenge do Cazaquistão: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇰🇿",
         "code_a": "BRL",
         "code_b": "KZT",
@@ -1180,9 +1180,9 @@
         "sign_b": "₸"
     },
     {
-        "slug": "serbian-dinar-to-real-today",
-        "name": "Serbian Dinar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dinar-servio-para-real-hoje",
+        "name": "Dinar Sérvio para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇷🇸",
         "code_a": "RSD",
         "code_b": "BRL",
@@ -1190,9 +1190,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-serbian-dinar-today",
-        "name": "Brazilian Real to Serbian Dinar",
-        "category": "Currencies",
+        "slug": "real-para-dinar-servio-hoje",
+        "name": "Real para Dinar Sérvio: Cotação Hoje (Belgrado)",
+        "category": "Moedas",
         "icon": "🇷🇸",
         "code_a": "BRL",
         "code_b": "RSD",
@@ -1200,9 +1200,9 @@
         "sign_b": "din"
     },
     {
-        "slug": "georgian-lari-to-real-today",
-        "name": "Georgian Lari to Brazilian Real",
-        "category": "Currencies",
+        "slug": "lari-georgiano-para-real-hoje",
+        "name": "Lari Georgiano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇬🇪",
         "code_a": "GEL",
         "code_b": "BRL",
@@ -1210,9 +1210,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-georgian-lari-today",
-        "name": "Brazilian Real to Georgian Lari",
-        "category": "Currencies",
+        "slug": "real-para-lari-georgiano-hoje",
+        "name": "Real para Lari Georgiano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇬🇪",
         "code_a": "BRL",
         "code_b": "GEL",
@@ -1220,9 +1220,9 @@
         "sign_b": "₾"
     },
     {
-        "slug": "azerbaijani-manat-to-real-today",
-        "name": "Azerbaijani Manat to Brazilian Real",
-        "category": "Currencies",
+        "slug": "manat-azerbaijano-para-real-hoje",
+        "name": "Manat do Azerbaijão para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇦🇿",
         "code_a": "AZN",
         "code_b": "BRL",
@@ -1230,9 +1230,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-azerbaijani-manat-today",
-        "name": "Brazilian Real to Azerbaijani Manat",
-        "category": "Currencies",
+        "slug": "real-para-manat-azerbaijano-hoje",
+        "name": "Real para Manat do Azerbaijão: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇦🇿",
         "code_a": "BRL",
         "code_b": "AZN",
@@ -1240,9 +1240,9 @@
         "sign_b": "₼"
     },
     {
-        "slug": "uzbekistani-som-to-real-today",
-        "name": "Uzbekistani Som to Brazilian Real",
-        "category": "Currencies",
+        "slug": "som-uzbeque-para-real-hoje",
+        "name": "Som Uzbeque para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇺🇿",
         "code_a": "UZS",
         "code_b": "BRL",
@@ -1250,9 +1250,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-uzbekistani-som-today",
-        "name": "Brazilian Real to Uzbekistani Som",
-        "category": "Currencies",
+        "slug": "real-para-som-uzbeque-hoje",
+        "name": "Real para Som Uzbeque: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇺🇿",
         "code_a": "BRL",
         "code_b": "UZS",
@@ -1260,9 +1260,9 @@
         "sign_b": "so'm"
     },
     {
-        "slug": "omani-rial-to-real-today",
-        "name": "Omani Rial to Brazilian Real",
-        "category": "Currencies",
+        "slug": "rial-omanense-para-real-hoje",
+        "name": "Rial de Omã para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇴🇲",
         "code_a": "OMR",
         "code_b": "BRL",
@@ -1270,9 +1270,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-omani-rial-today",
-        "name": "Brazilian Real to Omani Rial",
-        "category": "Currencies",
+        "slug": "real-para-rial-omanense-hoje",
+        "name": "Real para Rial de Omã: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇴🇲",
         "code_a": "BRL",
         "code_b": "OMR",
@@ -1280,9 +1280,9 @@
         "sign_b": "ر.ع."
     },
     {
-        "slug": "jordanian-dinar-to-real-today",
-        "name": "Jordanian Dinar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dinar-jordaniano-para-real-hoje",
+        "name": "Dinar Jordaniano para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇯🇴",
         "code_a": "JOD",
         "code_b": "BRL",
@@ -1290,9 +1290,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-jordanian-dinar-today",
-        "name": "Brazilian Real to Jordanian Dinar",
-        "category": "Currencies",
+        "slug": "real-para-dinar-jordaniano-hoje",
+        "name": "Real para Dinar Jordaniano: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇯🇴",
         "code_a": "BRL",
         "code_b": "JOD",
@@ -1300,9 +1300,9 @@
         "sign_b": "JD"
     },
     {
-        "slug": "kuwaiti-dinar-to-real-today",
-        "name": "Kuwaiti Dinar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dinar-kuwaitiano-para-real-hoje",
+        "name": "Dinar do Kuwait para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇰🇼",
         "code_a": "KWD",
         "code_b": "BRL",
@@ -1310,9 +1310,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-kuwaiti-dinar-today",
-        "name": "Brazilian Real to Kuwaiti Dinar",
-        "category": "Currencies",
+        "slug": "real-para-dinar-kuwaitiano-hoje",
+        "name": "Real para Dinar do Kuwait: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇰🇼",
         "code_a": "BRL",
         "code_b": "KWD",
@@ -1320,9 +1320,9 @@
         "sign_b": "KD"
     },
     {
-        "slug": "bahraini-dinar-to-real-today",
-        "name": "Bahraini Dinar to Brazilian Real",
-        "category": "Currencies",
+        "slug": "dinar-bareinita-para-real-hoje",
+        "name": "Dinar do Bahrein para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇧🇭",
         "code_a": "BHD",
         "code_b": "BRL",
@@ -1330,9 +1330,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "real-to-bahraini-dinar-today",
-        "name": "Brazilian Real to Bahraini Dinar",
-        "category": "Currencies",
+        "slug": "real-para-dinar-bareinita-hoje",
+        "name": "Real para Dinar do Bahrein: Cotação Hoje",
+        "category": "Moedas",
         "icon": "🇧🇭",
         "code_a": "BRL",
         "code_b": "BHD",
@@ -1340,9 +1340,9 @@
         "sign_b": "BD"
     },
     {
-        "slug": "mozambican-metical-to-real-today",
-        "name": "Mozambican Metical to Brazilian Real",
-        "category": "Currencies",
+        "slug": "metical-mocambicano-para-real-hoje",
+        "name": "Metical de Moçambique para Real Brasileiro",
+        "category": "Moedas",
         "icon": "🇲🇿",
         "code_a": "MZN",
         "code_b": "BRL",
@@ -1350,9 +1350,9 @@
         "sign_b": "R$"
     },
     {
-        "slug": "dollar-to-euro-today",
-        "name": "US Dollar to Euro",
-        "category": "Currencies",
+        "slug": "dolar-para-euro-hoje",
+        "name": "Dólar Americano para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "USD",
         "code_b": "EUR",
@@ -1360,9 +1360,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-dollar-today",
-        "name": "Euro to US Dollar",
-        "category": "Currencies",
+        "slug": "euro-para-dolar-hoje",
+        "name": "Euro para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "EUR",
         "code_b": "USD",
@@ -1370,9 +1370,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-pound-today",
-        "name": "US Dollar to British Pound",
-        "category": "Currencies",
+        "slug": "dolar-para-libra-hoje",
+        "name": "Dólar Americano para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "USD",
         "code_b": "GBP",
@@ -1380,9 +1380,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-dollar-today",
-        "name": "British Pound to US Dollar",
-        "category": "Currencies",
+        "slug": "libra-para-dolar-hoje",
+        "name": "Libra Esterlina para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "GBP",
         "code_b": "USD",
@@ -1390,9 +1390,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-yen-today",
-        "name": "US Dollar to Japanese Yen",
-        "category": "Currencies",
+        "slug": "dolar-para-iene-hoje",
+        "name": "Dólar Americano para Iene Japonês",
+        "category": "Moedas",
         "icon": "🇯🇵",
         "code_a": "USD",
         "code_b": "JPY",
@@ -1400,9 +1400,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "yen-to-dollar-today",
-        "name": "Japanese Yen to US Dollar",
-        "category": "Currencies",
+        "slug": "iene-para-dolar-hoje",
+        "name": "Iene Japonês para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "JPY",
         "code_b": "USD",
@@ -1410,9 +1410,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-swiss-franc-today",
-        "name": "US Dollar to Swiss Franc",
-        "category": "Currencies",
+        "slug": "dolar-para-franco-suico-hoje",
+        "name": "Dólar Americano para Franco Suíço",
+        "category": "Moedas",
         "icon": "🇨🇭",
         "code_a": "USD",
         "code_b": "CHF",
@@ -1420,9 +1420,9 @@
         "sign_b": "Fr."
     },
     {
-        "slug": "swiss-franc-to-dollar-today",
-        "name": "Swiss Franc to US Dollar",
-        "category": "Currencies",
+        "slug": "franco-suico-para-dolar-hoje",
+        "name": "Franco Suíço para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "CHF",
         "code_b": "USD",
@@ -1430,9 +1430,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-canadian-dollar-today",
-        "name": "US Dollar to Canadian Dollar",
-        "category": "Currencies",
+        "slug": "dolar-para-dolar-canadense-hoje",
+        "name": "Dólar Americano para Dólar Canadense",
+        "category": "Moedas",
         "icon": "🇨🇦",
         "code_a": "USD",
         "code_b": "CAD",
@@ -1440,9 +1440,9 @@
         "sign_b": "C$"
     },
     {
-        "slug": "canadian-dollar-to-dollar-today",
-        "name": "Canadian Dollar to US Dollar",
-        "category": "Currencies",
+        "slug": "dolar-canadense-para-dolar-hoje",
+        "name": "Dólar Canadense para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "CAD",
         "code_b": "USD",
@@ -1450,9 +1450,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-australian-dollar-today",
-        "name": "US Dollar to Australian Dollar",
-        "category": "Currencies",
+        "slug": "dolar-para-dolar-australiano-hoje",
+        "name": "Dólar Americano para Dólar Australiano",
+        "category": "Moedas",
         "icon": "🇦🇺",
         "code_a": "USD",
         "code_b": "AUD",
@@ -1460,9 +1460,9 @@
         "sign_b": "A$"
     },
     {
-        "slug": "australian-dollar-to-dollar-today",
-        "name": "Australian Dollar to US Dollar",
-        "category": "Currencies",
+        "slug": "dolar-australiano-para-dolar-hoje",
+        "name": "Dólar Australiano para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "AUD",
         "code_b": "USD",
@@ -1470,9 +1470,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-chinese-yuan-today",
-        "name": "US Dollar to Chinese Yuan",
-        "category": "Currencies",
+        "slug": "dolar-para-yuan-chines-hoje",
+        "name": "Dólar Americano para Yuan Chinês",
+        "category": "Moedas",
         "icon": "🇨🇳",
         "code_a": "USD",
         "code_b": "CNY",
@@ -1480,9 +1480,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "chinese-yuan-to-dollar-today",
-        "name": "Chinese Yuan to US Dollar",
-        "category": "Currencies",
+        "slug": "yuan-chines-para-dolar-hoje",
+        "name": "Yuan Chinês para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "CNY",
         "code_b": "USD",
@@ -1490,9 +1490,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-mexican-peso-today",
-        "name": "US Dollar to Mexican Peso",
-        "category": "Currencies",
+        "slug": "dolar-para-peso-mexicano-hoje",
+        "name": "Dólar Americano para Peso Mexicano",
+        "category": "Moedas",
         "icon": "🇲🇽",
         "code_a": "USD",
         "code_b": "MXN",
@@ -1500,9 +1500,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "mexican-peso-to-dollar-today",
-        "name": "Mexican Peso to US Dollar",
-        "category": "Currencies",
+        "slug": "peso-mexicano-para-dolar-hoje",
+        "name": "Peso Mexicano para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "MXN",
         "code_b": "USD",
@@ -1510,9 +1510,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-uae-dirham-today",
-        "name": "US Dollar to UAE Dirham",
-        "category": "Currencies",
+        "slug": "dolar-para-dirham-hoje",
+        "name": "Dólar Americano para Dirham (Dubai)",
+        "category": "Moedas",
         "icon": "🇦🇪",
         "code_a": "USD",
         "code_b": "AED",
@@ -1520,9 +1520,9 @@
         "sign_b": "د.إ"
     },
     {
-        "slug": "uae-dirham-to-dollar-today",
-        "name": "UAE Dirham to US Dollar",
-        "category": "Currencies",
+        "slug": "dirham-para-dolar-hoje",
+        "name": "Dirham dos Emirados Árabes para Dólar",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "AED",
         "code_b": "USD",
@@ -1530,9 +1530,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-qatari-riyal-today",
-        "name": "US Dollar to Qatari Riyal",
-        "category": "Currencies",
+        "slug": "dolar-para-rial-catarense-hoje",
+        "name": "Dólar Americano para Rial do Catar",
+        "category": "Moedas",
         "icon": "🇶🇦",
         "code_a": "USD",
         "code_b": "QAR",
@@ -1540,9 +1540,9 @@
         "sign_b": "﷼"
     },
     {
-        "slug": "qatari-riyal-to-dollar-today",
-        "name": "Qatari Riyal to US Dollar",
-        "category": "Currencies",
+        "slug": "rial-catarense-para-dolar-hoje",
+        "name": "Rial do Catar para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "QAR",
         "code_b": "USD",
@@ -1550,9 +1550,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-israeli-shekel-today",
-        "name": "US Dollar to Israeli Shekel",
-        "category": "Currencies",
+        "slug": "dolar-para-shekel-hoje",
+        "name": "Dólar Americano para Shekel de Israel",
+        "category": "Moedas",
         "icon": "🇮🇱",
         "code_a": "USD",
         "code_b": "ILS",
@@ -1560,9 +1560,9 @@
         "sign_b": "₪"
     },
     {
-        "slug": "israeli-shekel-to-dollar-today",
-        "name": "Israeli Shekel to US Dollar",
-        "category": "Currencies",
+        "slug": "shekel-para-dolar-hoje",
+        "name": "Shekel de Israel para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "ILS",
         "code_b": "USD",
@@ -1570,9 +1570,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-saudi-riyal-today",
-        "name": "US Dollar to Saudi Riyal",
-        "category": "Currencies",
+        "slug": "dolar-para-riyal-saudita-hoje",
+        "name": "Dólar Americano para Riyal Saudita",
+        "category": "Moedas",
         "icon": "🇸🇦",
         "code_a": "USD",
         "code_b": "SAR",
@@ -1580,9 +1580,9 @@
         "sign_b": "﷼"
     },
     {
-        "slug": "saudi-riyal-to-dollar-today",
-        "name": "Saudi Riyal to US Dollar",
-        "category": "Currencies",
+        "slug": "riyal-saudita-para-dolar-hoje",
+        "name": "Riyal Saudita para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "SAR",
         "code_b": "USD",
@@ -1590,9 +1590,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-kuwaiti-dinar-today",
-        "name": "US Dollar to Kuwaiti Dinar",
-        "category": "Currencies",
+        "slug": "dolar-para-dinar-kuwaitiano-hoje",
+        "name": "Dólar Americano para Dinar do Kuwait",
+        "category": "Moedas",
         "icon": "🇰🇼",
         "code_a": "USD",
         "code_b": "KWD",
@@ -1600,9 +1600,9 @@
         "sign_b": "KD"
     },
     {
-        "slug": "kuwaiti-dinar-to-dollar-today",
-        "name": "Kuwaiti Dinar to US Dollar",
-        "category": "Currencies",
+        "slug": "dinar-kuwaitiano-para-dolar-hoje",
+        "name": "Dinar do Kuwait para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "KWD",
         "code_b": "USD",
@@ -1610,9 +1610,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-jordanian-dinar-today",
-        "name": "US Dollar to Jordanian Dinar",
-        "category": "Currencies",
+        "slug": "dolar-para-dinar-jordaniano-hoje",
+        "name": "Dólar Americano para Dinar Jordaniano",
+        "category": "Moedas",
         "icon": "🇯🇴",
         "code_a": "USD",
         "code_b": "JOD",
@@ -1620,9 +1620,9 @@
         "sign_b": "JD"
     },
     {
-        "slug": "jordanian-dinar-to-dollar-today",
-        "name": "Jordanian Dinar to US Dollar",
-        "category": "Currencies",
+        "slug": "dinar-jordaniano-para-dolar-hoje",
+        "name": "Dinar Jordaniano para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "JOD",
         "code_b": "USD",
@@ -1630,9 +1630,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-bahraini-dinar-today",
-        "name": "US Dollar to Bahraini Dinar",
-        "category": "Currencies",
+        "slug": "dolar-para-dinar-bareinita-hoje",
+        "name": "Dólar Americano para Dinar do Bahrein",
+        "category": "Moedas",
         "icon": "🇧🇭",
         "code_a": "USD",
         "code_b": "BHD",
@@ -1640,9 +1640,9 @@
         "sign_b": "BD"
     },
     {
-        "slug": "bahraini-dinar-to-dollar-today",
-        "name": "Bahraini Dinar to US Dollar",
-        "category": "Currencies",
+        "slug": "dinar-bareinita-para-dolar-hoje",
+        "name": "Dinar do Bahrein para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "BHD",
         "code_b": "USD",
@@ -1650,9 +1650,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-indian-rupee-today",
-        "name": "US Dollar to Indian Rupee",
-        "category": "Currencies",
+        "slug": "dolar-para-rupia-indiana-hoje",
+        "name": "Dólar Americano para Rúpia Indiana",
+        "category": "Moedas",
         "icon": "🇮🇳",
         "code_a": "USD",
         "code_b": "INR",
@@ -1660,9 +1660,9 @@
         "sign_b": "₹"
     },
     {
-        "slug": "indian-rupee-to-dollar-today",
-        "name": "Indian Rupee to US Dollar",
-        "category": "Currencies",
+        "slug": "rupia-indiana-para-dolar-hoje",
+        "name": "Rúpia Indiana para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "INR",
         "code_b": "USD",
@@ -1670,9 +1670,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-south-african-rand-today",
-        "name": "US Dollar to South African Rand",
-        "category": "Currencies",
+        "slug": "dolar-para-rand-sul-africano-hoje",
+        "name": "Dólar Americano para Rand Sul-Africano",
+        "category": "Moedas",
         "icon": "🇿🇦",
         "code_a": "USD",
         "code_b": "ZAR",
@@ -1680,9 +1680,9 @@
         "sign_b": "R"
     },
     {
-        "slug": "south-african-rand-to-dollar-today",
-        "name": "South African Rand to US Dollar",
-        "category": "Currencies",
+        "slug": "rand-sul-africano-para-dolar-hoje",
+        "name": "Rand Sul-Africano para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "ZAR",
         "code_b": "USD",
@@ -1690,9 +1690,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-russian-ruble-today",
-        "name": "US Dollar to Russian Ruble",
-        "category": "Currencies",
+        "slug": "dolar-para-rublo-russo-hoje",
+        "name": "Dólar Americano para Rublo Russo",
+        "category": "Moedas",
         "icon": "🇷🇺",
         "code_a": "USD",
         "code_b": "RUB",
@@ -1700,9 +1700,9 @@
         "sign_b": "₽"
     },
     {
-        "slug": "russian-ruble-to-dollar-today",
-        "name": "Russian Ruble to US Dollar",
-        "category": "Currencies",
+        "slug": "rublo-russo-para-dolar-hoje",
+        "name": "Rublo Russo para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "RUB",
         "code_b": "USD",
@@ -1710,9 +1710,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-turkish-lira-today",
-        "name": "US Dollar to Turkish Lira",
-        "category": "Currencies",
+        "slug": "dolar-para-lira-turca-hoje",
+        "name": "Dólar Americano para Lira Turca",
+        "category": "Moedas",
         "icon": "🇹🇷",
         "code_a": "USD",
         "code_b": "TRY",
@@ -1720,9 +1720,9 @@
         "sign_b": "₺"
     },
     {
-        "slug": "turkish-lira-to-dollar-today",
-        "name": "Turkish Lira to US Dollar",
-        "category": "Currencies",
+        "slug": "lira-turca-para-dolar-hoje",
+        "name": "Lira Turca para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "TRY",
         "code_b": "USD",
@@ -1730,9 +1730,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-chilean-peso-today",
-        "name": "US Dollar to Chilean Peso",
-        "category": "Currencies",
+        "slug": "dolar-para-peso-chileno-hoje",
+        "name": "Dólar Americano para Peso Chileno",
+        "category": "Moedas",
         "icon": "🇨🇱",
         "code_a": "USD",
         "code_b": "CLP",
@@ -1740,9 +1740,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "chilean-peso-to-dollar-today",
-        "name": "Chilean Peso to US Dollar",
-        "category": "Currencies",
+        "slug": "peso-chileno-para-dolar-hoje",
+        "name": "Peso Chileno para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "CLP",
         "code_b": "USD",
@@ -1750,9 +1750,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-norwegian-krone-today",
-        "name": "US Dollar to Norwegian Krone",
-        "category": "Currencies",
+        "slug": "dolar-para-coroa-norueguesa-hoje",
+        "name": "Dólar Americano para Coroa Norueguesa",
+        "category": "Moedas",
         "icon": "🇳🇴",
         "code_a": "USD",
         "code_b": "NOK",
@@ -1760,9 +1760,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "norwegian-krone-to-dollar-today",
-        "name": "Norwegian Krone to US Dollar",
-        "category": "Currencies",
+        "slug": "coroa-norueguesa-para-dolar-hoje",
+        "name": "Coroa Norueguesa para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "NOK",
         "code_b": "USD",
@@ -1770,9 +1770,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-swedish-krona-today",
-        "name": "US Dollar to Swedish Krona",
-        "category": "Currencies",
+        "slug": "dolar-para-coroa-sueca-hoje",
+        "name": "Dólar Americano para Coroa Sueca",
+        "category": "Moedas",
         "icon": "🇸🇪",
         "code_a": "USD",
         "code_b": "SEK",
@@ -1780,9 +1780,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "swedish-krona-to-dollar-today",
-        "name": "Swedish Krona to US Dollar",
-        "category": "Currencies",
+        "slug": "coroa-sueca-para-dolar-hoje",
+        "name": "Coroa Sueca para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "SEK",
         "code_b": "USD",
@@ -1790,9 +1790,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-danish-krone-today",
-        "name": "US Dollar to Danish Krone",
-        "category": "Currencies",
+        "slug": "dolar-para-coroa-dinamarquesa-hoje",
+        "name": "Dólar Americano para Coroa Dinamarquesa",
+        "category": "Moedas",
         "icon": "🇩🇰",
         "code_a": "USD",
         "code_b": "DKK",
@@ -1800,9 +1800,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "danish-krone-to-dollar-today",
-        "name": "Danish Krone to US Dollar",
-        "category": "Currencies",
+        "slug": "coroa-dinamarquesa-para-dolar-hoje",
+        "name": "Coroa Dinamarquesa para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "DKK",
         "code_b": "USD",
@@ -1810,9 +1810,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-polish-zloty-today",
-        "name": "US Dollar to Polish Zloty",
-        "category": "Currencies",
+        "slug": "dolar-para-zloty-polones-hoje",
+        "name": "Dólar Americano para Zloty Polonês",
+        "category": "Moedas",
         "icon": "🇵🇱",
         "code_a": "USD",
         "code_b": "PLN",
@@ -1820,9 +1820,9 @@
         "sign_b": "zł"
     },
     {
-        "slug": "polish-zloty-to-dollar-today",
-        "name": "Polish Zloty to US Dollar",
-        "category": "Currencies",
+        "slug": "zloty-polones-para-dolar-hoje",
+        "name": "Zloty Polonês para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "PLN",
         "code_b": "USD",
@@ -1830,9 +1830,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-singapore-dollar-today",
-        "name": "US Dollar to Singapore Dollar",
-        "category": "Currencies",
+        "slug": "dolar-para-dolar-de-singapura-hoje",
+        "name": "Dólar Americano para Dólar de Singapura",
+        "category": "Moedas",
         "icon": "🇸🇬",
         "code_a": "USD",
         "code_b": "SGD",
@@ -1840,9 +1840,9 @@
         "sign_b": "S$"
     },
     {
-        "slug": "singapore-dollar-to-dollar-today",
-        "name": "Singapore Dollar to US Dollar",
-        "category": "Currencies",
+        "slug": "dolar-de-singapura-para-dolar-hoje",
+        "name": "Dólar de Singapura para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "SGD",
         "code_b": "USD",
@@ -1850,9 +1850,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-south-korean-won-today",
-        "name": "US Dollar to South Korean Won",
-        "category": "Currencies",
+        "slug": "dolar-para-won-sul-coreano-hoje",
+        "name": "Dólar Americano para Won Sul-Coreano",
+        "category": "Moedas",
         "icon": "🇰🇷",
         "code_a": "USD",
         "code_b": "KRW",
@@ -1860,9 +1860,9 @@
         "sign_b": "₩"
     },
     {
-        "slug": "south-korean-won-to-dollar-today",
-        "name": "South Korean Won to US Dollar",
-        "category": "Currencies",
+        "slug": "won-sul-coreano-para-dolar-hoje",
+        "name": "Won Sul-Coreano para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "KRW",
         "code_b": "USD",
@@ -1870,9 +1870,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-taiwan-dollar-today",
-        "name": "US Dollar to Taiwan Dollar",
-        "category": "Currencies",
+        "slug": "dolar-para-dolar-taiwanense-hoje",
+        "name": "Dólar Americano para Dólar de Taiwan",
+        "category": "Moedas",
         "icon": "🇹🇼",
         "code_a": "USD",
         "code_b": "TWD",
@@ -1880,9 +1880,9 @@
         "sign_b": "NT$"
     },
     {
-        "slug": "taiwan-dollar-to-dollar-today",
-        "name": "Taiwan Dollar to US Dollar",
-        "category": "Currencies",
+        "slug": "dolar-taiwanense-para-dolar-hoje",
+        "name": "Dólar de Taiwan para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "TWD",
         "code_b": "USD",
@@ -1890,9 +1890,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-nz-dollar-today",
-        "name": "US Dollar to New Zealand Dollar",
-        "category": "Currencies",
+        "slug": "dolar-para-dolar-da-nova-zelandia-hoje",
+        "name": "Dólar Americano para Dólar da Nova Zelândia",
+        "category": "Moedas",
         "icon": "🇳🇿",
         "code_a": "USD",
         "code_b": "NZD",
@@ -1900,19 +1900,19 @@
         "sign_b": "$"
     },
     {
-        "slug": "nz-dollar-to-dollar-today",
-        "name": "New Zealand Dollar to US Dollar",
-        "category": "Currencies",
-        "icon": "🇺🇸",
+        "slug": "dolar-da-nova-zelandia-para-dolar-hoje",
+        "name": "Dólar da Nova Zelândia para Libra Esterlina",
+        "category": "Moedas",
+        "icon": "🇬🇧",
         "code_a": "NZD",
-        "code_b": "USD",
+        "code_b": "GBP",
         "sign_a": "$",
-        "sign_b": "$"
+        "sign_b": "£"
     },
     {
-        "slug": "dollar-to-indonesian-rupiah-today",
-        "name": "US Dollar to Indonesian Rupiah",
-        "category": "Currencies",
+        "slug": "dolar-para-rupia-indonesia-hoje",
+        "name": "Dólar Americano para Rupia Indonésia",
+        "category": "Moedas",
         "icon": "🇮🇩",
         "code_a": "USD",
         "code_b": "IDR",
@@ -1920,9 +1920,9 @@
         "sign_b": "Rp"
     },
     {
-        "slug": "indonesian-rupiah-to-dollar-today",
-        "name": "Indonesian Rupiah to US Dollar",
-        "category": "Currencies",
+        "slug": "rupia-indonesia-para-dolar-hoje",
+        "name": "Rupia Indonésia para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "IDR",
         "code_b": "USD",
@@ -1930,9 +1930,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-thai-baht-today",
-        "name": "US Dollar to Thai Baht",
-        "category": "Currencies",
+        "slug": "dolar-para-baht-tailandes-hoje",
+        "name": "Dólar Americano para Baht Tailandês",
+        "category": "Moedas",
         "icon": "🇹🇭",
         "code_a": "USD",
         "code_b": "THB",
@@ -1940,9 +1940,9 @@
         "sign_b": "฿"
     },
     {
-        "slug": "thai-baht-to-dollar-today",
-        "name": "Thai Baht to US Dollar",
-        "category": "Currencies",
+        "slug": "baht-tailandes-para-dolar-hoje",
+        "name": "Baht Tailandês para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "THB",
         "code_b": "USD",
@@ -1950,9 +1950,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-philippine-peso-today",
-        "name": "US Dollar to Philippine Peso",
-        "category": "Currencies",
+        "slug": "dolar-para-peso-filipino-hoje",
+        "name": "Dólar Americano para Peso Filipino",
+        "category": "Moedas",
         "icon": "🇵🇭",
         "code_a": "USD",
         "code_b": "PHP",
@@ -1960,9 +1960,9 @@
         "sign_b": "₱"
     },
     {
-        "slug": "philippine-peso-to-dollar-today",
-        "name": "Philippine Peso to US Dollar",
-        "category": "Currencies",
+        "slug": "peso-filipino-para-dolar-hoje",
+        "name": "Peso Filipino para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "PHP",
         "code_b": "USD",
@@ -1970,9 +1970,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-nigerian-naira-today",
-        "name": "US Dollar to Nigerian Naira",
-        "category": "Currencies",
+        "slug": "dolar-para-naira-nigeriana-hoje",
+        "name": "Dólar Americano para Naira Nigeriana",
+        "category": "Moedas",
         "icon": "🇳🇬",
         "code_a": "USD",
         "code_b": "NGN",
@@ -1980,9 +1980,9 @@
         "sign_b": "₦"
     },
     {
-        "slug": "nigerian-naira-to-dollar-today",
-        "name": "Nigerian Naira to US Dollar",
-        "category": "Currencies",
+        "slug": "naira-nigeriana-para-dolar-hoje",
+        "name": "Naira Nigeriana para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "NGN",
         "code_b": "USD",
@@ -1990,9 +1990,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-romanian-leu-today",
-        "name": "US Dollar to Romanian Leu",
-        "category": "Currencies",
+        "slug": "dolar-para-leu-romeno-hoje",
+        "name": "Dólar Americano para Leu Romeno",
+        "category": "Moedas",
         "icon": "🇷🇴",
         "code_a": "USD",
         "code_b": "RON",
@@ -2000,9 +2000,9 @@
         "sign_b": "lei"
     },
     {
-        "slug": "romanian-leu-to-dollar-today",
-        "name": "Romanian Leu to US Dollar",
-        "category": "Currencies",
+        "slug": "leu-romeno-para-dolar-hoje",
+        "name": "Leu Romeno para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "RON",
         "code_b": "USD",
@@ -2010,9 +2010,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-bulgarian-lev-today",
-        "name": "US Dollar to Bulgarian Lev",
-        "category": "Currencies",
+        "slug": "dolar-para-lev-bulgaro-hoje",
+        "name": "Dólar Americano para Lev Búlgaro",
+        "category": "Moedas",
         "icon": "🇧🇬",
         "code_a": "USD",
         "code_b": "BGN",
@@ -2020,9 +2020,9 @@
         "sign_b": "лв"
     },
     {
-        "slug": "bulgarian-lev-to-dollar-today",
-        "name": "Bulgarian Lev to US Dollar",
-        "category": "Currencies",
+        "slug": "lev-bulgaro-para-dolar-hoje",
+        "name": "Lev Búlgaro para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "BGN",
         "code_b": "USD",
@@ -2030,9 +2030,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-serbian-dinar-today",
-        "name": "US Dollar to Serbian Dinar",
-        "category": "Currencies",
+        "slug": "dolar-para-dinar-servio-hoje",
+        "name": "Dólar Americano para Dinar Sérvio",
+        "category": "Moedas",
         "icon": "🇷🇸",
         "code_a": "USD",
         "code_b": "RSD",
@@ -2040,9 +2040,9 @@
         "sign_b": "din"
     },
     {
-        "slug": "serbian-dinar-to-dollar-today",
-        "name": "Serbian Dinar to US Dollar",
-        "category": "Currencies",
+        "slug": "dinar-servio-para-dolar-hoje",
+        "name": "Dinar Sérvio para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "RSD",
         "code_b": "USD",
@@ -2050,9 +2050,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-albanian-lek-today",
-        "name": "US Dollar to Albanian Lek",
-        "category": "Currencies",
+        "slug": "dolar-para-lek-albanes-hoje",
+        "name": "Dólar Americano para Lek Albanês",
+        "category": "Moedas",
         "icon": "🇦🇱",
         "code_a": "USD",
         "code_b": "ALL",
@@ -2060,9 +2060,9 @@
         "sign_b": "L"
     },
     {
-        "slug": "albanian-lek-to-dollar-today",
-        "name": "Albanian Lek to US Dollar",
-        "category": "Currencies",
+        "slug": "lek-albanes-para-dolar-hoje",
+        "name": "Lek Albanês para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "ALL",
         "code_b": "USD",
@@ -2070,9 +2070,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "euro-to-pound-today",
-        "name": "Euro to British Pound",
-        "category": "Currencies",
+        "slug": "euro-para-libra-hoje",
+        "name": "Euro para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "EUR",
         "code_b": "GBP",
@@ -2080,9 +2080,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-euro-today",
-        "name": "British Pound to Euro",
-        "category": "Currencies",
+        "slug": "libra-para-euro-hoje",
+        "name": "Libra Esterlina para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "GBP",
         "code_b": "EUR",
@@ -2090,9 +2090,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-yen-today",
-        "name": "Euro to Japanese Yen",
-        "category": "Currencies",
+        "slug": "euro-para-iene-hoje",
+        "name": "Euro para Iene Japonês",
+        "category": "Moedas",
         "icon": "🇯🇵",
         "code_a": "EUR",
         "code_b": "JPY",
@@ -2100,9 +2100,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "yen-to-euro-today",
-        "name": "Japanese Yen to Euro",
-        "category": "Currencies",
+        "slug": "iene-para-euro-hoje",
+        "name": "Iene Japonês para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "JPY",
         "code_b": "EUR",
@@ -2110,9 +2110,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-swiss-franc-today",
-        "name": "Euro to Swiss Franc",
-        "category": "Currencies",
+        "slug": "euro-para-franco-suico-hoje",
+        "name": "Euro para Franco Suíço",
+        "category": "Moedas",
         "icon": "🇨🇭",
         "code_a": "EUR",
         "code_b": "CHF",
@@ -2120,9 +2120,9 @@
         "sign_b": "Fr."
     },
     {
-        "slug": "swiss-franc-to-euro-today",
-        "name": "Swiss Franc to Euro",
-        "category": "Currencies",
+        "slug": "franco-suico-para-euro-hoje",
+        "name": "Franco Suíço para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "CHF",
         "code_b": "EUR",
@@ -2130,9 +2130,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-canadian-dollar-today",
-        "name": "Euro to Canadian Dollar",
-        "category": "Currencies",
+        "slug": "euro-para-dolar-canadense-hoje",
+        "name": "Euro para Dólar Canadense",
+        "category": "Moedas",
         "icon": "🇨🇦",
         "code_a": "EUR",
         "code_b": "CAD",
@@ -2140,9 +2140,9 @@
         "sign_b": "C$"
     },
     {
-        "slug": "canadian-dollar-to-euro-today",
-        "name": "Canadian Dollar to Euro",
-        "category": "Currencies",
+        "slug": "dolar-canadense-para-euro-hoje",
+        "name": "Dólar Canadense para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "CAD",
         "code_b": "EUR",
@@ -2150,9 +2150,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-australian-dollar-today",
-        "name": "Euro to Australian Dollar",
-        "category": "Currencies",
+        "slug": "euro-para-dolar-australiano-hoje",
+        "name": "Euro para Dólar Australiano",
+        "category": "Moedas",
         "icon": "🇦🇺",
         "code_a": "EUR",
         "code_b": "AUD",
@@ -2160,9 +2160,9 @@
         "sign_b": "A$"
     },
     {
-        "slug": "australian-dollar-to-euro-today",
-        "name": "Australian Dollar to Euro",
-        "category": "Currencies",
+        "slug": "dolar-australiano-para-euro-hoje",
+        "name": "Dólar Australiano para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "AUD",
         "code_b": "EUR",
@@ -2170,9 +2170,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-nz-dollar-today",
-        "name": "Euro to New Zealand Dollar",
-        "category": "Currencies",
+        "slug": "euro-para-dolar-da-nova-zelandia-hoje",
+        "name": "Euro para Dólar da Nova Zelândia",
+        "category": "Moedas",
         "icon": "🇳🇿",
         "code_a": "EUR",
         "code_b": "NZD",
@@ -2180,9 +2180,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "nz-dollar-to-euro-today",
-        "name": "New Zealand Dollar to Euro",
-        "category": "Currencies",
+        "slug": "dolar-da-nova-zelandia-para-euro-hoje",
+        "name": "Dólar da Nova Zelândia para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "NZD",
         "code_b": "EUR",
@@ -2190,9 +2190,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-chinese-yuan-today",
-        "name": "Euro to Chinese Yuan",
-        "category": "Currencies",
+        "slug": "euro-para-yuan-chines-hoje",
+        "name": "Euro para Yuan Chinês",
+        "category": "Moedas",
         "icon": "🇨🇳",
         "code_a": "EUR",
         "code_b": "CNY",
@@ -2200,9 +2200,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "chinese-yuan-to-euro-today",
-        "name": "Chinese Yuan to Euro",
-        "category": "Currencies",
+        "slug": "yuan-chines-para-euro-hoje",
+        "name": "Yuan Chinês para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "CNY",
         "code_b": "EUR",
@@ -2210,9 +2210,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-south-korean-won-today",
-        "name": "Euro to South Korean Won",
-        "category": "Currencies",
+        "slug": "euro-para-won-sul-coreano-hoje",
+        "name": "Euro para Won Sul-Coreano",
+        "category": "Moedas",
         "icon": "🇰🇷",
         "code_a": "EUR",
         "code_b": "KRW",
@@ -2220,9 +2220,9 @@
         "sign_b": "₩"
     },
     {
-        "slug": "south-korean-won-to-euro-today",
-        "name": "South Korean Won to Euro",
-        "category": "Currencies",
+        "slug": "won-sul-coreano-para-euro-hoje",
+        "name": "Won Sul-Coreano para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "KRW",
         "code_b": "EUR",
@@ -2230,9 +2230,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-norwegian-krone-today",
-        "name": "Euro to Norwegian Krone",
-        "category": "Currencies",
+        "slug": "euro-para-coroa-norueguesa-hoje",
+        "name": "Euro para Coroa Norueguesa",
+        "category": "Moedas",
         "icon": "🇳🇴",
         "code_a": "EUR",
         "code_b": "NOK",
@@ -2240,9 +2240,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "norwegian-krone-to-euro-today",
-        "name": "Norwegian Krone to Euro",
-        "category": "Currencies",
+        "slug": "coroa-norueguesa-para-euro-hoje",
+        "name": "Coroa Norueguesa para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "NOK",
         "code_b": "EUR",
@@ -2250,9 +2250,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-swedish-krona-today",
-        "name": "Euro to Swedish Krona",
-        "category": "Currencies",
+        "slug": "euro-para-coroa-sueca-hoje",
+        "name": "Euro para Coroa Sueca",
+        "category": "Moedas",
         "icon": "🇸🇪",
         "code_a": "EUR",
         "code_b": "SEK",
@@ -2260,9 +2260,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "swedish-krona-to-euro-today",
-        "name": "Swedish Krona to Euro",
-        "category": "Currencies",
+        "slug": "coroa-sueca-para-euro-hoje",
+        "name": "Coroa Sueca para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "SEK",
         "code_b": "EUR",
@@ -2270,9 +2270,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-danish-krone-today",
-        "name": "Euro to Danish Krone",
-        "category": "Currencies",
+        "slug": "euro-para-coroa-dinamarquesa-hoje",
+        "name": "Euro para Coroa Dinamarquesa",
+        "category": "Moedas",
         "icon": "🇩🇰",
         "code_a": "EUR",
         "code_b": "DKK",
@@ -2280,9 +2280,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "danish-krone-to-euro-today",
-        "name": "Danish Krone to Euro",
-        "category": "Currencies",
+        "slug": "coroa-dinamarquesa-para-euro-hoje",
+        "name": "Coroa Dinamarquesa para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "DKK",
         "code_b": "EUR",
@@ -2290,9 +2290,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-polish-zloty-today",
-        "name": "Euro to Polish Zloty",
-        "category": "Currencies",
+        "slug": "euro-para-zloty-polones-hoje",
+        "name": "Euro para Zloty Polonês",
+        "category": "Moedas",
         "icon": "🇵🇱",
         "code_a": "EUR",
         "code_b": "PLN",
@@ -2300,9 +2300,9 @@
         "sign_b": "zł"
     },
     {
-        "slug": "polish-zloty-to-euro-today",
-        "name": "Polish Zloty to Euro",
-        "category": "Currencies",
+        "slug": "zloty-polones-para-euro-hoje",
+        "name": "Zloty Polonês para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "PLN",
         "code_b": "EUR",
@@ -2310,9 +2310,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-turkish-lira-today",
-        "name": "Euro to Turkish Lira",
-        "category": "Currencies",
+        "slug": "euro-para-lira-turca-hoje",
+        "name": "Euro para Lira Turca",
+        "category": "Moedas",
         "icon": "🇹🇷",
         "code_a": "EUR",
         "code_b": "TRY",
@@ -2320,9 +2320,9 @@
         "sign_b": "₺"
     },
     {
-        "slug": "turkish-lira-to-euro-today",
-        "name": "Turkish Lira to Euro",
-        "category": "Currencies",
+        "slug": "lira-turca-para-euro-hoje",
+        "name": "Lira Turca para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "TRY",
         "code_b": "EUR",
@@ -2330,9 +2330,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-uae-dirham-today",
-        "name": "Euro to UAE Dirham",
-        "category": "Currencies",
+        "slug": "euro-para-dirham-hoje",
+        "name": "Euro para Dirham (Dubai)",
+        "category": "Moedas",
         "icon": "🇦🇪",
         "code_a": "EUR",
         "code_b": "AED",
@@ -2340,9 +2340,9 @@
         "sign_b": "د.إ"
     },
     {
-        "slug": "uae-dirham-to-euro-today",
-        "name": "UAE Dirham to Euro",
-        "category": "Currencies",
+        "slug": "dirham-para-euro-hoje",
+        "name": "Dirham dos Emirados Árabes para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "AED",
         "code_b": "EUR",
@@ -2350,9 +2350,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-mexican-peso-today",
-        "name": "Euro to Mexican Peso",
-        "category": "Currencies",
+        "slug": "euro-para-peso-mexicano-hoje",
+        "name": "Euro para Peso Mexicano",
+        "category": "Moedas",
         "icon": "🇲🇽",
         "code_a": "EUR",
         "code_b": "MXN",
@@ -2360,9 +2360,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "mexican-peso-to-euro-today",
-        "name": "Mexican Peso to Euro",
-        "category": "Currencies",
+        "slug": "peso-mexicano-para-euro-hoje",
+        "name": "Peso Mexicano para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "MXN",
         "code_b": "EUR",
@@ -2370,9 +2370,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-south-african-rand-today",
-        "name": "Euro to South African Rand",
-        "category": "Currencies",
+        "slug": "euro-para-rand-sul-africano-hoje",
+        "name": "Euro para Rand Sul-Africano",
+        "category": "Moedas",
         "icon": "🇿🇦",
         "code_a": "EUR",
         "code_b": "ZAR",
@@ -2380,9 +2380,9 @@
         "sign_b": "R"
     },
     {
-        "slug": "south-african-rand-to-euro-today",
-        "name": "South African Rand to Euro",
-        "category": "Currencies",
+        "slug": "rand-sul-africano-para-euro-hoje",
+        "name": "Rand Sul-Africano para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "ZAR",
         "code_b": "EUR",
@@ -2390,9 +2390,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-indian-rupee-today",
-        "name": "Euro to Indian Rupee",
-        "category": "Currencies",
+        "slug": "euro-para-rupia-indiana-hoje",
+        "name": "Euro para Rúpia Indiana",
+        "category": "Moedas",
         "icon": "🇮🇳",
         "code_a": "EUR",
         "code_b": "INR",
@@ -2400,9 +2400,9 @@
         "sign_b": "₹"
     },
     {
-        "slug": "indian-rupee-to-euro-today",
-        "name": "Indian Rupee to Euro",
-        "category": "Currencies",
+        "slug": "rupia-indiana-para-euro-hoje",
+        "name": "Rúpia Indiana para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "INR",
         "code_b": "EUR",
@@ -2410,9 +2410,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-ruble-today",
-        "name": "Euro to Russian Ruble",
-        "category": "Currencies",
+        "slug": "euro-para-rublo-russo-hoje",
+        "name": "Euro para Rublo Russo",
+        "category": "Moedas",
         "icon": "🇷🇺",
         "code_a": "EUR",
         "code_b": "RUB",
@@ -2420,9 +2420,9 @@
         "sign_b": "₽"
     },
     {
-        "slug": "ruble-to-euro-today",
-        "name": "Russian Ruble to Euro",
-        "category": "Currencies",
+        "slug": "rublo-russo-para-euro-hoje",
+        "name": "Rublo Russo para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "RUB",
         "code_b": "EUR",
@@ -2430,9 +2430,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-romanian-leu-today",
-        "name": "Euro to Romanian Leu",
-        "category": "Currencies",
+        "slug": "euro-para-leu-romeno-hoje",
+        "name": "Euro para Leu Romeno",
+        "category": "Moedas",
         "icon": "🇷🇴",
         "code_a": "EUR",
         "code_b": "RON",
@@ -2440,9 +2440,9 @@
         "sign_b": "lei"
     },
     {
-        "slug": "romanian-leu-to-euro-today",
-        "name": "Romanian Leu to Euro",
-        "category": "Currencies",
+        "slug": "leu-romeno-para-euro-hoje",
+        "name": "Leu Romeno para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "RON",
         "code_b": "EUR",
@@ -2450,9 +2450,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "euro-to-bulgarian-lev-today",
-        "name": "Euro to Bulgarian Lev",
-        "category": "Currencies",
+        "slug": "euro-para-lev-bulgaro-hoje",
+        "name": "Euro para Lev Búlgaro",
+        "category": "Moedas",
         "icon": "🇧🇬",
         "code_a": "EUR",
         "code_b": "BGN",
@@ -2460,9 +2460,9 @@
         "sign_b": "лв"
     },
     {
-        "slug": "bulgarian-lev-to-euro-today",
-        "name": "Bulgarian Lev to Euro",
-        "category": "Currencies",
+        "slug": "lev-bulgaro-para-euro-hoje",
+        "name": "Lev Búlgaro para Euro",
+        "category": "Moedas",
         "icon": "🇪🇺",
         "code_a": "BGN",
         "code_b": "EUR",
@@ -2470,9 +2470,9 @@
         "sign_b": "€"
     },
     {
-        "slug": "pound-to-yen-today",
-        "name": "British Pound to Japanese Yen",
-        "category": "Currencies",
+        "slug": "libra-para-iene-hoje",
+        "name": "Libra Esterlina para Iene Japonês",
+        "category": "Moedas",
         "icon": "🇯🇵",
         "code_a": "GBP",
         "code_b": "JPY",
@@ -2480,9 +2480,9 @@
         "sign_b": "¥"
     },
     {
-        "slug": "yen-to-pound-today",
-        "name": "Japanese Yen to British Pound",
-        "category": "Currencies",
+        "slug": "iene-para-libra-hoje",
+        "name": "Iene Japonês para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "JPY",
         "code_b": "GBP",
@@ -2490,9 +2490,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-swiss-franc-today",
-        "name": "British Pound to Swiss Franc",
-        "category": "Currencies",
+        "slug": "libra-para-franco-suico-hoje",
+        "name": "Libra Esterlina para Franco Suíço",
+        "category": "Moedas",
         "icon": "🇨🇭",
         "code_a": "GBP",
         "code_b": "CHF",
@@ -2500,9 +2500,9 @@
         "sign_b": "Fr."
     },
     {
-        "slug": "swiss-franc-to-pound-today",
-        "name": "Swiss Franc to British Pound",
-        "category": "Currencies",
+        "slug": "franco-suico-para-libra-hoje",
+        "name": "Franco Suíço para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "CHF",
         "code_b": "GBP",
@@ -2510,9 +2510,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-canadian-dollar-today",
-        "name": "British Pound to Canadian Dollar",
-        "category": "Currencies",
+        "slug": "libra-para-dolar-canadense-hoje",
+        "name": "Libra Esterlina para Dólar Canadense",
+        "category": "Moedas",
         "icon": "🇨🇦",
         "code_a": "GBP",
         "code_b": "CAD",
@@ -2520,9 +2520,9 @@
         "sign_b": "C$"
     },
     {
-        "slug": "canadian-dollar-to-pound-today",
-        "name": "Canadian Dollar to British Pound",
-        "category": "Currencies",
+        "slug": "dolar-canadense-para-libra-hoje",
+        "name": "Dólar Canadense para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "CAD",
         "code_b": "GBP",
@@ -2530,9 +2530,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-australian-dollar-today",
-        "name": "British Pound to Australian Dollar",
-        "category": "Currencies",
+        "slug": "libra-para-dolar-australiano-hoje",
+        "name": "Libra Esterlina para Dólar Australiano",
+        "category": "Moedas",
         "icon": "🇦🇺",
         "code_a": "GBP",
         "code_b": "AUD",
@@ -2540,9 +2540,9 @@
         "sign_b": "A$"
     },
     {
-        "slug": "australian-dollar-to-pound-today",
-        "name": "Australian Dollar to British Pound",
-        "category": "Currencies",
+        "slug": "dolar-australiano-para-libra-hoje",
+        "name": "Dólar Australiano para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "AUD",
         "code_b": "GBP",
@@ -2550,9 +2550,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-norwegian-krone-today",
-        "name": "British Pound to Norwegian Krone",
-        "category": "Currencies",
+        "slug": "libra-para-coroa-norueguesa-hoje",
+        "name": "Libra Esterlina para Coroa Norueguesa",
+        "category": "Moedas",
         "icon": "🇳🇴",
         "code_a": "GBP",
         "code_b": "NOK",
@@ -2560,9 +2560,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "norwegian-krone-to-pound-today",
-        "name": "Norwegian Krone to British Pound",
-        "category": "Currencies",
+        "slug": "coroa-norueguesa-para-libra-hoje",
+        "name": "Coroa Norueguesa para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "NOK",
         "code_b": "GBP",
@@ -2570,9 +2570,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-swedish-krona-today",
-        "name": "British Pound to Swedish Krona",
-        "category": "Currencies",
+        "slug": "libra-para-coroa-sueca-hoje",
+        "name": "Libra Esterlina para Coroa Sueca",
+        "category": "Moedas",
         "icon": "🇸🇪",
         "code_a": "GBP",
         "code_b": "SEK",
@@ -2580,9 +2580,9 @@
         "sign_b": "kr"
     },
     {
-        "slug": "swedish-krona-to-pound-today",
-        "name": "Swedish Krona to British Pound",
-        "category": "Currencies",
+        "slug": "coroa-sueca-para-libra-hoje",
+        "name": "Coroa Sueca para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "SEK",
         "code_b": "GBP",
@@ -2590,9 +2590,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-nz-dollar-today",
-        "name": "British Pound to New Zealand Dollar",
-        "category": "Currencies",
+        "slug": "libra-para-dolar-da-nova-zelandia-hoje",
+        "name": "Libra Esterlina para Dólar da Nova Zelândia",
+        "category": "Moedas",
         "icon": "🇳🇿",
         "code_a": "GBP",
         "code_b": "NZD",
@@ -2600,9 +2600,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "nz-dollar-to-pound-today",
-        "name": "New Zealand Dollar to British Pound",
-        "category": "Currencies",
+        "slug": "dolar-da-nova-zelandia-para-libra-hoje",
+        "name": "Dólar da Nova Zelândia para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "NZD",
         "code_b": "GBP",
@@ -2610,9 +2610,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-south-african-rand-today",
-        "name": "British Pound to South African Rand",
-        "category": "Currencies",
+        "slug": "libra-para-rand-sul-africano-hoje",
+        "name": "Libra Esterlina para Rand Sul-Africano",
+        "category": "Moedas",
         "icon": "🇿🇦",
         "code_a": "GBP",
         "code_b": "ZAR",
@@ -2620,9 +2620,9 @@
         "sign_b": "R"
     },
     {
-        "slug": "south-african-rand-to-pound-today",
-        "name": "South African Rand to British Pound",
-        "category": "Currencies",
+        "slug": "rand-sul-africano-para-libra-hoje",
+        "name": "Rand Sul-Africano para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "ZAR",
         "code_b": "GBP",
@@ -2630,9 +2630,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-singapore-dollar-today",
-        "name": "British Pound to Singapore Dollar",
-        "category": "Currencies",
+        "slug": "libra-para-dolar-de-singapura-hoje",
+        "name": "Libra Esterlina para Dólar de Singapura",
+        "category": "Moedas",
         "icon": "🇸🇬",
         "code_a": "GBP",
         "code_b": "SGD",
@@ -2640,9 +2640,9 @@
         "sign_b": "S$"
     },
     {
-        "slug": "singapore-dollar-to-pound-today",
-        "name": "Singapore Dollar to British Pound",
-        "category": "Currencies",
+        "slug": "dolar-de-singapura-para-libra-hoje",
+        "name": "Dólar de Singapura para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "SGD",
         "code_b": "GBP",
@@ -2650,9 +2650,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-dirham-today",
-        "name": "British Pound to UAE Dirham",
-        "category": "Currencies",
+        "slug": "libra-para-dirham-hoje",
+        "name": "Libra Esterlina para Dirham (Dubai)",
+        "category": "Moedas",
         "icon": "🇦🇪",
         "code_a": "GBP",
         "code_b": "AED",
@@ -2660,9 +2660,9 @@
         "sign_b": "د.إ"
     },
     {
-        "slug": "dirham-to-pound-today",
-        "name": "UAE Dirham to British Pound",
-        "category": "Currencies",
+        "slug": "dirham-para-libra-hoje",
+        "name": "Dirham dos Emirados Árabes para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "AED",
         "code_b": "GBP",
@@ -2670,9 +2670,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-turkish-lira-today",
-        "name": "British Pound to Turkish Lira",
-        "category": "Currencies",
+        "slug": "libra-para-lira-turca-hoje",
+        "name": "Libra Esterlina para Lira Turca",
+        "category": "Moedas",
         "icon": "🇹🇷",
         "code_a": "GBP",
         "code_b": "TRY",
@@ -2680,9 +2680,9 @@
         "sign_b": "₺"
     },
     {
-        "slug": "turkish-lira-to-pound-today",
-        "name": "Turkish Lira to British Pound",
-        "category": "Currencies",
+        "slug": "lira-turca-para-libra-hoje",
+        "name": "Lira Turca para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "TRY",
         "code_b": "GBP",
@@ -2690,9 +2690,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "pound-to-indian-rupee-today",
-        "name": "British Pound to Indian Rupee",
-        "category": "Currencies",
+        "slug": "libra-para-rupia-indiana-hoje",
+        "name": "Libra Esterlina para Rúpia Indiana",
+        "category": "Moedas",
         "icon": "🇮🇳",
         "code_a": "GBP",
         "code_b": "INR",
@@ -2700,9 +2700,9 @@
         "sign_b": "₹"
     },
     {
-        "slug": "indian-rupee-to-pound-today",
-        "name": "Indian Rupee to British Pound",
-        "category": "Currencies",
+        "slug": "rupia-indiana-para-libra-hoje",
+        "name": "Rúpia Indiana para Libra Esterlina",
+        "category": "Moedas",
         "icon": "🇬🇧",
         "code_a": "INR",
         "code_b": "GBP",
@@ -2710,9 +2710,9 @@
         "sign_b": "£"
     },
     {
-        "slug": "dollar-to-argentine-peso-today",
-        "name": "US Dollar to Argentine Peso",
-        "category": "Currencies",
+        "slug": "dolar-para-peso-argentino-hoje",
+        "name": "Dólar Americano para Peso Argentino",
+        "category": "Moedas",
         "icon": "🇦🇷",
         "code_a": "USD",
         "code_b": "ARS",
@@ -2720,9 +2720,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "argentine-peso-to-dollar-today",
-        "name": "Argentine Peso to US Dollar",
-        "category": "Currencies",
+        "slug": "peso-argentino-para-dolar-hoje",
+        "name": "Peso Argentino para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "ARS",
         "code_b": "USD",
@@ -2730,9 +2730,9 @@
         "sign_b": "$"
     },
     {
-        "slug": "dollar-to-uruguayan-peso-today",
-        "name": "US Dollar to Uruguayan Peso",
-        "category": "Currencies",
+        "slug": "dolar-para-peso-uruguaio-hoje",
+        "name": "Dólar Americano para Peso Uruguaio",
+        "category": "Moedas",
         "icon": "🇺🇾",
         "code_a": "USD",
         "code_b": "UYU",
@@ -2740,9 +2740,9 @@
         "sign_b": "$U"
     },
     {
-        "slug": "uruguayan-peso-to-dollar-today",
-        "name": "Uruguayan Peso to US Dollar",
-        "category": "Currencies",
+        "slug": "peso-uruguaio-para-dolar-hoje",
+        "name": "Peso Uruguaio para Dólar Americano",
+        "category": "Moedas",
         "icon": "🇺🇸",
         "code_a": "UYU",
         "code_b": "USD",

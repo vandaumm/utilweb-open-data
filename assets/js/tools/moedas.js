@@ -15,24 +15,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- HELPER FUNCTIONS ---
 
-    // Converts string "1,000.00" to float 1000.00
+    // Converts string "1.000,00" to float 1000.00 (Brazilian Format)
     function parseValue(str) {
         if (!str) return 0;
-        // CHANGED: Now handles international format (removes commas, keeps dot)
-        let clean = str.replace(/,/g, ''); 
+        // Correct logic for pt-BR: remove dots (thousands) and replace comma with dot (decimal)
+        let clean = str.replace(/\./g, '').replace(',', '.');
         let val = parseFloat(clean);
         return isNaN(val) ? 0 : val;
     }
 
-    // Formats float to "1,000.00" (Smart logic for crypto)
+    // Formats float to "1.000,00" (Brazilian Format)
     function formatValue(val) {
         if (val === 0) return "";
         
-        // If value is small (e.g., crypto), show up to 8 decimal places
         let maxDigits = Math.abs(val) < 1.0 ? 8 : 2;
         
-        // CHANGED: Using 'en-US' for global standard formatting
-        return val.toLocaleString('en-US', { 
+        // Use 'pt-BR' as requested by the owner
+        return val.toLocaleString('pt-BR', { 
             minimumFractionDigits: 2, 
             maximumFractionDigits: maxDigits 
         });

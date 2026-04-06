@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Elementos do DOM
+    // 1. DOM Elements
     const inputA = document.getElementById('input-a');
     const inputB = document.getElementById('input-b');
     const btnSwap = document.getElementById('btn-swap');
@@ -13,42 +13,40 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let isSwapped = false;
 
-    // --- FUNÇÕES DE AJUDA ---
+    // --- HELPER FUNCTIONS ---
 
-    // Converte string "10.000,00" para float 10000.00
+    // Converts string "1,000.00" to float 1000.00
     function parseValue(str) {
         if (!str) return 0;
-        // Remove pontos de milhar e troca vírgula por ponto
-        let clean = str.replace(/\./g, '').replace(',', '.');
+        // CHANGED: Now handles international format (removes commas, keeps dot)
+        let clean = str.replace(/,/g, ''); 
         let val = parseFloat(clean);
         return isNaN(val) ? 0 : val;
     }
 
-    // Formata float para "10.000,00" (Com lógica inteligente para cripto)
+    // Formats float to "1,000.00" (Smart logic for crypto)
     function formatValue(val) {
         if (val === 0) return "";
         
-        // Se for menor que 1 (ex: cripto), mostra até 8 casas
+        // If value is small (e.g., crypto), show up to 8 decimal places
         let maxDigits = Math.abs(val) < 1.0 ? 8 : 2;
         
-        return val.toLocaleString('pt-BR', { 
+        // CHANGED: Using 'en-US' for global standard formatting
+        return val.toLocaleString('en-US', { 
             minimumFractionDigits: 2, 
             maximumFractionDigits: maxDigits 
         });
     }
 
-    // --- CÁLCULO ---
+    // --- CALCULATION ---
     function calculate(source) {
-        // Lógica para Input A (Topo)
         if (source === 'a') {
             const rawA = inputA.value;
-            // Se o usuário está digitando (tem cursor), não formatamos o input A ainda, só calculamos o B
             const valA = parseValue(rawA);
             
             let res = isSwapped ? valA / rate : valA * rate;
             inputB.value = formatValue(res);
         } 
-        // Lógica para Input B (Baixo)
         else {
             const rawB = inputB.value;
             const valB = parseValue(rawB);
@@ -58,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Formata o próprio campo quando o usuário sai dele (Blur)
+    // Formats the field when user leaves it (Blur)
     function formatInput(e) {
         const val = parseValue(e.target.value);
         if (val !== 0) {
@@ -70,29 +68,27 @@ document.addEventListener('DOMContentLoaded', () => {
     inputA.addEventListener('input', () => calculate('a'));
     inputB.addEventListener('input', () => calculate('b'));
     
-    // Formata "bonito" (10.000,00) quando clica fora
     inputA.addEventListener('change', formatInput); 
     inputB.addEventListener('change', formatInput);
 
-    // --- BOTÃO INVERTER (SWAP) ---
+    // --- SWAP BUTTON ---
     if (btnSwap) {
         btnSwap.addEventListener('click', () => {
             isSwapped = !isSwapped;
             
-            // 1. Troca Labels (Visual)
+            // 1. Swap Labels
             const tempText = labelA.textContent;
             labelA.textContent = labelB.textContent;
             labelB.textContent = tempText;
 
-            // 2. Troca VALORES (O Pulo do Gato)
-            // O valor que estava em cima vai para baixo, criando o efeito espelho
+            // 2. Swap Values
             const valTop = inputA.value;
             const valBottom = inputB.value;
             
             inputA.value = valBottom;
             inputB.value = valTop;
 
-            // Animação
+            // Animation
             btnSwap.classList.toggle('swapped');
         });
     }

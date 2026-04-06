@@ -1901,13 +1901,13 @@
     },
     {
         "slug": "dolar-da-nova-zelandia-para-dolar-hoje",
-        "name": "Dólar da Nova Zelândia para Dólar Americano",
+        "name": "Dólar da Nova Zelândia para Libra Esterlina",
         "category": "Moedas",
-        "icon": "🇺🇸",
+        "icon": "🇬🇧",
         "code_a": "NZD",
-        "code_b": "USD",
+        "code_b": "GBP",
         "sign_a": "$",
-        "sign_b": "$"
+        "sign_b": "£"
     },
     {
         "slug": "dolar-para-rupia-indonesia-hoje",

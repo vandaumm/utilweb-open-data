@@ -5,7 +5,7 @@
 ---
 
 ## 🇧🇷 Sobre o Projeto (Português)
-Bem-vindo ao repositório de dados abertos do Utilweb.com.br, um dos maiores portais de utilidades do Brasil, construído inteiramente nas minhas madrugadas de plantão. 
+Bem-vindo ao repositório de dados abertos do Utilweb, um dos maiores portais de utilidades do Brasil, construído inteiramente nas minhas madrugadas de plantão. 
 
 Este repositório fornece a infraestrutura matemática e os bancos de dados JSON que alimentam mais de 1.190 ferramentas gratuitas. O objetivo é poupar outros desenvolvedores de mapear fatores de conversão física ou lógicas matemáticas complexas do zero.
 

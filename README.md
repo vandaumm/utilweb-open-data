@@ -1,5 +1,4 @@
 # 🛠️ Utilweb: Open Data & Logic Engine
-Participe da nossa comunidade no Discord para colaborar: https://discord.gg/Mn8yWa3JPJ
 
 (For the English version, please scroll down).
 
